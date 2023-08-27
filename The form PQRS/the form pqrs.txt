@@ -1,0 +1,21 @@
+# The form-pqrs
+
+Any integer that is: n= p*q = r*s, with s= p+q+r. 
+All numbers being integers.
+
+Each pqrs-form gives:
+
+- 2 points on the elliptic curve.
+    (-p*r, p*r*(q+r) ), (-q*r, y= q*r*(p+r)).
+    In both cases: x=x/D^2;y=y/D^3;
+
+- 1 RTZ right triangle with integer sides.
+    RTZ (p+r, q+r, p+q).
+
+- 1 triad of equidistant N squares: (s1/2, s2/2, s3/2).
+
+Properties: 
+  q* (p-r)= r* (p+r), 
+  ps= qr + (p+r)^2, qs= pr + (q+r)^2, 
+  n^2 = p* q* r* s. 
+
