@@ -8,7 +8,7 @@ Elliptic curves: y^2 = x^3 + A*x +B, [A,B].
 Especially the case: [-n^2,0]. C[n]: y^2 = x^3 - (n^2)*x.
 
 The "surface 1" : z^2 = x * (x+ y^2), 
-which is trivially derived from this family of decurves.
+which is trivially derived from this family of curves.
 
 The "surface 2" : z^2 = x^2 - (y^2)/x, 
 which arises from the previous one, 
@@ -24,5 +24,8 @@ As well as other geometric objects.
 The xrank program. Calculation of the range of C[n].
 Which includes all the previous topics and complements them 
 with new algebraic aspects.
+
+The project includes analysing the application of this family 
+of elliptic curves to general integer factorisation.
 
 
