@@ -1,0 +1,53 @@
+Rectangular triangles and forms XYW and PQRS.
+
+Is there any triangle (rectangle, always) with sides Q and area 5?
+The first affirmative answer is given by the number 5*4 = 20.
+20 is a number XYW:
+20^2 = 16*25 = 16*(16+3^2) = xyw(16,3,25).
+Therefore its triangle is: (3, 40/3, 41/3).
+This triangle has area 20.
+
+Is there any triangle of integer sides with area 5 ?
+From the solution xyw it follows that a form pqrs will be obtained with n= 5*4*9 = 180.
+Where 9 is the square of the denominator of the hypotenuse.
+The 180 is a PQRS number:
+180 = 5* 36 * 4*45; Where 45 = 5+36+4.
+And therefore its triangle is: (p+r,q+r,p+q) = (9, 40, 41).
+Which has area 180.
+
+We have used squares to get shapes and from these triangles. The reverse path will give the triangle for 5:
+(9,40,41) -> (9/6, 40/6, 41/6).
+(3, 40/3, 41/s) -> (3/2, 40/6, 41/6).
+Which simplifying is: (3/2, 20/3, 41/6).
+The same in both cases.
+
+Is the solution pqrs (p+r,q+r,p+q) always a Pythagorean triangle? That is: (p+r)^2 + (q+r)^2 = (p+q)^2.
+Demonstration. It follows that:
+(p+r)^2 = ps-qr; see basic properties of the form pqrs.
+(q+r)^2 = qs-pr; id.
+Where: s(p+q)-r(p+q) = (p+q)(s-r)= (p+q)(p+q+r-r).
+It is proved.
+
+Every form PQRS always gives two forms XYW:
+xyw(pr, (q+r), qs) and (qr, (p+r), ps).
+
+In the case n=180, from pqrs(5,36,4,45) we obtain:
+xyw(5*4, 36+4, 36*45 ) = xyw(20, 40, 1620).
+xyw(36*4, 5+4, 5*45 ) = xyw(144, 9, 225).
+
+Summary
+Leaving aside the issue of squares and always talking about right-angled triangles.
+
+If n has a shape xyw, n has a triangle of area n with rational sides.
+If n has a shape xyw it has also a shape pqrs.
+If n has a shape pqrs it also has two shapes xyw.
+Even if both forms are realised in integers,
+only the form pqrs guarantees integer sides.
+
+There is therefore an equivalence between knowing a triangle 
+of area n, a form xyw of n and a form pqrs of n.
+The set of numbers n satisfying this condition 
+is called congruent numbers.
+The free subset of squares is called primitive congruent integers.
+Just look it up in Wikipedia.
+
