@@ -2,7 +2,6 @@
 Rank of elliptic curves.
 
 Description of the topics covered.
-File readme.txt
 
 Elliptic curves: y^2 = x^3 + A*x +B, [A,B].
 Especially the case: [-n^2,0]. C[n]: y^2 = x^3 - (n^2)*x.
@@ -25,7 +24,5 @@ The xrank program. Calculation of the range of C[n].
 Which includes all the previous topics and complements them 
 with new algebraic aspects.
 
-The project includes analysing the application of this family 
-of elliptic curves to general integer factorisation.
-
+The general objective of the project is the study of elliptic curves, their properties and their applications. One of the objectives is to develop a program that calculates the range of an elliptic curve. At each stage of the development process the repo will be kept up to date. The project includes analysing the application of this family of elliptic curves to general integer factorisation.
 
