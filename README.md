@@ -1,28 +1,17 @@
-An elliptic curve is a plane curve defined by an equation of the form:
-y^2 = x^3 +a*x + b. It is called the Weierstrass normal form.
+The subject of the project is the exploration of elliptic curves, their properties and their applications. One of the objectives is to develop a program that calculates the range of an elliptic curve. The project also includes the application of elliptic curves to general integer factorisation.
+At each stage of the development process this repository will be kept up to date. 
 
-Description of the topics covered.
+Description of some of the topics addressed.
 
-Elliptic curves: y^2 = x^3 + A*x +B, [A,B].
-Especially the case: [-n^2,0]. C[n]: y^2 = x^3 - (n^2)*x.
+Elliptic curves [A, B] and in particular C[n]=[ -n^2, 0]. 
+Where [A, B] denotes the Weierstrass normal form [y^2 = x^3 + A*x + B].
 
-The "surface 1" : z^2 = x * (x+ y^2), 
-which is trivially derived from this family of curves.
+The "surface 1" which is trivially derived from the family of curves C[n].
+And the "surface 2" which arises from the previous one, after a simple change of variables.
 
-The "surface 2" : z^2 = x^2 - (y^2)/x, 
-which arises from the previous one, 
-after a simple change of variables.
+Tunnell's Theorem. Implementation of the test. Definition of the function r(n) and various conjectures about this function.
 
-Tunnell's Theorem.
-And my conjectures about the function r(n) which is defined.
+The form XYW(n) and the form PQRS(n) which allow us to obtain the usual right triangles of area n. And also provide points on the elliptic curves C[n] and the surfaces mentioned.
 
-The form xyw(n^2) and the form pqrs(n).
-These forms give curve points and surfaces.
-As well as other geometric objects.
-
-The xrank program. Calculation of the range of C[n].
-Which includes all the previous topics and complements them 
-with new algebraic aspects.
-
-The general objective of the project is the study of elliptic curves, their properties and their applications. One of the objectives is to develop a program that calculates the range of an elliptic curve. At each stage of the development process the repo will be kept up to date. The project includes analysing the application of this family of elliptic curves to general integer factorisation.
+The XRANK program.  Which implements all the above points and complements them with various algebraic, algorithmic and computational aspects.
 
