@@ -1,5 +1,5 @@
-# xrank
-Rank of elliptic curves.
+An elliptic curve is a plane curve defined by an equation of the form:
+y^2 = x^3 +a*x + b. It is called the Weierstrass normal form.
 
 Description of the topics covered.
 
