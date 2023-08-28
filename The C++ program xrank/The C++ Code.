@@ -1,0 +1,48 @@
+This is a program written in C++. 
+Developed under Windows 64bit and the Mingw environment. 
+The program uses the "boost" library 
+for the integer and rational types.
+To compile it:
+g++ -Wall -march=native -Ofast -o %1.exe %1.cpp
+
+The header of any generic version is:
+
+// (C) 2023, Author: Simon Aranda. 
+// To compile (64bit Windows/mingw):
+// g++ -Wall -march=native -Ofast -o %1.exe %1.cpp
+//
+// Exclusively for recreational use. 
+// No results are guaranteed. 
+// Never for research or educational use. 
+// Never for industrial, medical or commercial use.
+
+// Contents of code
+//
+// global types and static variables
+// SZ global functions
+// Points global functions
+// the form pqrs
+// the form xyw
+// the TT test, the function r(n).
+// points order and generators
+// the curve rank
+// main()
+
+///////////////////////////////////
+#include <cstdlib>
+(...)
+#include <utility>
+#include "boost/multiprecision/cpp_int.hpp"
+//
+using namespace boost::multiprecision;
+typedef cpp_int       SZ; // field Z
+typedef cpp_rational  SQ; // field Q
+
+using namespace std;
+typedef std::pair<SZ, SZ> SZpair;
+typedef std::pair<SQ, SQ> PQINT;
+(...)
+///////////////////////////////////////////////////////
+
+
+
