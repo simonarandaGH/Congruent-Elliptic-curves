@@ -12,7 +12,7 @@ Each form pqrs gives:
 - one integer-sided right triangle of area equal to n.
     (p+r, q+r, p+q).
 
-- 1 triad of n-equidistant squares: (s1/2, s2/2, s3/2).
+- one triad of n-equidistant squares.
 
 
 Basic properties: 
