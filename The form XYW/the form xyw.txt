@@ -1,20 +1,16 @@
-The form xyw
-Cconsists of the n such that n^2 = x*w = x*(x + y^2)
-With all integer variables.
-Symbolised by: x...[y]..w. 
+The form xyw consists of the integers n expressible 
+in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
 
-Of the form xyw -> Geometric Points.
+Symbolised by: ( x...[y]..w ), xyw(x,y,w).
+From a form xyw(x,y,w) various geometric points are obtained.
+In the Curve C[n]: P(-x, x*y).
+On the "Surface 1": P(x, y, n).
+Example xyw(3,12,147) -> P= (3,12,21).
 
-On the Curve C[n] : y^2 = x^3 - n^2 *x. P(-x, x*y).
-On "Surface 1" : z^2 = x * (x+ y^2). P(x, y, n).
-Example: 
-xyw: 21^2 = 3*(3 + 12*12),P= (3,12,21).
+From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n. (y, 2n/y, hypotenuse).
+Example n=21, ( 12/1, 7/2, 25/2 ).
+The denominator of the hypotenuse is related to the form pqrs.
 
-Of the form xyw -> An RTQ of area=n: (y, 2n/y, hypotenuse).
-Example n=21, RTQ ( 12/1, 7/2, 25/2 ).
-
-From RTQ -> the square of the form pqrs.
-It is equal to the denominator of the hypotenuse.
 
 Properties of "Surface 1".
 Point (0,0,0). Straight line (y=0,x=z).
@@ -26,13 +22,13 @@ If "y" is odd prime, 2 points:
 Examples: for y=3 -> n= 6, 20; for y=5 -> n=30, n=156.
 If "y" is 2*(odd prime), 2 points. 
 
-Example limited to "y<18".  
-20880 is the largest "n" with "y< 18".
-It is the second point of y=17.
+Complete example limiting "y<18".  
+20880 is the largest "n" with "y< 18". It is the second point of y=17.
 
-Frequency ("y", number of points with that "y"):
+Frequency table ("y", number of points with that "y")
 1:0, 2:0, 3:2, 4:2, 5:2, 6:2, 7:2, 8:4, 9:4, 
 10:2, 11:2, 12:12, 13:2, 14:2, 15:12, 16:6, 17:2.
+
 
 n= 6 xyw: 2...[4]..18
 n= 6 xyw: 3...[3]..12 ------- P(3,3,6) = (3,3, (3^3-3)/4 ) 
