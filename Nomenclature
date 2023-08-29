@@ -1,0 +1,13 @@
+Nomenclature used.
+
+The form XYW(x,y,w) is sometimes symbolised by (x..[y]..w).
+
+Rectangular triangles (in this repo all triangles will be rectangles) have rational or integer sides. Never with real values. They are symbolised by: TQ, TZ.
+
+That a certain integer n can be expressed in a certain form creates by extension the set of all integers expressible in that form. There is a form/set duality.
+
+The subject of squares can be confusing. Starting from a number square-free, one can study whether it belongs to one of the forms. This same number multiplied by any square can belong to any of the forms.
+In general there is always a way to the forms by multiplying by some square. And an inverse way that allows one to convert the properties of the form to the original number, by dividing by that same square. This causes objects with integer values to be transformed into objects with rational values.
+
+Extending this point, the form xyw is always achieved with a square less than or equal to that required for the form pqrs. Moreover, the form xyw provides such a square. It is the denominator of the hypotenuse of the generated triangle.
+
