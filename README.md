@@ -6,8 +6,7 @@ Description of some of the topics addressed.
 Elliptic curves [A, B] and in particular C[n]=[ -n^2, 0]. 
 Where [A, B] denotes the Weierstrass normal form [y^2 = x^3 + A*x + B].
 
-The "surface 1" which is trivially derived from the family of curves C[n].
-And the "surface 2" which arises from the previous one, after a simple change of variables.
+The "Surface 1" which is trivially derived from the family of curves C[n]. And the "Surface 2", which arises from the same equation as the curve C[n].
 
 Tunnell's Theorem. Implementation of the test. Definition of the function r(n) and various conjectures about this function.
 
