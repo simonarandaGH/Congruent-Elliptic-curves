@@ -11,8 +11,11 @@ From a form xyw(x,y,w) we obtain a right triangle with rational sides and area e
 Example n=21, ( 12/1, 7/2, 25/2 ).
 The denominator of the hypotenuse is related to the form pqrs.
 
-
 Properties of "Surface 1".
+The equation is: z^2 = (x)*(x+ y^2). 
+Which is the form xyw(). So every form xyw(x,y,w) gives a point on the surface P(x,y,n).
+Nevertheless, the surface has interesting properties.
+
 Point (0,0,0). Straight line (y=0,x=z).
 The number of points P(x,y,n) for each "y" is always finite. 
 No point for y=1, y=2.
