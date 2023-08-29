@@ -21,3 +21,7 @@ I conjectured that:
 to the total of n with r(n)=1,
 except for some very small difference.
 
+The xrank program incorporates a small table with the value of certain critical numbers. Those where the range of the curve reaches a rank never reached before.
+
+
+
