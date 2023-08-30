@@ -1,9 +1,9 @@
 The form xyw consists of the integers n expressible 
 in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
-
 Symbolised by: ( x...[y]..w ), xyw(x,y,w).
 From a form xyw(x,y,w) various geometric points are obtained.
-In the Curve C[n]: P(-x, x*y).
+In the Curve C[n]: P(-x, x*y), P( +w, w*y).
+
 On the "Surface 1": P(x, y, n).
 Example xyw(3,12,147) -> P= (3,12,21).
 
