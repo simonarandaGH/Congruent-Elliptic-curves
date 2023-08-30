@@ -1,3 +1,10 @@
+I am not aware that this sequence is listed in the OEIS.
+Positive integers n that can be written, in one or more ways, as:
+n^2 = x*w = x * (x+y^2), where x, y, w are positive integer values. With w= (x+y^2).
+In other words, they are the integers whose square has one or more pairs of divisors (x, w) such that they satisfy:
+n^2 = x*w, (w-x)= y^2. All variables being positive integers.
+
+---
 0 6
 1 15
 2 20
