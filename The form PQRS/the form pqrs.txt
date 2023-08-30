@@ -4,13 +4,16 @@ The form PQRS consists of those integers expressible as:
 
 Each form pqrs gives:
 
-- Points on the elliptic curve C[n].
-    (-p*r, p*r*(q+r) ), (-q*r, y= q*r*(p+r)).
+- 2 forms XYW.
+
+- 4 Points on the elliptic curve C[n].
+    (-p*r, p*r*(q+r)), (-q*r, q*r*(p+r)),
+    (+p*s, p*s*(p+r)), (+q*s, q*s*(q+r).
     
 - one integer-sided right triangle of area equal to n.
     TZ: (p+r, q+r, p+q).
 
-- one triad of n-equidistant squares.
+- one triad of equidistant squares.
 
 
 Basic properties: 
