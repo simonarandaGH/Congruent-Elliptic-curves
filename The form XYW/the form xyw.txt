@@ -9,7 +9,7 @@ Example xyw(3,12,147) -> P= (3,12,21).
 
 From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n. (y, 2n/y, hypotenuse).
 Example n=21, ( 12/1, 7/2, 25/2 ).
-The denominator of the hypotenuse is related to the form pqrs.
+The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
 
 The form XYW consists of: n^2 = x*(x+y^2).
 It is stated that P(w,wy) is a point of C[n]. Proof.
@@ -17,6 +17,9 @@ It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
 Manipulating algebraically:
 w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. Small calculations like this prove the various statements used.
 
+Considering the integers n<100, each different form includes a certain number of integers.
+Congruent form: 2, PQRS form: 7, XYW-Z form: 17
+XYW-Q form: 22.
 
 Properties of "Surface 1".
 The equation is: z^2 = (x)*(x+ y^2). 
