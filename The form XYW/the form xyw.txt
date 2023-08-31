@@ -17,7 +17,7 @@ It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
 Manipulating algebraically:
 w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. Small calculations like this prove the various statements used.
 
-Considering the integers n<100, each different form includes a certain number of integers.
+Any point in C[n] with coordinate x <0, corresponds to a form XYW. Let it be integer or rational. Considering the integers n<100, each different form includes a certain number of integers.
 Congruent form: 2, PQRS form: 7, XYW-Z form: 17
 XYW-Q form: 22.
 
