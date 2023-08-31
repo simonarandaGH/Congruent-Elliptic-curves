@@ -20,7 +20,12 @@ w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. Small
 Any point in C[n] with coordinate x <0, corresponds to a form XYW. Let it be integer or rational. Considering the integers n<100, each different form includes a certain number of integers.
 Congruent form: 2, PQRS form: 7, XYW-Z form: 17
 XYW-Q form: 22.
+Any point in C[n] with coordinate x <0,
+corresponds to a form XYW. Let it be integer or rational.
+The same is true for x>n.
 
+
+--------------------------
 Properties of "Surface 1".
 The equation is: z^2 = (x)*(x+ y^2). 
 Which is the form xyw(). So every form xyw(x,y,w) gives a point on the surface P(x,y,n).
