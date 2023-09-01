@@ -1,0 +1,10 @@
+Isomorphism Theorem
+
+On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
+corresponds to a point with (x-coord>0). And vice versa.
+The formula is: P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
+
+The proof only requires the application of the definition of the elliptic curve.
+The same form XYW corresponds to this pair of points. 
+Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
+
