@@ -1,10 +1,30 @@
-Isomorphism Theorem
+Equivalence Theorem
 
 On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
 corresponds to a point with (x-coord>0). And vice versa.
-The formula is: P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
+The respective equivalences are:
+P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
+P(c,d) <-> P( -(n^2)/c , ((n^2)*d)/(c^2).
 
 The proof only requires the application of the definition of the elliptic curve.
 The same form XYW corresponds to this pair of points. 
 Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
+
+The equation:  (n^2)/x - x = y^2, gives a minimalist proof 
+of whether a number is congruent: 
+For n=5, (5^2)/4 - 4 = (3/2)^2.
+For n=41, (41^2)/9 - 9 = (40/3)^2.
+A particular case is the equation: n^2 - x^4 = y^2.
+n  x  y
+-- - --
+5  2  3
+15 3 12
+20 4 12
+34 4 30
+41 3 40
+-------
+
+
+
+
 
