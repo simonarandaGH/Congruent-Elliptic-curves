@@ -1,5 +1,0 @@
-Points with negative x. 
-Given the equation, if x<0, let x= -a, 0<a<n.
-y^2= x^3 - n^2*x, y^2 = -a^3 +n^2*a
-y^2 = n^2 *a -a^3 = a* (n^2-a^2).
-y^2 = (n-a)(a)(n+a).
