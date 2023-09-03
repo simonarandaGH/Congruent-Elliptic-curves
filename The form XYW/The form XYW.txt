@@ -1,62 +1,45 @@
-The form xyw consists of the integers n expressible 
+The form XYW.
+
+The form XYW consists of the integers n expressible 
 in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
 Symbolised by: ( x...[y]..w ), xyw(x,y,w).
+
 From a form xyw(x,y,w) various geometric points are obtained.
 In the Curve C[n]: P(-x, x*y), P( +w, w*y).
-
 On the "Surface 1": P(x, y, n).
 Example xyw(3,12,147) -> P= (3,12,21).
 
-From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n. (y, 2n/y, hypotenuse).
-Example n=21, ( 12/1, 7/2, 25/2 ).
-The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
-
-The form XYW consists of: n^2 = x*(x+y^2).
-It is stated that P(w,wy) is a point of C[n]. Proof.
+P(w,wy) is a point of C[n]. Proof.
 It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
 Manipulating algebraically:
-w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. Small calculations like this prove the various statements used.
+w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. 
+Any point in C[n] corresponds to a form XYW. Let it be integer or rational. 
 
-Any point in C[n] with coordinate x <0, corresponds to a form XYW. Let it be integer or rational. Considering the integers n<100, each different form includes a certain number of integers.
-Congruent form: 2, PQRS form: 7, XYW-Z form: 17
+From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
+The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
+
+Considering the integers n<100, each different form includes a certain number of integers. Congruent form: 2, PQRS form: 7, XYW-Z form: 17
 XYW-Q form: 22.
-Any point in C[n] with coordinate x <0,
-corresponds to a form XYW. Let it be integer or rational.
-The same is true for x>n.
 
-Isomorphism Theorem
-===================
 On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
 corresponds to a point with (x-coord>0). And vice versa.
-The formula is: P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
-
-The proof only requires the application of the definition of the elliptic curve.
-The same form XYW corresponds to this pair of points. 
+P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
+And the same form XYW corresponds to this pair of points. 
 Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
 
 
---------------------------
-Properties of "Surface 1".
-The equation is: z^2 = (x)*(x+ y^2). 
-Which is the form xyw(). So every form xyw(x,y,w) gives a point on the surface P(x,y,n).
-Nevertheless, the surface has interesting properties.
-
+Properties of "Surface 1". The equation is: z^2 = (x)*(x+ y^2). 
+Which is the form xyw(). So every form xyw(x,y,w) gives a point on the surface P(x,y,n). 
 Point (0,0,0). Straight line (y=0,x=z).
 The number of points P(x,y,n) for each "y" is always finite. 
 No point for y=1, y=2.
 If "y" is odd prime, 2 points: 
             n= (p^3-p)/4, n=(p^4-1)/4.
-
 Examples: for y=3 -> n= 6, 20; for y=5 -> n=30, n=156.
 If "y" is 2*(odd prime), 2 points. 
 
-Complete example limiting "y<18".  
+Example limiting "y<18".  
 20880 is the largest "n" with "y< 18". It is the second point of y=17.
-
-Frequency table ("y", number of points with that "y")
-1:0, 2:0, 3:2, 4:2, 5:2, 6:2, 7:2, 8:4, 9:4, 
-10:2, 11:2, 12:12, 13:2, 14:2, 15:12, 16:6, 17:2.
-
 
 n= 6 xyw: 2...[4]..18
 n= 6 xyw: 3...[3]..12 ------- P(3,3,6) = (3,3, (3^3-3)/4 ) 
@@ -69,47 +52,23 @@ n= 30 xyw: 6...[12]..150
 n= 30 xyw: 20...[5]..45 ------------- y=5, n=30, x=20 P(20,5,30) (30^2 = 20^2 + 20*(5^2))
 n= 54 xyw: 18...[12]..162
 n= 54 xyw: 27...[9]..108
-n= 60 xyw: 15...[15]..240
-n= 60 xyw: 36...[8]..100
-n= 65 xyw: 25...[12]..169
-n= 70 xyw: 20...[15]..245
-n= 80 xyw: 64...[6]...100
+..
 n= 84 xyw: 63...[7]...112 ------- 7-> n=84, n=600.
 n= 96 xyw: 32...[16]...288
-n= 96 xyw: 48...[12]...192
-n= 120 xyw: 80...[10]...180
-n= 126 xyw: 98...[8]...162
-n= 135 xyw: 81...[12]...225
-n= 136 xyw: 64...[15]...289
-n= 150 xyw: 75...[15]...300
+..
 n= 154 xyw: 98...[12]...242
 n= 156 xyw: 144...[5]..169---------- y=5, n=156, x=144. P(144,5,156).
-n= 180 xyw: 144...[9]..225
-n= 210 xyw: 150...[12]..294
-n= 240 xyw: 144...[16]..400
-n= 255 xyw: 225...[8]...289
-n= 270 xyw: 180...[15]..405
+..
 n= 320 xyw: 256...[12]...400
 n= 330 xyw: 275...[11]...396 ---- 11
-n= 336 xyw: 252...[14]...448
-n= 429 xyw: 363...[12]..507
-n= 462 xyw: 363...[15]...588
-n= 500 xyw: 400...[15]...625
+..
 n= 504 xyw: 392...[16]...648
 n= 546 xyw: 468...[13]..637 --- 13
 n= 546 xyw: 507...[9]..588
 n= 600 xyw: 576...[7]..625 ------ 7
-n= 624 xyw: 576...[10]...676
-n= 646 xyw: 578...[12]..722
-n= 840 xyw: 735...[15]...960
-n= 1020 xyw: 900...[16]...1156
+..
 n= 1224 xyw: 1088...[17]...1377 ---- n= (17^4-17)/4
-n= 1295 xyw: 1225...[12]...1369
-n= 1404 xyw: 1296...[15]...1521
-n= 1640 xyw: 1600...[9]..1681
-n= 2046 xyw: 1922...[16]...2178
-n= 2400 xyw: 2304...[14]..2500
-n= 2530 xyw: 2420...[15]...2645
+..
 n= 3660 xyw: 3600...[11]..3721 --- 11
 n= 4095 xyw: 3969...[16]...4225
 n= 4218 xyw: 4107...[15]..4332
@@ -118,9 +77,13 @@ n= 12656 xyw: 12544...[15]...12769
 n= 20880 xyw: 20736...[17]...21025 --- n= (17^4-1)/4
 
 And there are no more points with "y"<18.
+Frequency table ("y", number of points with that "y")
+1:0, 2:0, 3:2, 4:2, 5:2, 6:2, 7:2, 8:4, 9:4, 
+10:2, 11:2, 12:12, 13:2, 14:2, 15:12, 16:6, 17:2.
+
 
 Examples of the form xyw
-----------------------------
+------------------------
 
 n= 6= 6 * [1]^2;
 1-xyw: n=6, D=1; (2...[4]...18)
@@ -165,7 +128,8 @@ n=38, D=425; sepQ: 1586899..[5301]..29687500
 RTQ( 5301/425, 1700/279, 1646021/118575 ).
 
 ---------------------
-form xyw vs form pqrs
+Form xyw vs Form pqrs
+---------------------
 
                N= Core*Sqr      Number of 
     CORE       N    CORE SQR    XYW  PQRS
