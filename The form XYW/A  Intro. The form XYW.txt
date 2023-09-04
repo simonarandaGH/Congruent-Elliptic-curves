@@ -9,7 +9,7 @@ In the Curve C[n]: P(-x, x*y), P( +w, w*y).
 On the "Surface 1": P(x, y, n).
 Example xyw(3,12,147) -> P= (3,12,21).
 
-P(w,wy) is a point of C[n]. Proof.
+Proof "P(w,wy) is a point of C[n]"
 It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
 Manipulating algebraically:
 w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. 
@@ -26,8 +26,8 @@ Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
 
 The equation:  (n^2)/x - x = y^2, gives a minimalist proof 
 of whether a number is congruent: 
-For n=5, (5^2)/4 - 4 = (3/2)^2.
-For n=41, (41^2)/9 - 9 = (40/3)^2.
+For n=5, (5^2)/4 - 4 = (3/2)^2. For n=41, (41^2)/9 - 9 = (40/3)^2.
+
 A particular case is the equation: n^2 - x^4 = y^2.
 n  x  y
 -- - --
@@ -40,7 +40,22 @@ n  x  y
 
 
 From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
-The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
+Also n*(D^2) will be in the form PQRS.
+
+Examples xyw -> TQ-> D
+
+n=23, D=3485; sepQ: 44182609...[41496]..1766100625
+TQ( 41496/3485, 80155/20748, 905141617/72306780 ).
+
+n=31, D=360; sepQ: 203391..[8897]..79360000
+TQ( 8897/360, 720/287, 2566561/103320 ).
+
+n=37, D=6090; sepQ: 3111696...[777923]...605167305625
+TQ( 777923/6090, 450660/777923, 605170417321/4737551070 ).
+
+n=38, D=425; sepQ: 1586899..[5301]..29687500
+TQ( 5301/425, 1700/279, 1646021/118575 ).
+
 
 Considering the integers n<100, each different form includes a certain number of integers. Congrua: 2, PQRS form: 7, XYW-Z form: 17, XYW-Q form: 22.
 
