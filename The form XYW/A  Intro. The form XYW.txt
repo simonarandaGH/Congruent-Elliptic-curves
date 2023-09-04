@@ -17,8 +17,27 @@ Any point in C[n] corresponds to a form XYW. Let it be integer or rational.
 
 On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
 corresponds to a point with (x-coord>0). And vice versa.
+
 P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
+P( c,d) <-> P( -(n^2)/c , ((n^2)*d)/(c^2).
+
 And the same form XYW corresponds to this pair of points. 
+Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
+
+The equation:  (n^2)/x - x = y^2, gives a minimalist proof 
+of whether a number is congruent: 
+For n=5, (5^2)/4 - 4 = (3/2)^2.
+For n=41, (41^2)/9 - 9 = (40/3)^2.
+A particular case is the equation: n^2 - x^4 = y^2.
+n  x  y
+-- - --
+5  2  3
+15 3 12
+20 4 12
+34 4 30
+41 3 40
+-------
+
 
 From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
 The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
@@ -73,8 +92,10 @@ Form xyw vs Form pqrs
       41  147600      41  60  :   2  1
 ---------------------------------------
 
+
 Examples of the form xyw
-------------------------
+Note: S() point on the Surface-1: S(x,y,n)
+------------------------------------------
 
 n= 6= 6 * [1]^2;
 1-xyw: n=6, D=1; (2...[4]...18)
@@ -119,9 +140,10 @@ n=38, D=425; sepQ: 1586899..[5301]..29687500
 RTQ( 5301/425, 1700/279, 1646021/118575 ).
 
 
-Properties of "Surface 1". The equation is: z^2 = (x)*(x+ y^2). 
-Which is the form xyw(). So every form xyw(x,y,w) gives a point on the surface P(x,y,n). 
-Point (0,0,0). Straight line (y=0,x=z).
+Properties of "Surface 1". The equation is: z^2 = (x)*(x+ y^2),
+(which is the form xyw).
+So every form xyw(x,y,w) gives the point on the surface P(x,y,n). 
+
 The number of points P(x,y,n) for each "y" is always finite. 
 No point for y=1, y=2.
 If "y" is odd prime, 2 points: 
