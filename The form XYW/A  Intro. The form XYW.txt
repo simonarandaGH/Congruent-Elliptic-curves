@@ -42,7 +42,7 @@ n  x  y
 From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
 The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
 
-Considering the integers n<100, each different form includes a certain number of integers. PQRS form: 7, XYW-Z form: 17, XYW-Q form: 22.
+Considering the integers n<100, each different form includes a certain number of integers. Congrua: 2, PQRS form: 7, XYW-Z form: 17, XYW-Q form: 22.
 
 Form xyw vs Form pqrs
 ---------------------
