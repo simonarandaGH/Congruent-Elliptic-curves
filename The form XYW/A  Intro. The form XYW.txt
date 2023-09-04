@@ -15,17 +15,108 @@ Manipulating algebraically:
 w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. 
 Any point in C[n] corresponds to a form XYW. Let it be integer or rational. 
 
-From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
-The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
-
-Considering the integers n<100, each different form includes a certain number of integers. Congruent form: 2, PQRS form: 7, XYW-Z form: 17
-XYW-Q form: 22.
-
 On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
 corresponds to a point with (x-coord>0). And vice versa.
 P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
 And the same form XYW corresponds to this pair of points. 
-Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
+
+From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, hypotenuse). Example n=21, ( 12/1, 7/2, 25/2 ).
+The denominator of the hypotenuse (D) is related to the form PQRS: n*(D^2) will be in the form PQRS.
+
+Considering the integers n<100, each different form includes a certain number of integers. PQRS form: 7, XYW-Z form: 17, XYW-Q form: 22.
+
+Form xyw vs Form pqrs
+---------------------
+
+               N= Core*Sqr      Number of 
+    CORE       N    CORE SQR    XYW  PQRS
+       5      20       5   2  :   1  0
+       5      45       5   3  :   1  0
+       5      80       5   4  :   1  0
+       5     180       5   6  :   2  1
+
+       6       6       6   1  :   2  1
+
+       7     175       7   5  :   1  0
+       7     700       7  10  :   1  0
+        ...
+       7   21175       7  55  :   1  0
+       7   25200       7  60  :   2  1
+
+      14      56      14   2  :   1  0
+      14     126      14   3  :   1  0
+      14     224      14   4  :   1  0
+      14     504      14   6  :   2  1
+
+      22     198      22   3  :   1  0
+      22     792      22   6  :   1  0
+          (...)
+      22  228888      22 102  :   1  0
+      22  242550      22 105  :   2  1
+
+
+      34      34      34   1  :   1  0
+      34     136      34   2  :   2  0
+      ...
+      34     850      34   5  :   1  0
+      34    1224      34   6  :   3  1
+
+      39     156      39   2  :   1  0
+      39     624      39   4  :   1  0
+      ...
+      39    2496      39   8  :   1  0
+      39    3900      39  10  :   2  1
+
+      41     369      41   3  :   1  0
+      ...
+      41  137924      41  58  :   1  0
+      41  147600      41  60  :   2  1
+---------------------------------------
+
+Examples of the form xyw
+------------------------
+
+n= 6= 6 * [1]^2;
+1-xyw: n=6, D=1; (2...[4]...18)
+S(2,4,6) = C[6]: P(-2 , 8)
+2-xyw: n=6, D=1; (3...[3]..12)
+S(3,3,6) = C[6]: P(-3 , 9)
+
+n= 15= 15 * [1]^2;
+1-xyw: n=15, D=1; (9...[4]..25)
+S(9,4,15) = C[15]: P(-9 , 36)
+
+n= 20= 5 * [2]^2;
+W: no form pqrs.
+1-xyw: n=20, D=1; (16...[3]..25)
+S(16,3,20) = C[20]: P(-16 , 48)
+
+(...)
+S(20,5,30) = C[30]: P(-20 , 100)
+S(2,24,34) = C[34]: P(-2 , 48)
+S(5,20,45) = C[45]: P(-5 , 100)
+S(18,12,54) = C[54]: P(-18 , 216)
+S(27,9,54) = C[54]: P(-27 , 243)
+
+(...)
+S(784,21,980) = C[980]: P(-784 , 16464)
+S(99,99,990) = C[990]: P(-99 , 9801)
+S(810,20,990) = C[990]: P(-810 , 16200)
+
+Examples xyw -> TQ-> D
+----------------------
+
+n=23, D=3485; sepQ: 44182609...[41496]..1766100625
+RTQ( 41496/3485, 80155/20748, 905141617/72306780 ).
+
+n=31, D=360; sepQ: 203391..[8897]..79360000
+RTQ( 8897/360, 720/287, 2566561/103320 ).
+
+n=37, D=6090; sepQ: 3111696...[777923]...605167305625
+RTQ( 777923/6090, 450660/777923, 605170417321/4737551070 ).
+
+n=38, D=425; sepQ: 1586899..[5301]..29687500
+RTQ( 5301/425, 1700/279, 1646021/118575 ).
 
 
 Properties of "Surface 1". The equation is: z^2 = (x)*(x+ y^2). 
@@ -80,100 +171,5 @@ And there are no more points with "y"<18.
 Frequency table ("y", number of points with that "y")
 1:0, 2:0, 3:2, 4:2, 5:2, 6:2, 7:2, 8:4, 9:4, 
 10:2, 11:2, 12:12, 13:2, 14:2, 15:12, 16:6, 17:2.
-
-
-Examples of the form xyw
-------------------------
-
-n= 6= 6 * [1]^2;
-1-xyw: n=6, D=1; (2...[4]...18)
-S(2,4,6) = C[6]: P(-2 , 8)
-2-xyw: n=6, D=1; (3...[3]..12)
-S(3,3,6) = C[6]: P(-3 , 9)
-
-n= 15= 15 * [1]^2;
-1-xyw: n=15, D=1; (9...[4]..25)
-S(9,4,15) = C[15]: P(-9 , 36)
-
-n= 20= 5 * [2]^2;
-W: no form pqrs.
-1-xyw: n=20, D=1; (16...[3]..25)
-S(16,3,20) = C[20]: P(-16 , 48)
-
-(...)
-S(20,5,30) = C[30]: P(-20 , 100)
-S(2,24,34) = C[34]: P(-2 , 48)
-S(5,20,45) = C[45]: P(-5 , 100)
-S(18,12,54) = C[54]: P(-18 , 216)
-S(27,9,54) = C[54]: P(-27 , 243)
-
-(...)
-S(784,21,980) = C[980]: P(-784 , 16464)
-S(99,99,990) = C[990]: P(-99 , 9801)
-S(810,20,990) = C[990]: P(-810 , 16200)
-
-Examples xyw -> RTQ-> D
------------------------------
-
-n=23, D=3485; sepQ: 44182609...[41496]..1766100625
-RTQ( 41496/3485, 80155/20748, 905141617/72306780 ).
-
-n=31, D=360; sepQ: 203391..[8897]..79360000
-RTQ( 8897/360, 720/287, 2566561/103320 ).
-
-n=37, D=6090; sepQ: 3111696...[777923]...605167305625
-RTQ( 777923/6090, 450660/777923, 605170417321/4737551070 ).
-
-n=38, D=425; sepQ: 1586899..[5301]..29687500
-RTQ( 5301/425, 1700/279, 1646021/118575 ).
-
----------------------
-Form xyw vs Form pqrs
----------------------
-
-               N= Core*Sqr      Number of 
-    CORE       N    CORE SQR    XYW  PQRS
-       5      20       5   2  :   1  0
-       5      45       5   3  :   1  0
-       5      80       5   4  :   1  0
-       5     180       5   6  :   2  1
-
-       6       6       6   1  :   2  1
-
-       7     175       7   5  :   1  0
-       7     700       7  10  :   1  0
-        ...
-       7   21175       7  55  :   1  0
-       7   25200       7  60  :   2  1
-
-      14      56      14   2  :   1  0
-      14     126      14   3  :   1  0
-      14     224      14   4  :   1  0
-      14     504      14   6  :   2  1
-
-      22     198      22   3  :   1  0
-      22     792      22   6  :   1  0
-          (...)
-      22  228888      22 102  :   1  0
-      22  242550      22 105  :   2  1
-
-
-      34      34      34   1  :   1  0
-      34     136      34   2  :   2  0
-      ...
-      34     850      34   5  :   1  0
-      34    1224      34   6  :   3  1
-
-      39     156      39   2  :   1  0
-      39     624      39   4  :   1  0
-      ...
-      39    2496      39   8  :   1  0
-      39    3900      39  10  :   2  1
-
-      41     369      41   3  :   1  0
-      ...
-      41  137924      41  58  :   1  0
-      41  147600      41  60  :   2  1
----------------------------------------
 
 
