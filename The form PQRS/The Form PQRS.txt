@@ -13,7 +13,7 @@ Each form pqrs gives:
 - one integer-sided right triangle of area equal to n.
     TZ: (p+r, q+r, p+q).
 
-- one triad of equidistant squares.
+- one triad of equidistant squares. [q-p, p+q, r+s]
 
 
 Basic properties: 
