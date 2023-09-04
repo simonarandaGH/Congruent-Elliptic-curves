@@ -1,6 +1,5 @@
 
-
-This small program calculates in a few seconds all congruent numbers below 10^6. It is nothing more than the Tunnell's T. criterion, applied in a broad way. It is trivial to extend it to 10^9, 10^12. As well as modifying it to print the A_[] vectors.
+This small C++ program calculates in a few seconds all congruent numbers below 10^6. It is nothing more than the Tunnell's T. criterion, applied in a broad way. It is trivial to extend it to 10^9, 10^12. As well as modifying it to print the A_[] vectors.
 
 Conjectured
 - If r(n)=1, rank(C[n]) odd. If r(n)=2, rank(C[n]) even.
@@ -441,9 +440,10 @@ b  n  r    i  a b
 999998, 62, 1;  (31: 0/0)  CN.
 999999, 111111, 1;  (111111: 0/0)  CN.
 
+
 Distribution r():
-446822
-499993
-053184
--------------------------------------------
+r()=0  446822 numbers.
+r()=1  499993 numbers.
+r()=2  053184 numbers.
+----------------------------------------
 
