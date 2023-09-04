@@ -1,4 +1,9 @@
+
+The surface-2
+
 The equation is: z^2 = x^2 - (y^2/x).
+
 This surface contains all the elliptic curves C[n]. 
 It is sufficient to cut through a constant z plane.
+
 The equation arises from C[n] itself, y^2 = x^3 - n^2*x, by simply clearing n^2 and dividing by x. Any point on a curve C[n]:P(x,y) corresponds to a point on the surface S1:P(x,y,n).
