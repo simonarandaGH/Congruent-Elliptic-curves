@@ -1,13 +1,12 @@
-# Tunnell Thm.
 
 Tunnell's test for integer candidates for congruent numbers. 
+
 It is based on two well-known functions a(n), b(n). 
 Where if n is a congruent number then/when: a(n)= 2*b(n).
-
 My function r(n) is defined as:
-  if (a==b==0)      then r(n)=1.
-  if (b>0 && a==2b) then r(n)=2.
-  All other cases,  r(n)=0.
+  If (a==b==0)      then r(n)=1.
+  If (b>0 && a==2b) then r(n)=2.
+  All other cases,       r(n)=0.
 
 I conjectured that:
 
@@ -21,6 +20,8 @@ I conjectured that:
 to the total of n with r(n)=1,
 except for some very small difference.
 
+
+Note
 The xrank program incorporates a small table with the value of certain critical numbers. Those where the range of the curve reaches a rank never reached before.
 
 
