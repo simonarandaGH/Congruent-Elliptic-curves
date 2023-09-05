@@ -1,5 +1,7 @@
-The C++ Code.
 
+(C)2023 Simon Aranda
+
+  
 typedef std::int_fast64_t SIF;
 
 SIF SIFrootexact(const SIF p) {
