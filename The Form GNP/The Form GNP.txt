@@ -8,3 +8,10 @@ The elliptic curve C[n], n= m*(c^2) has point P(- p^2, pg)
 For example, for m=5, n=5, C[5]:P(-4,6). In effect: 6^2 = (-4)^3 - (5^2)*(-4).
 Although this equation includes several powers, its efficiency and performance is considerable.
 
+Reading the expression 9 + 16 = 25 leads us to think of a triangle(rect) with hypotenuse 5: (3, 4, 5). Not a triangle of area 5. 
+However: 3^2 = 5^2 - 2^4, leads us to the triangle (3/2, 20/3, 41/6).
+Whenever the smaller side is a square there is a triangle with area equal to the value of the hypotenuse.
+The triangle (3, 4, 5) is the form GNP (3,5,2) and the triangle mentioned above. And the general formula of the triangle of the form GNP is:
+
+form GNP(g, n, p) -> T( g/p, 2np/g, (g^2+2p^4)/pg).
+
