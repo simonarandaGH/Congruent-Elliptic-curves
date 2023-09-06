@@ -8,3 +8,8 @@ The forms XYW(n), PQRS(n), GNP(n) which allow us to obtain the usual right trian
 
 The "xrank" program.  Which implements all the above points and complements them with various algebraic, algorithmic and computational aspects.
 
+OEIS sequences:
+GNP is A271576, a subset of XYW.
+PQRS is A009112, a subset of XYW. 
+XYW is a subset of A003273 (CN).
+
