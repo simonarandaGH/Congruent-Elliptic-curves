@@ -15,3 +15,14 @@ The triangle (3, 4, 5) is the form GNP (3,5,2) and the triangle mentioned above.
 
 form GNP(g, n, p) -> T( g/p, 2np/g, (g^2+2p^4)/pg).
 
+
+GNP are the integers whose square is of the form x^2 + y^4, with x,y>0, sequence OEIS A271576. The GNP numbers are a subset of the congruent numbers.
+The GNP form provides the necessary triangle. And the function r(n) is always positive.
+
+       5  gp(3, 2) T(3/2, 20/3, 41/6)
+      15  gp(12, 3) T(4, 15/2, 17/2)
+      20  gp(12, 4) T(3, 40/3, 41/3)
+      34  gp(30, 4) T(15/2, 136/15, 353/30)
+      39  gp(15, 6) T(5/2, 156/5, 313/10)
+      41  gp(40, 3) T(40/3, 123/20, 881/60)
+
