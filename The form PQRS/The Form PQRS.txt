@@ -25,4 +25,8 @@ Two forms xyw are derived from these three equations.
 
 q*(p-r)= r*(p+r) 
 
+PQRS is the sequence OEIS A009112.
+
+
+
 
