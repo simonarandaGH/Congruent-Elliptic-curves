@@ -42,5 +42,9 @@ r, s, core: 1, 9,  1
 Center at n, +- p.2: two numbers with equal core, example:
 1 ..(p.2).. 5 ..(p.2).. 9, core= 1
 n= 5 GNP: 3,5,2
- g.2= n.2 - p.4; then n is CN (see doc).
+ g.2= n.2 - p.4; then n is CN (see doc and the nice pdf file).
+
+
+
+
 
