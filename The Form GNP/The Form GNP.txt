@@ -26,3 +26,21 @@ The GNP form provides the necessary triangle. And the function r(n) is always po
       39  gp(15, 6) T(5/2, 156/5, 313/10)
       41  gp(40, 3) T(40/3, 123/20, 881/60)
 
+
+
+The GNP Core programme and the examples obtained try to explain a property of NCs. Every NC has two numbers on both sides, separated by a square, such that its core() is identical.
+
+A small part of the NCs directly satisfy this property. Most require to be multiplied by some square. This leads to duality with rational numbers.
+From such a set of values the GNP form is obtained. And from this the necessary geometric objects. 
+Consult for it the documentation of the repo.
+
+
+>gnpcore
+
+n, p.2    : 5,  4
+r, s, core: 1, 9,  1
+Center at n, +- p.2: two numbers with equal core, example:
+1 ..(p.2).. 5 ..(p.2).. 9, core= 1
+n= 5 GNP: 3,5,2
+ g.2= n.2 - p.4; then n is CN (see doc).
+
