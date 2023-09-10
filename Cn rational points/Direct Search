@@ -5,3 +5,4 @@ The direct search finds 7 solutions. GNP 3. PQRS 3. XYW 6.
 
 Naturally the algebraic forms are formalisable and a direct search will not be formalisable.  It does not produce a prior algebraic object, it is an algorithmic result. Evaluable only in terms of complexity and performance.
 
+
