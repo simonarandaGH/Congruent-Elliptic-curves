@@ -1,5 +1,0 @@
-The direct search for integral points on the left-hand side of the plane obtains more points than any other method. By qualifying any number "n * (c^2)" as an amplification of an integer 'n', the various algebraic forms obtain solutions for every CN. This is the well-known problem of finding the square for every integer. Even in the direct search for integral points of an amplified number it is the most efficient method. The next comment is limited to integers no larger than 30; even with that limit, the differences are obvious:
-The direct search finds 7 solutions. GNP 3. PQRS 3. XYW 6.
-Naturally the algebraic forms are formalisable and a direct search will not be formalisable.  It does not produce a prior algebraic object, it is an algorithmic result. Evaluable only in terms of complexity and performance.
-
-
