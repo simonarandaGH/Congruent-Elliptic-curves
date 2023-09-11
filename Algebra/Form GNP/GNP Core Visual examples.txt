@@ -1,0 +1,558 @@
+
+
+The GNP Core programme and the examples obtained try to explain a property of NCs. Every NC has two numbers on both sides, separated by a square, such that its core() is identical.
+
+A small part of the NCs directly satisfy this property. Most require to be multiplied by some square. This leads to duality with rational numbers.
+From such a set of values the GNP form is obtained. And from this the necessary geometric objects. 
+Consult for it the documentation of the repo.
+
+
+>gnpcore
+
+n, p.2    : 5,  4
+r, s, core: 1, 9,  1
+Center at n, +- p.2: two numbers with equal core, example:
+1 ..(p.2).. 5 ..(p.2).. 9, core= 1
+n= 5 GNP: 3,5,2
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 15,  9
+r, s, core: 6, 24,  6
+Center at n, +- p.2: two numbers with equal core, example:
+6 ..(p.2).. 15 ..(p.2).. 24, core= 6
+n= 15 GNP: 12,15,3
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 20,  16
+r, s, core: 4, 36,  1
+Center at n, +- p.2: two numbers with equal core, example:
+4 ..(p.2).. 20 ..(p.2).. 36, core= 1
+n= 20 GNP: 12,20,4
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 34,  16
+r, s, core: 18, 50,  2
+Center at n, +- p.2: two numbers with equal core, example:
+18 ..(p.2).. 34 ..(p.2).. 50, core= 2
+n= 34 GNP: 30,34,4
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 39,  36
+r, s, core: 3, 75,  3
+Center at n, +- p.2: two numbers with equal core, example:
+3 ..(p.2).. 39 ..(p.2).. 75, core= 3
+n= 39 GNP: 15,39,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 41,  9
+r, s, core: 32, 50,  2
+Center at n, +- p.2: two numbers with equal core, example:
+32 ..(p.2).. 41 ..(p.2).. 50, core= 2
+n= 41 GNP: 40,41,3
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 45,  36
+r, s, core: 9, 81,  1
+Center at n, +- p.2: two numbers with equal core, example:
+9 ..(p.2).. 45 ..(p.2).. 81, core= 1
+n= 45 GNP: 27,45,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 60,  36
+r, s, core: 24, 96,  6
+Center at n, +- p.2: two numbers with equal core, example:
+24 ..(p.2).. 60 ..(p.2).. 96, core= 6
+n= 60 GNP: 48,60,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 65,  16
+r, s, core: 49, 81,  1
+Center at n, +- p.2: two numbers with equal core, example:
+49 ..(p.2).. 65 ..(p.2).. 81, core= 1
+n= 65 GNP: 63,65,4
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 80,  64
+r, s, core: 16, 144,  1
+Center at n, +- p.2: two numbers with equal core, example:
+16 ..(p.2).. 80 ..(p.2).. 144, core= 1
+n= 80 GNP: 48,80,8
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 85,  36
+r, s, core: 49, 121,  1
+Center at n, +- p.2: two numbers with equal core, example:
+49 ..(p.2).. 85 ..(p.2).. 121, core= 1
+n= 85 GNP: 77,85,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 111,  36
+r, s, core: 75, 147,  3
+Center at n, +- p.2: two numbers with equal core, example:
+75 ..(p.2).. 111 ..(p.2).. 147, core= 3
+n= 111 GNP: 105,111,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 125,  100
+r, s, core: 25, 225,  1
+Center at n, +- p.2: two numbers with equal core, example:
+25 ..(p.2).. 125 ..(p.2).. 225, core= 1
+n= 125 GNP: 75,125,10
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 135,  81
+r, s, core: 54, 216,  6
+Center at n, +- p.2: two numbers with equal core, example:
+54 ..(p.2).. 135 ..(p.2).. 216, core= 6
+n= 135 GNP: 108,135,9
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 136,  64
+r, s, core: 72, 200,  2
+Center at n, +- p.2: two numbers with equal core, example:
+72 ..(p.2).. 136 ..(p.2).. 200, core= 2
+n= 136 GNP: 120,136,8
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 145,  100
+r, s, core: 45, 245,  5
+Center at n, +- p.2: two numbers with equal core, example:
+45 ..(p.2).. 145 ..(p.2).. 245, core= 5
+n= 145 GNP: 105,145,10
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 150,  144
+r, s, core: 6, 294,  6
+Center at n, +- p.2: two numbers with equal core, example:
+6 ..(p.2).. 150 ..(p.2).. 294, core= 6
+n= 150 GNP: 42,150,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 156,  144
+r, s, core: 12, 300,  3
+Center at n, +- p.2: two numbers with equal core, example:
+12 ..(p.2).. 156 ..(p.2).. 300, core= 3
+n= 156 GNP: 60,156,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 164,  36
+r, s, core: 128, 200,  2
+Center at n, +- p.2: two numbers with equal core, example:
+128 ..(p.2).. 164 ..(p.2).. 200, core= 2
+n= 164 GNP: 160,164,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 175,  49
+r, s, core: 126, 224,  14
+Center at n, +- p.2: two numbers with equal core, example:
+126 ..(p.2).. 175 ..(p.2).. 224, core= 14
+n= 175 GNP: 168,175,7
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 180,  144
+r, s, core: 36, 324,  1
+Center at n, +- p.2: two numbers with equal core, example:
+36 ..(p.2).. 180 ..(p.2).. 324, core= 1
+n= 180 GNP: 108,180,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 194,  144
+r, s, core: 50, 338,  2
+Center at n, +- p.2: two numbers with equal core, example:
+50 ..(p.2).. 194 ..(p.2).. 338, core= 2
+n= 194 GNP: 130,194,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 219,  144
+r, s, core: 75, 363,  3
+Center at n, +- p.2: two numbers with equal core, example:
+75 ..(p.2).. 219 ..(p.2).. 363, core= 3
+n= 219 GNP: 165,219,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 240,  144
+r, s, core: 96, 384,  6
+Center at n, +- p.2: two numbers with equal core, example:
+96 ..(p.2).. 240 ..(p.2).. 384, core= 6
+n= 240 GNP: 192,240,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 245,  196
+r, s, core: 49, 441,  1
+Center at n, +- p.2: two numbers with equal core, example:
+49 ..(p.2).. 245 ..(p.2).. 441, core= 1
+n= 245 GNP: 147,245,14
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 255,  225
+r, s, core: 30, 480,  30
+Center at n, +- p.2: two numbers with equal core, example:
+30 ..(p.2).. 255 ..(p.2).. 480, core= 30
+n= 255 GNP: 120,255,15
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 260,  64
+r, s, core: 196, 324,  1
+Center at n, +- p.2: two numbers with equal core, example:
+196 ..(p.2).. 260 ..(p.2).. 324, core= 1
+n= 260 GNP: 252,260,8
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 265,  225
+r, s, core: 40, 490,  10
+Center at n, +- p.2: two numbers with equal core, example:
+40 ..(p.2).. 265 ..(p.2).. 490, core= 10
+n= 265 GNP: 140,265,15
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 306,  144
+r, s, core: 162, 450,  2
+Center at n, +- p.2: two numbers with equal core, example:
+162 ..(p.2).. 306 ..(p.2).. 450, core= 2
+n= 306 GNP: 270,306,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 313,  25
+r, s, core: 288, 338,  2
+Center at n, +- p.2: two numbers with equal core, example:
+288 ..(p.2).. 313 ..(p.2).. 338, core= 2
+n= 313 GNP: 312,313,5
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 320,  256
+r, s, core: 64, 576,  1
+Center at n, +- p.2: two numbers with equal core, example:
+64 ..(p.2).. 320 ..(p.2).. 576, core= 1
+n= 320 GNP: 192,320,16
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 325,  36
+r, s, core: 289, 361,  1
+Center at n, +- p.2: two numbers with equal core, example:
+289 ..(p.2).. 325 ..(p.2).. 361, core= 1
+n= 325 GNP: 323,325,6
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 340,  144
+r, s, core: 196, 484,  1
+Center at n, +- p.2: two numbers with equal core, example:
+196 ..(p.2).. 340 ..(p.2).. 484, core= 1
+n= 340 GNP: 308,340,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 351,  324
+r, s, core: 27, 675,  3
+Center at n, +- p.2: two numbers with equal core, example:
+27 ..(p.2).. 351 ..(p.2).. 675, core= 3
+n= 351 GNP: 135,351,18
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 353,  225
+r, s, core: 128, 578,  2
+Center at n, +- p.2: two numbers with equal core, example:
+128 ..(p.2).. 353 ..(p.2).. 578, core= 2
+n= 353 GNP: 272,353,15
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 369,  81
+r, s, core: 288, 450,  2
+Center at n, +- p.2: two numbers with equal core, example:
+288 ..(p.2).. 369 ..(p.2).. 450, core= 2
+n= 369 GNP: 360,369,9
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 371,  196
+r, s, core: 175, 567,  7
+Center at n, +- p.2: two numbers with equal core, example:
+175 ..(p.2).. 371 ..(p.2).. 567, core= 7
+n= 371 GNP: 315,371,14
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 375,  225
+r, s, core: 150, 600,  6
+Center at n, +- p.2: two numbers with equal core, example:
+150 ..(p.2).. 375 ..(p.2).. 600, core= 6
+n= 375 GNP: 300,375,15
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 405,  324
+r, s, core: 81, 729,  1
+Center at n, +- p.2: two numbers with equal core, example:
+81 ..(p.2).. 405 ..(p.2).. 729, core= 1
+n= 405 GNP: 243,405,18
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 410,  400
+r, s, core: 10, 810,  10
+Center at n, +- p.2: two numbers with equal core, example:
+10 ..(p.2).. 410 ..(p.2).. 810, core= 10
+n= 410 GNP: 90,410,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 444,  144
+r, s, core: 300, 588,  3
+Center at n, +- p.2: two numbers with equal core, example:
+300 ..(p.2).. 444 ..(p.2).. 588, core= 3
+n= 444 GNP: 420,444,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 445,  400
+r, s, core: 45, 845,  5
+Center at n, +- p.2: two numbers with equal core, example:
+45 ..(p.2).. 445 ..(p.2).. 845, core= 5
+n= 445 GNP: 195,445,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 455,  441
+r, s, core: 14, 896,  14
+Center at n, +- p.2: two numbers with equal core, example:
+14 ..(p.2).. 455 ..(p.2).. 896, core= 14
+n= 455 GNP: 112,455,21
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 500,  400
+r, s, core: 100, 900,  1
+Center at n, +- p.2: two numbers with equal core, example:
+100 ..(p.2).. 500 ..(p.2).. 900, core= 1
+n= 500 GNP: 300,500,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 505,  100
+r, s, core: 405, 605,  5
+Center at n, +- p.2: two numbers with equal core, example:
+405 ..(p.2).. 505 ..(p.2).. 605, core= 5
+n= 505 GNP: 495,505,10
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 514,  64
+r, s, core: 450, 578,  2
+Center at n, +- p.2: two numbers with equal core, example:
+450 ..(p.2).. 514 ..(p.2).. 578, core= 2
+n= 514 GNP: 510,514,8
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 540,  324
+r, s, core: 216, 864,  6
+Center at n, +- p.2: two numbers with equal core, example:
+216 ..(p.2).. 540 ..(p.2).. 864, core= 6
+n= 540 GNP: 432,540,18
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 544,  256
+r, s, core: 288, 800,  2
+Center at n, +- p.2: two numbers with equal core, example:
+288 ..(p.2).. 544 ..(p.2).. 800, core= 2
+n= 544 GNP: 480,544,16
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 580,  400
+r, s, core: 180, 980,  5
+Center at n, +- p.2: two numbers with equal core, example:
+180 ..(p.2).. 580 ..(p.2).. 980, core= 5
+n= 580 GNP: 420,580,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 585,  144
+r, s, core: 441, 729,  1
+Center at n, +- p.2: two numbers with equal core, example:
+441 ..(p.2).. 585 ..(p.2).. 729, core= 1
+n= 585 GNP: 567,585,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 600,  576
+r, s, core: 24, 1176,  6
+Center at n, +- p.2: two numbers with equal core, example:
+24 ..(p.2).. 600 ..(p.2).. 1176, core= 6
+n= 600 GNP: 168,600,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 605,  484
+r, s, core: 121, 1089,  1
+Center at n, +- p.2: two numbers with equal core, example:
+121 ..(p.2).. 605 ..(p.2).. 1089, core= 1
+n= 605 GNP: 363,605,22
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 609,  441
+r, s, core: 168, 1050,  42
+Center at n, +- p.2: two numbers with equal core, example:
+168 ..(p.2).. 609 ..(p.2).. 1050, core= 42
+n= 609 GNP: 420,609,21
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 624,  576
+r, s, core: 48, 1200,  3
+Center at n, +- p.2: two numbers with equal core, example:
+48 ..(p.2).. 624 ..(p.2).. 1200, core= 3
+n= 624 GNP: 240,624,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 629,  100
+r, s, core: 529, 729,  1
+Center at n, +- p.2: two numbers with equal core, example:
+529 ..(p.2).. 629 ..(p.2).. 729, core= 1
+n= 629 GNP: 621,629,10
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 656,  144
+r, s, core: 512, 800,  2
+Center at n, +- p.2: two numbers with equal core, example:
+512 ..(p.2).. 656 ..(p.2).. 800, core= 2
+n= 656 GNP: 640,656,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 671,  121
+r, s, core: 550, 792,  22
+Center at n, +- p.2: two numbers with equal core, example:
+550 ..(p.2).. 671 ..(p.2).. 792, core= 22
+n= 671 GNP: 660,671,11
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 674,  576
+r, s, core: 98, 1250,  2
+Center at n, +- p.2: two numbers with equal core, example:
+98 ..(p.2).. 674 ..(p.2).. 1250, core= 2
+n= 674 GNP: 350,674,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 689,  400
+r, s, core: 289, 1089,  1
+Center at n, +- p.2: two numbers with equal core, example:
+289 ..(p.2).. 689 ..(p.2).. 1089, core= 1
+n= 689 GNP: 561,689,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 700,  196
+r, s, core: 504, 896,  14
+Center at n, +- p.2: two numbers with equal core, example:
+504 ..(p.2).. 700 ..(p.2).. 896, core= 14
+n= 700 GNP: 672,700,14
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 720,  576
+r, s, core: 144, 1296,  1
+Center at n, +- p.2: two numbers with equal core, example:
+144 ..(p.2).. 720 ..(p.2).. 1296, core= 1
+n= 720 GNP: 432,720,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 735,  441
+r, s, core: 294, 1176,  6
+Center at n, +- p.2: two numbers with equal core, example:
+294 ..(p.2).. 735 ..(p.2).. 1176, core= 6
+n= 735 GNP: 588,735,21
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 765,  324
+r, s, core: 441, 1089,  1
+Center at n, +- p.2: two numbers with equal core, example:
+441 ..(p.2).. 765 ..(p.2).. 1089, core= 1
+n= 765 GNP: 693,765,18
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 776,  576
+r, s, core: 200, 1352,  2
+Center at n, +- p.2: two numbers with equal core, example:
+200 ..(p.2).. 776 ..(p.2).. 1352, core= 2
+n= 776 GNP: 520,776,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 791,  784
+r, s, core: 7, 1575,  7
+Center at n, +- p.2: two numbers with equal core, example:
+7 ..(p.2).. 791 ..(p.2).. 1575, core= 7
+n= 791 GNP: 105,791,28
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 845,  676
+r, s, core: 169, 1521,  1
+Center at n, +- p.2: two numbers with equal core, example:
+169 ..(p.2).. 845 ..(p.2).. 1521, core= 1
+n= 845 GNP: 507,845,26
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 850,  400
+r, s, core: 450, 1250,  2
+Center at n, +- p.2: two numbers with equal core, example:
+450 ..(p.2).. 850 ..(p.2).. 1250, core= 2
+n= 850 GNP: 750,850,20
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 870,  144
+r, s, core: 726, 1014,  6
+Center at n, +- p.2: two numbers with equal core, example:
+726 ..(p.2).. 870 ..(p.2).. 1014, core= 6
+n= 870 GNP: 858,870,12
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 876,  576
+r, s, core: 300, 1452,  3
+Center at n, +- p.2: two numbers with equal core, example:
+300 ..(p.2).. 876 ..(p.2).. 1452, core= 3
+n= 876 GNP: 660,876,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 905,  900
+r, s, core: 5, 1805,  5
+Center at n, +- p.2: two numbers with equal core, example:
+5 ..(p.2).. 905 ..(p.2).. 1805, core= 5
+n= 905 GNP: 95,905,30
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 910,  784
+r, s, core: 126, 1694,  14
+Center at n, +- p.2: two numbers with equal core, example:
+126 ..(p.2).. 910 ..(p.2).. 1694, core= 14
+n= 910 GNP: 462,910,28
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 915,  900
+r, s, core: 15, 1815,  15
+Center at n, +- p.2: two numbers with equal core, example:
+15 ..(p.2).. 915 ..(p.2).. 1815, core= 15
+n= 915 GNP: 165,915,30
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 949,  900
+r, s, core: 49, 1849,  1
+Center at n, +- p.2: two numbers with equal core, example:
+49 ..(p.2).. 949 ..(p.2).. 1849, core= 1
+n= 949 GNP: 301,949,30
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 951,  225
+r, s, core: 726, 1176,  6
+Center at n, +- p.2: two numbers with equal core, example:
+726 ..(p.2).. 951 ..(p.2).. 1176, core= 6
+n= 951 GNP: 924,951,15
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 960,  576
+r, s, core: 384, 1536,  6
+Center at n, +- p.2: two numbers with equal core, example:
+384 ..(p.2).. 960 ..(p.2).. 1536, core= 6
+n= 960 GNP: 768,960,24
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 975,  900
+r, s, core: 75, 1875,  3
+Center at n, +- p.2: two numbers with equal core, example:
+75 ..(p.2).. 975 ..(p.2).. 1875, core= 3
+n= 975 GNP: 375,975,30
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 980,  784
+r, s, core: 196, 1764,  1
+Center at n, +- p.2: two numbers with equal core, example:
+196 ..(p.2).. 980 ..(p.2).. 1764, core= 1
+n= 980 GNP: 588,980,28
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+n, p.2    : 999,  324
+r, s, core: 675, 1323,  3
+Center at n, +- p.2: two numbers with equal core, example:
+675 ..(p.2).. 999 ..(p.2).. 1323, core= 3
+n= 999 GNP: 945,999,18
+ g.2= n.2 - p.4; then n is CN (see doc).
+
+----------------
