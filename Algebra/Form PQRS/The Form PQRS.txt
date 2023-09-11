@@ -1,0 +1,32 @@
+The form PQRS consists of those integers expressible as:
+    n= p*q = r*s, with s= p+q+r. With all integer variables.
+    Symbolised as pqrs(p, q, r, s).
+
+Each form pqrs gives:
+
+- 2 forms XYW.
+
+- 4 Points on the elliptic curve C[n].
+    (-p*r, p*r*(q+r)), (-q*r, q*r*(p+r)),
+    (+p*s, p*s*(p+r)), (+q*s, q*s*(q+r).
+    
+- one integer-sided right triangle of area equal to n.
+    TZ: (p+r, q+r, p+q).
+
+- one triad of equidistant squares. [q-p, p+q, r+s]
+
+
+Basic properties: 
+
+n^2 = p*s * q*r. 
+ps= qr + (p+r)^2  ->  (p+r)^2 = ps - qr.
+qs= pr + (q+r)^2  ->  (q+r)^2 = qs - pr.
+Two forms xyw are derived from these three equations.
+
+q*(p-r)= r*(p+r) 
+
+PQRS is the sequence OEIS A009112.
+
+
+
+
