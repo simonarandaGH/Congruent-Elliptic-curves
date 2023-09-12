@@ -1,12 +1,13 @@
 
-Contains the entire sequence OEIS A009112.
-And all of it is contained in OEIS A003273.
-
 Definition:
 Positive integers n that can be written, in one or more ways, as:
 n^2 = x*w = x * (x+y^2), where x, y, w are positive integer values. With w= (x+y^2).
 In other words, they are the integers whose square has one or more pairs of divisors (x, w) such that they satisfy:
 n^2 = x*w, (w-x)= y^2. All variables being positive integers.
+
+The XYW sequence contains the entire sequence OEIS A009112.
+And all of it is contained in OEIS A003273.
+
 
 ---
 0 6
