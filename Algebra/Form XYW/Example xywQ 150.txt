@@ -1,4 +1,6 @@
 
+Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
+On this examples:
 C[n]:P(x>0,y) <-> xyw(n^2/x, sqrt(x-(n^2/x) , x)
 
 n   x   y   xyw(x,y,w)
