@@ -1,5 +1,5 @@
-Elliptic Curves C[n], 
-the short Weierstrass normal form [-n^2, 0].
+Elliptic Curves C[n], the congruent curves.
+Short Weierstrass form [-n^2, 0].
 
 From the Tunnell criterion arises the function r(n). The distribution over n mod 8 is shown. And the conjecture is defended that:
 
