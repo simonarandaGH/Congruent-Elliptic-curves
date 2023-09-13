@@ -19,3 +19,9 @@ P(-x,xy)                <->   P(+w,wy)  ;from XYW(x,y,w)
 P(-a,b)                 <->   P(n^2/a, (n^2/a)*(b/a))
 P(-n^2/c, (n^2/c)*d/c)  <->   P(+c,d)
 --------------------------------------------------------
+
+(P, Q)
+Let (P, Q) be a pair of points with the same form XYW, and let F be this form. 
+1 - Then it is satisfied that: 2P = 2Q. 
+2 - Let points C= P+Q, D=2P. Then (C, D) is another duo of points with some common new form XYW. A couple of graphs are attached.
+
