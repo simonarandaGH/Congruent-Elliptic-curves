@@ -25,3 +25,5 @@ Let (P, Q) be a pair of points with the same form XYW, and let F be this form.
 1 - Then it is satisfied that: 2P = 2Q. 
 2 - Let points C= P+Q, D=2P. Then (C, D) is another duo of points with some common new form XYW. A couple of graphs are attached.
 
+There are as many rational points in the ellipse on the left 
+as in the whole curve on the right. 
