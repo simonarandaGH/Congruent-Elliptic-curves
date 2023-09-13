@@ -27,7 +27,7 @@ n= 500  P(-400,6000)  Q           P(625,9375) P(4500,300000)
 In the table there are Q's, because points enter the field Z only if they are multiplied by the appropriate square. In general this leads to handling "primorial integers with some gaps".
 Let n be square-free. If C[n] has integral points, one of them, let M, will have the maximum value of coordinate x, let M.x . Being integral, this point will be integral in all C[nq]. The rest of possible integral points can come from:
 - other integral points of C[n], with smaller x.
-- Q points in C[n], also integral in C[nq].
+- Q points in C[n], but integral in C[nq].
 In both cases their x will be smaller than that of point M, which in C[nq] will be (M.x*q,-).
 Thus the end of the interval of integral points remains always known. And this allows you to narrow down the search.
 
