@@ -1,29 +1,59 @@
-Isomorphism and Duality
-
-Looking at a list of points of a congruent curve C[n], one might think that there is no order. 
-Fortunately this is not the case. 
+Isomorphism, duality
 
 "Every point with negative x corresponds to a point with positive x. And these two points are linked to a single form XYW."
+There are as many rational points in the ellipse on the left 
+as in the whole curve on the right. 
 
-Example n=6
+Trivial points C[n]
+Form XYW(n,0,n), double: ( (-n,0), (+n,0) )
 
+XYW example n=6
 x       [y]     w       P(-x,xy)        P(+w,wy)
 x       [y]     w       P(-a,b)         P(+c, d)
 2         4     18      -2      8       18    72
 3         3     12      -3      9       12    36
 6/49  120/7     294    -6/49    720/343 294   5040
 144/25  7/10    25/4   -144/25  504/125 25/4  35/8
---------------------------------------------------------
-
-P(-x,xy)                <->   P(+w,wy)  ;from XYW(x,y,w)
+---------------------------------------------------------
+P(-x,xy)                <->   P(+w,wy)  ; from XYW(x,y,w)
 P(-a,b)                 <->   P(n^2/a, (n^2/a)*(b/a))
 P(-n^2/c, (n^2/c)*d/c)  <->   P(+c,d)
---------------------------------------------------------
+Form xyw() <-> Double(P, Q)
+P(-x,xy) <-> xyw(x, y, w) <-> Q(+w, wy), n^2= x*w
+---------------------------------------------------------
 
-(P, Q)
-Let (P, Q) be a pair of points with the same form XYW, and let F be this form. 
+xyw() <-> Double(P, Q)
+Let (P, Q) be a pair of points with the same form XYW. 
 1 - Then it is satisfied that: 2P = 2Q. 
-2 - Let points C= P+Q, D=2P. Then (C, D) is another duo of points with some common new form XYW. A couple of graphs are attached.
+2 - Let points C= P+Q, D=2P. Then (C, D) is another double of points with some common new form XYW. A couple of graphs are attached.
 
-There are as many rational points in the ellipse on the left 
-as in the whole curve on the right. 
+PQRS
+The form PQRS consists of those integers expressible as:
+    n= p*q = r*s, with s= p+q+r. (all integer)
+Each form PQRS gives 2 forms XYW then 2 doubles:
+    
+xyw(qr,p+r,ps)->Double:(-q*r,q*r*(p+r)),(+p*s,p*s*(p+r))
+xyw(pr,q+r,qs)->Double:(-p*r,p*r*(q+r)),(+q*s,q*s*(q+r))
+    
+PQRS(6)         2 * 3 = 1 * 6
+                p   q   r   s
+                2   3   1   6
+->
+                x   y   w
+->              3   3   12  A=( -3, 3*3) B=( 12, 12*3)
+->              2   4   18  C=( -2, 2*4) D=( 18, 18*4)
+
+PQRS point addition and new double.
+A+B= C+D= [-144/25, 504/125] = new point E
+2A=2B=2C=2D= [25/4, 35/8] = new point F
+Double(E, F) common xyw( 144/25, 7/10, 25/4)
+
+(mA, mB, mC, mD) m odd all distinct, m even all equals.
+A+C=B+D = [+n,0];  A+D=B+C = [-n,0]
+Double(A,B): A= B+[0,0], B= A+[0,0]; id double(C,D)
+-D= A+[-n,0] = B+[n,0]
+-C= B+[-n,0] = A+[n,0]
+-B= C+[-n,0] = D+[n,0]
+-A= D+[-n,0] = C+[n,0]
+
+
