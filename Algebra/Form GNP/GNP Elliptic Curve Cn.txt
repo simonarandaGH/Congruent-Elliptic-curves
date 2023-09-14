@@ -1,68 +1,11 @@
 
-
 Every congruent number m satisfies the equation:
-
-[y^2] = [ (m*(c^2)) ^2] - [x^4] ;
-
+[y^2] = [ (m*(c^2)) ^2] - [x^4]
 All variables being positive integers.
-The elliptic curve C[n], n= m*(c^2)
-has point P( - x^2 , y).
-For example, for m=5, n=5, C[5]:P(-4,6)
-In effect: 6^2 = (-4)^3 - (5^2)*(-4).
-Although this equation includes several powers,
-its efficiency and performance is considerable.
 
+The elliptic curve C[n], n= m*(c^2): point P(-x^2 ,y).
 
-The C++ Code.
-
-typedef std::int_fast64_t SIF;
-
-SIF SIFrootexact(const SIF p) {
-double a= p;double b= sqrt(a);
-SIF c=floor(b);
-bool exact= (p==(c*c));if(exact)return c;
-return 0;
-}
-int main(void) {
-for(SIF m= 1;;m++) 
-  {
-  const SZ szm= m;
-  int r= Rfunction(false,szm); // the function r(n).
-  if(r<1)continue;
-
-  bool unsolved= true;
-  for(SIF c= 1;unsolved;c++)
-    {
-    SIF n= m*c*c;
-    if(n<0)break; // Overflow
-    for(SIF x=1;unsolved;x++)
-      {
-      SIF x2= x*x;
-      SIF ds= n+x2;
-      SIF dr= n-x2;
-      if(dr<=0)break;
-      
-      SIF dif=ds*dr;
-      const SIF r= SIFrootexact(dif);if(r==0)continue;
-      //
-      SIF y= x*r;
-      cout<<"Solved: "<<m<<" (";
-      cout<<"n= "<<n;
-      cout<<", x= "<<(-x*x);
-      cout<<", y= "<<y<<")"<<endl;
-      unsolved=false; 
-      }
-    }
-  if(unsolved) {
-    cout<<"m-UNSOLVED= "<<m<<endl;
-    getc(stdin);
-    }
-  }
-return 0;
-}
-
-
-The program output.
+Solved examples
 
 Solved: 5 (n= 5, x= -4, y= 6)
 Solved: 6 (n= 150, x= -144, y= 504)
