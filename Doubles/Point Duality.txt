@@ -57,6 +57,8 @@ Double(A,B): A= B+[0,0], B= A+[0,0]; id double(C,D)
 -A= D+[-n,0] = C+[n,0]
 
 These 4 points (A,B,C,D) have linear dependences.
+So every point has its dual and the same form XYW. From which a new form XYW with two new dual points emerges. This allows to obtain infinite points.
+The critical issue is then to find the first non-trivial point. To achieve this, among the algebraic methods, perhaps the most efficient is the GNP form.
 
 
 doubles.exe output
