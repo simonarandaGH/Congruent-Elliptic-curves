@@ -56,6 +56,7 @@ Double(A,B): A= B+[0,0], B= A+[0,0]; id double(C,D)
 -B= C+[-n,0] = D+[n,0]
 -A= D+[-n,0] = C+[n,0]
 
+These 4 points (A,B,C,D) have linear dependences.
 
 
 doubles.exe output
