@@ -1,5 +1,7 @@
 
-Minimalist example
+Adding points.
+Minimalist example.
+
 
 > ellpoints
 
