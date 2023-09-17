@@ -1,6 +1,9 @@
 
 (C)2023. Simon Aranda.
-finder.cpp
+
+Point finding. Left or Right points.
+====================================
+
 
 Notes about big(n,p)
 
