@@ -1,4 +1,6 @@
 
+Is n congruent?
+===============
 
 
 Elliptic Curve C[n]:[-n^2,0].
