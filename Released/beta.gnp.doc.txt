@@ -1,5 +1,9 @@
 
 
+The power of the GNP form.
+==========================
+
+
 GNP FORM:    g^2 = n^2 - p^4.
 
 The relevant new point is that in any GNP solution, the factors (n+p.2), (n-p.2) have identical core(-) value. This is true only in the final solution, never during the search for it.
