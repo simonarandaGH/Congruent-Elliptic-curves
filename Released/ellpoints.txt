@@ -1,0 +1,33 @@
+
+Minimalist example
+
+> ellpoints
+
+n= 6
+P(-3,9)
+P(-2,8)
+P(12,36)
+P(18,72)
+P(294,5040)
+
+Torsion group:
+P(-6,0)
+P(0,0)
+P(6,0)
+
+Generators: 1, Dependent: 4
+Generator: P(-3,9)
+Dependent: P(-2,8)
+Dependent: P(12,36)
+Dependent: P(18,72)
+Dependent: P(294,5040)
+
+Drop linear dep.
+drop P(18,72)
+drop P(12,36)
+drop P(-2,8)
+drop P(294,5040)
+
+PSET:
+P(-3,9)
+-------
