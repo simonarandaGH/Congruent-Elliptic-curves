@@ -1,3 +1,8 @@
+
+The form PQRS
+(C)2023. Simon Aranda
+
+
 The form PQRS consists of those integers expressible as:
     n= p*q = r*s, with s= p+q+r. With all integer variables.
     Symbolised as pqrs(p, q, r, s).
