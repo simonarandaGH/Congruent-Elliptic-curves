@@ -1,11 +1,19 @@
 
-Every congruent number m satisfies the equation:
-[y^2] = [ (m*(c^2)) ^2] - [x^4]
-All variables being positive integers.
+Hard Points.
+Isogeny GNP.
+(C)2023. Simon Aranda
 
-The elliptic curve C[n], n= m*(c^2): point P(-x^2 ,y).
+Solution of numbers like "157" and hardest.
 
-Solved examples
+Every (primitive) congruent number "m" satisfies the equation:
+g^2 = n^2 - p^4.  All variables being positive integers.
+
+With n= m*(c^2), P(-p^2 ,pg). For the double see doc.
+gnp(g, n, p)  :: P( -p^2, pg) = P(-x,y)
+The solved m becomes n= m*(c^2)
+p^2 = x, pg= y. Then p= +sqrt(x), g= y/sqrt(x).
+GNP( y/sqrt(x), n, +sqrt(x) ) :: P(-x,y).
+
 
 Solved: 5 (n= 5, x= -4, y= 6)
 Solved: 6 (n= 150, x= -144, y= 504)
