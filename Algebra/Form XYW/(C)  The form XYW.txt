@@ -1,4 +1,7 @@
-The form XYW.
+
+The form XYW
+(C)2023. Simon Aranda
+
 
 The form XYW consists of the integers n expressible 
 in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
