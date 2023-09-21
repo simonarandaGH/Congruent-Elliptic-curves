@@ -1,4 +1,6 @@
 
+The form GNP
+(C)2023. Simon Aranda
 
 GNP(g,n,p):  g^2 = n^2 -p^4
 
