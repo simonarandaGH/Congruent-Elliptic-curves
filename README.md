@@ -1,4 +1,5 @@
 Congruent Elliptic Curves. Short form [-n^2, 0].
+
 (C)2023. Simon Aranda.
 
 
