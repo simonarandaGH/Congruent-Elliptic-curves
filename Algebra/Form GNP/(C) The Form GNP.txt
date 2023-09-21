@@ -1,4 +1,5 @@
 
+
 GNP(g,n,p):  g^2 = n^2 -p^4
 
 GNP are the integers whose square is of the form "x^2 + y^4" with x,y>0, seq. OEIS A271576. The GNP numbers are a subset of the congruent numbers.
