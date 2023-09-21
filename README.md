@@ -1,5 +1,6 @@
-Congruent Elliptic Curves.
-Weierstrass short form [-n^2, 0].
+Congruent Elliptic Curves. Short form [-n^2, 0].
+(C)2023. Simon Aranda.
+
 
 From the Tunnell criterion arises the function r(n). The distribution over n mod 8 is shown. And the conjecture is defended that:
 
