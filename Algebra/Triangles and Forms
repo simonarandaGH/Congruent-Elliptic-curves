@@ -18,13 +18,13 @@ The 180 is a PQRS number:
 And therefore its triangle is: (p+r,q+r,p+q) = (9, 40, 41).
 Which has area 180.
 
-We have used squares to get shapes and from these triangles. The reverse path will give the triangle for 5:
-(9,40,41) -> (9/6, 40/6, 41/6).
-(3, 40/3, 41/s) -> (3/2, 40/6, 41/6).
-Which simplifying is: (3/2, 20/3, 41/6).
-The same in both cases.
+We have used squares to get forms and from these triangles. 
+The reverse path will give the triangle for 5:
+- (9,40,41) -> (9/6, 40/6, 41/6).
+- (3, 40/3, 41/3) -> (3/2, 40/6, 41/6). The same in both cases.
 
-Is the solution pqrs (p+r,q+r,p+q) always a Pythagorean triangle? That is: (p+r)^2 + (q+r)^2 = (p+q)^2.
+Is the solution pqrs (p+r,q+r,p+q) always a Pythagorean triangle? 
+That is: (p+r)^2 + (q+r)^2 = (p+q)^2.
 Demonstration. It follows that:
 (p+r)^2 = ps-qr; see basic properties of the form pqrs.
 (q+r)^2 = qs-pr; id.
@@ -40,17 +40,11 @@ xyw(36*4, 5+4, 5*45 ) = xyw(144, 9, 225).
 
 Summary
 Leaving aside the issue of squares and always talking about right-angled triangles.
-
-If n has a shape xyw, n has a triangle of area n with rational sides.
-If n has a shape xyw it has also a shape pqrs.
-If n has a shape pqrs it also has two shapes xyw.
-Even if both forms are realised in integers,
-only the form pqrs guarantees integer sides.
-
+If n has a form xyw, n has a triangle of area n with rational sides.
+If n has a form it has also a form pqrs.
+If n has a form pqrs it also has two froms xyw.
+Even if both forms are realised in integers, only the form pqrs guarantees integer sides.
 There is therefore an equivalence between knowing a triangle 
 of area n, a form xyw of n and a form pqrs of n.
-The set of numbers n satisfying this condition 
-is called congruent numbers.
+The set of numbers n satisfying this condition is called congruent numbers.
 The free subset of squares is called primitive congruent integers.
-Just look it up in Wikipedia.
-
