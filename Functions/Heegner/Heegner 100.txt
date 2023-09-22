@@ -7,10 +7,10 @@ A Heegner point is a image of a quadratic imaginary point of the upper half-plan
 Keys: Only C[n] rank 1, P(x,y),  a: the square, y: xyw(-, y, -)
 
 
- n  x  y a y
- 5 25 75 2 3
- 6 12 36 1 3
- 
+  n  x    y a xyw(-y-)
+======================
+  5 25   75 2 3
+  6 12   36 1 3
   7 -63 735 4 -35/3
  13 4225 272935 6 323/5
  14 -98 784 3 -8
@@ -56,5 +56,4 @@ Keys: Only C[n] rank 1, P(x,y),  a: the square, y: xyw(-, y, -)
  94 -1276802 580419168 121 -7728/17
  95 -1444 1041846 17 -1443/2
  96 192 2304 1 12
-==========================================================
 
