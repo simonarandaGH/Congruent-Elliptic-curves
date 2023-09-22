@@ -15,6 +15,10 @@ p^2 = x, pg= y. Then p= +sqrt(x), g= y/sqrt(x).
 GNP( y/sqrt(x), n, +sqrt(x) ) :: P(-x,y).
 
 
+* this file is under revision *
+
+
+
 Solved: 5 (n= 5, x= -4, y= 6)
 Solved: 6 (n= 150, x= -144, y= 504)
 Solved: 7 (n= 175, x= -49, y= 1176)
