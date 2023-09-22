@@ -2,23 +2,19 @@
 The form GNP
 (C)2023. Simon Aranda
 
-GNP(g,n,p):  g^2 = n^2 -p^4
+GNP(g,n,p):  g^2 = n^2 -p^4.    Variables Q.
 
-GNP are the integers whose square is of the form "x^2 + y^4" with x,y>0, seq. OEIS A271576. The GNP numbers are a subset of the congruent numbers.
+GNP includes the integers whose square is of the form "x^2 + y^4" with x,y>0, seq. OEIS A271576. The GNP numbers are a subset of the congruent numbers.
 
 GNP(g,n,p) ->
 1 - the form XYW(p^2, g/p, (n/p)^2)
 2 - Double(P, Q): P(-p^2, pg), Q( (n^2)/(p^2), ((n^2)*g)/p^3)
-
-The xcoord of P makes a restriction for GNP numbers.
-Any GNP number must have some point (-p^2,-).
+       The x-coord of left P puts a restriction for GNP numbers.
+       Any GNP number must have some point (-p^2,-).
 
 3 - Triangle( g/p, 2np/g, (g^2+2p^4)/pg )
 4 - (n + p.2), (n - p.2) have identical core(-) value. 
 
-GNP numbers "m" satisfies the equation:
-[g^2] = [ (m*(c^2)) ^2] - [p^4],  all Q.
-These GNP numbers have two numbers on both sides, separated by a square, such that its core() is identical. 
 
 Examples
        n
@@ -37,6 +33,7 @@ Examples
   101160  gp(83160, 240) T(693/2, 44960/77, 104561/154)
 
 
+Examples
 Notes data format: (core,maxsquare), x.2 = x^2
 
 g(3,1).2 =n(5,1).2 - p(2).4 = (1,3)*(1,1)
