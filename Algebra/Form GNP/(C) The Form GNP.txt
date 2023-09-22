@@ -10,17 +10,20 @@ GNP(g,n,p) ->
 1 - the form XYW(p^2, g/p, (n/p)^2)
 2 - Double(P, Q): P(-p^2, pg), Q( (n^2)/(p^2), ((n^2)*g)/p^3)
 
+The xcoord of P makes a restriction for GNP numbers.
+Any GNP number must have some point (-p^2,-).
+
 3 - Triangle( g/p, 2np/g, (g^2+2p^4)/pg )
 4 - (n + p.2), (n - p.2) have identical core(-) value. 
 
-Every congruent number m satisfies the equation:
-[g^2] = [ (m*(c^2)) ^2] - [p^4],  all positive integers.
-The every NC has two numbers on both sides, separated by a square, such that its core() is identical. 
+GNP numbers "m" satisfies the equation:
+[g^2] = [ (m*(c^2)) ^2] - [p^4],  all Q.
+These GNP numbers have two numbers on both sides, separated by a square, such that its core() is identical. 
 
 Examples
        n
  -------
-       5  gp(3, 2) T(3/2, 20/3, 41/6)
+       5  gp(3, 2)  T(3/2, 20/3, 41/6)
       15  gp(12, 3) T(4, 15/2, 17/2)
       20  gp(12, 4) T(3, 40/3, 41/3)
       34  gp(30, 4) T(15/2, 136/15, 353/30)
