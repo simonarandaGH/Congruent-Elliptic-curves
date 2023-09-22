@@ -1,10 +1,5 @@
 
-
-The GNP Core programme and the examples obtained try to explain a property of NCs. Every NC has two numbers on both sides, separated by a square, such that its core() is identical.
-
-A small part of the NCs directly satisfy this property. Most require to be multiplied by some square. This leads to duality with rational numbers.
-From such a set of values the GNP form is obtained. And from this the necessary geometric objects. 
-Consult for it the documentation of the repo.
+The "GNP Core" programme and the examples obtained try to explain a property of GNP. Every GNP has two numbers on both sides, separated by a square, such that its core() is identical. A small part of the GNP directly satisfy this property. Others require to be multiplied by some square. 
 
 
 >gnpcore
