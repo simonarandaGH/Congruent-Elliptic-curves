@@ -1,6 +1,9 @@
-Tunnell's test for integer candidates for congruent numbers. 
 
-It is based on two well-known functions a(n), b(n). 
+The "r" function
+(C)2023. Simon Aranda
+
+The Tunnell's test for integer candidates for congruent numbers,
+it is based on two well-known functions a(n), b(n). 
 Where if n is a congruent number then/when: a(n)= 2*b(n).
 My function r(n) is defined as:
   If (a==b==0)      then r(n)=1.
