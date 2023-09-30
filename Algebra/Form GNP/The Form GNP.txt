@@ -4,14 +4,14 @@ The form GNP
 
 GNP(g,n,p):  g^2 = n^2 -p^4.    Variables Q.
 
-GNP includes the integers whose square is of the form "x^2 + y^4" with x,y>0, seq. OEIS A271576. The GNP numbers are a subset of the congruent numbers.
+GNP includes the integers whose square is of the form "x^2 + y^4" with x,y>0.
+The GNP numbers are a subset of the congruent numbers.
 
 GNP(g,n,p) ->
 1 - the form XYW(p^2, g/p, (n/p)^2)
 2 - Double(P, Q): P(-p^2, pg), Q( (n^2)/(p^2), ((n^2)*g)/p^3)
        The x-coord of left P puts a restriction for GNP numbers.
        Any GNP number must have some point (-p^2,-).
-
 3 - Triangle( g/p, 2np/g, (g^2+2p^4)/pg )
 4 - (n + p.2), (n - p.2) have identical core(-) value. 
 
