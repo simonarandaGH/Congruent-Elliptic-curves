@@ -1,5 +1,10 @@
 
-gnp vs xyw. Read the C++ code.
+Form gnp vs xyw. 
+(C)2023.Simon Aranda
+
+Which of the two forms is reached first?
+Here n= m*(amplif^2).
+Please, read the C++ code.
 
 >bench
 
