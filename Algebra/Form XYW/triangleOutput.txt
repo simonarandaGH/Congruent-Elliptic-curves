@@ -1,3 +1,7 @@
+
+Basic eqn. xyw(x,y,w) <-> TR(y, 2n/y, (x+w)/y ).
+
+
 p=         5  xyw(2,4,18)  TR(4,*, 5)
 duo:       5  xyw(3,3,12)  TR(3,*, 5)
 n= 6 #triangles= 1
