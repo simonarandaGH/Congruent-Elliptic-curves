@@ -13,8 +13,8 @@
 
 // types
 using namespace boost::multiprecision;
-typedef cpp_int       SZ; // field Z
-typedef cpp_rational  SQ; // field Q
+typedef cpp_int       SZ;
+typedef cpp_rational  SQ;
 using namespace std;
 typedef std::pair<SQ, SQ> POINT;
 
