@@ -1,5 +1,4 @@
 
-
 The surfaces
 (C)2023. Simon Aranda
 
@@ -8,12 +7,12 @@ Surface 1 (S1)
 The equation is:  z^2 = x*(x+y^2),
 is the form xyw:  n^2 = x*(x+y^2) = x*w
 So every form xyw(x,y,w) gives the point S1(x,y,n). 
-More:
-1 - The number of points P(x,y,n) for ANY "y" is always finite.
-2 - No point for y=1, y=2.
-3 - If "y" is odd prime, 2 points: n= (p^3-p)/4, n=(p^4-1)/4.
+
+- The number of points P(x,y,n) for ANY "y" is always finite.
+- No point for y=1, y=2.
+- If "y" is odd prime, 2 points: n= (p^3-p)/4, n=(p^4-1)/4.
     x values are also knows.
-4 - If "y" is 2*(odd prime), 2 points. 
+- If "y" is 2*(odd prime), 2 points. 
 
 Surface 2  (S2)
 The equation is: z^2 = x^2 - (y^2/x).
