@@ -1,34 +1,27 @@
 
 (C)2023. Simon Aranda.
-PointFinder.cpp
-
-Notes on big(n,p)
-C[n]: P(a/z.2, c/z.3)
-(a.3 - b.2) = big(n,P) = a*(n.2)*(z.4) = a(n*(z.2)).2
-Abbrev. x.2=x^2, x.3=x^3.
-
-In detail:
-I   - big(n,P) = (the value a)*(some first square).
-II  - Some first square = (the value n)*(some second square)
-III - Some second square= (the value z)^2.
-
-Q:
-1 - Big(n,P) is unique for any pair (n,P).
-2 - What numbers are big(n,P) for some n, P ?
-    Caveat: big(n, P) must also be equal to the left def.
-3 - big(n,P) is an enumerative sequence of all points of 
-    all elliptic curves C[n].
-4 - big(n,P)=anz(a, n, z). ANZ are coordinates.
-5 - That big(n,P) are multiple/divisor of another(s) big(n,P)?
-
-11 - the first point (x from left to right) is always a generator point. 
 
 The direct search for integral points on the left side of the plane obtains more points than any other method. By qualifying any number "n * (c^2)" as an amplification of an integer 'n', the various algebraic forms obtain solutions for each CN. This is the well-known problem of finding the square for every integer. Even in the direct search for integral points of an amplified number it is the most efficient method. 
+
 The following comment is limited to integers no larger than 30; even with that limit, the differences are obvious:
-The direct search finds 7 solutions. GNP 3. PQRS 3. XYW 6.
+
+    Direct search finds 7 solutions. GNP 3. PQRS 3. XYW 6.
+
 Naturally, the algebraic forms are formalisable and the direct search will not be.  It does not produce a prior algebraic object, it is an algorithmic result. Evaluable only in terms of complexity and performance.
 
->pointfinder ************************************************
+
+The BIG(n,P) function
+Let any C[n] and any point P(a/z^2, b/z^3)
+Def. 
+      big(n,P)= (a^3-b^2) = a*(n^2)*(z^4) = a*[n*(z^2)]^2
+Def. 
+      anz(a, n, z) = big(n,P). ANZ are coordinates.
+
+BIG(n,P) is unique for any pair (n,P).
+Is an enumerative sequence of ALL points of ALL elliptic curves C[n].
+
+
+program pointfinder output:
 
 Left points:
       5 L P(            -4,              6)
@@ -531,7 +524,5 @@ Right points:
         big(n,p)=     43352064= anz(4704,96,1)
  ->  96 l P(        -96/49,     -46080/343)
         big(n,p)=  -2124251136= anz(-96,96,7)
-
--------
 
 
