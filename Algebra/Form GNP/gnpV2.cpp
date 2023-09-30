@@ -14,15 +14,13 @@ using namespace std;
 typedef int_fast64_t I64;
 typedef __int128_t I128;
 typedef long double REAL16;
+
+
 #define MXAQ 1000000
 array<I64,MXAQ> Q;
 
-/////////////////
-
-
-/////////////////////////////////
-/////// the function pkg
-/////////////////////////////////
+/////// the function r pkg
+//////////////////////////
 I64 mxq(I64 p) {
 REAL16 a= p;a= sqrt(a);
 I64 k= ceil(a);
@@ -46,7 +44,7 @@ a= sqrt(a);
 I64 r= (I64)a;r++;
 return r;
 }
-// The function
+// The function r
 int rfun(I64 p) {
 I64 n= core(p);
 I64 nt= n;
@@ -107,7 +105,6 @@ else v= p*p;
 return v;
 }
 
-
 I64 root(I64 p) {
 assert(p>0);
 REAL16 a= p;a= sqrt(a);
@@ -150,7 +147,6 @@ for(I64 m= 5;m<100;m++)
     if(n>MAXI32)imode=128;
     for(I64 p=1;;p++)  // era =1
       {
-      // (a,p) coprimes
       if(a>1 && p>1) {
         if(p%a==0)continue;
         }
