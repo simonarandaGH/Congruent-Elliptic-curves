@@ -1,9 +1,9 @@
 
-
-Notes first point 
+Notes first point.  Forms GNP , XYW.
 (C)2023. Simon Aranda
+
 For all n prime<100
-===================
+
 
 5 (n= 5, x= -4, y= 6)
 5     1    gnp:            3           5           2
