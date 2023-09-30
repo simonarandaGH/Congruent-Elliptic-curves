@@ -1,5 +1,4 @@
 
-
 // (C)2023.Simon Aranda
 
 #pragma pack(16)
@@ -47,4 +46,5 @@ for(SZ n= 1;n< 10000;n++) {
 
 return 0;
 }
+
 
