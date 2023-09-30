@@ -1,6 +1,8 @@
 
+
 Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
-From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: TQ(y, 2n/y, hypotenuse). Also n*(D^2) will be in the form PQRS.
+From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: TQ(y, 2n/y, (x+w)/y ). 
+Also n*(D^2) will be in the form PQRS.
 
 
 n= 6  1-xyw(x=2, y= 4, w= 18) TQ:(4, 3, 5) P(-2, 8) 
