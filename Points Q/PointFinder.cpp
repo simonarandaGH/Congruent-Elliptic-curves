@@ -1,6 +1,6 @@
 
-
 //(C)2023.Author: Simon Aranda 
+
 
 #include <cstdlib>
 #include <cstring>
@@ -116,12 +116,12 @@ const SQ q0 (Cero,One);
 const SZ n2= n*n;
 int lpc=0;
 SZ xpmax= 0;
-for(SZ a= (n-1);a>0;a--) // never -n,0,+n
+for(SZ a= (n-1);a>0;a--)
   {
   SZ x= -a;
   SZ y= YfromNX(n,x);if(y==0)continue;
   lpc++;if(lpc==1)cout<<"Left points: "<<endl;
-  SZ tt= n2*a;  // aprox
+  SZ tt= n2*a;
   if(tt >xpmax)xpmax= tt;
   ZprintCheckNKXY(n,'L',x,y);
   LEFTtoRIGHT(n,a,y);
