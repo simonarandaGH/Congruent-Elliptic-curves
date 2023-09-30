@@ -1,13 +1,12 @@
 
-///////////////////////////////////////////////////////////
-// (C) 2023, Author: Simon Aranda. 
+
+// (C)2023. Simon Aranda. 
+
 // To compile (64bit Windows/mingw):
 // g++ -Wall -march=native -Ofast -o %1.exe %1.cpp
 //
 // No results are guaranteed. 
-///////////////////////////////////////////////////////////
 
-/////////////////////////////////////
 // Contents of code
 //
 // global types and static variables
@@ -33,8 +32,8 @@
 #include "boost/multiprecision/cpp_int.hpp"
 //
 using namespace boost::multiprecision;
-typedef cpp_int       SZ; // field Z
-typedef cpp_rational  SQ; // field Q
+typedef cpp_int       SZ;
+typedef cpp_rational  SQ;
 
 using namespace std;
 typedef std::pair<SZ, SZ> SZpair;
@@ -49,6 +48,7 @@ std::set<SQ> XSET; // set wo repeated values.
 // default parameters
 #define PMAXHH 1000000l   // max point height
 #define maxnumdvsrs 8192  // max number of divisors
+
 static std::array<SZ,maxnumdvsrs> pleft; // pqrs
 static std::array<SZ,maxnumdvsrs> prigh; 
 static std::array<SZ,maxnumdvsrs> psum; 
@@ -111,7 +111,6 @@ return true;
 
 ////////////////////////////////////////////////
 // PQRS 
-////////////////////////////////////////////////
 // pqrs -> Curve Points.
 void POINTSfromPQRS(const SZ n,const SZ D
 ,SZ p,SZ q,SZ r,SZ s) { 
@@ -135,6 +134,7 @@ for(unsigned ite=0;ite< 4;ite++)
   savePOINT(n, xy);
   }
 }
+
 // return: number of pqrs forms.
 int tryPQRSform(SZ pn, SZ pD)
 {
@@ -173,9 +173,7 @@ return qq;
 }
 
 //////////////////////////////////////////////////
-//////////////////////////////////////////////////
 // The XYW form -> D value
-//////////////////////////////////////////////////
 // xyw -> D
 SZ DfromXYW(SZ n,SZ XYWy) {
 const SZ One= 1;
@@ -212,13 +210,11 @@ return minD;
 
 ////////////////////////////////////////////////////
 // The Tunnell Criteria.
-////////////////////////////////////////////////////
-// Record points.
-//  210987654321  LENGTH
+// Record points
 //      48272239
 //    6611719866
 //  797507543735
-////////////////
+
 std::array<SZ , 8> VNUM
 = { 5, 34, 1254, 29274,48272239ll,6611719866ll
 , 797507543735ll, 0};
@@ -243,6 +239,7 @@ double a= (double)vv;a= a/(double)comin;a= std::sqrt(a);
 SZ r= (SZ)a;r+=3;
 return r;
 }
+
 // Thm. Tunnell criteria and more.
 // return the r() function.
 int TTtest(const SZ p) {
@@ -303,7 +300,6 @@ assert(rn>=0);return rn;
 
 ////////////////////////////////////
 // Integral points. Lattice points.
-////////////////////////////////////
 void naivesearch(const SZ n) {
 assert(n>0);
 const SZ nn= 2*n;
@@ -320,8 +316,8 @@ for(SZ x= (-n+1);x< nn;x++) // never x=+-n nor 0.
     }
   }
 }
+
 //////////////////////////////////////
-////
 QPOINT find2P(const SZ n, const QPOINT xy) {
 SQ RX=xy.first;SQ RY=xy.second; // R= P;
 //
@@ -335,13 +331,9 @@ QPOINT p2P= make_pair(RX, RY);
 return p2P;
 }
 
-// code x not eq.
-// else   {    // R= R+P  SQ m= (PY-RY)/(PX-RX);
-// SQ RXN= m*m -RX-PX;SQ RYN= PY+m*(RXN-PX); ;
-// RX= RXN;RY= -RYN;  }
 ///////////////////////////////////////////////
 // get rank function
-////////////////
+
 void globalclear(void) {
 POINTSET.clear();
 }  
@@ -350,11 +342,8 @@ cout<<"Use:  xrank <n> "<<endl;
 cout<<"(exclusively for recreational use)"<<endl; 
 }
 
-
-
 ///////////////////////////////////////////////////////
 // get rank
-///////////////////////////////////////////////////////
 // torsion points x:(-n,0,+n) Order=2, 2P=0. 
 // T1 T2 T3, g,-g,g+Ti,-g+Ti.
 ///////////////////////////////////////////////////////
@@ -421,13 +410,6 @@ SZ lp= (SZ) stoll(argv[1]);if(lp<1)return 0;
 return lp;
 }
 
-void seqxyw(void) 
-{
-for(SZ n=1;n< 501;n++) {
-  tryXYWform(n);
-  }
-}
-
 int main(int argc,char* argv[])
 {
 const SZ pp= getlineparam(argc,argv);
@@ -442,6 +424,4 @@ return 0;
 ///////////////////////////////////////////////////////////
 // No results are guaranteed. 
 // Exclusively for recreational use. 
-// Never for research or educational use. 
-// Never for industrial, medical or commercial use.
 ///////////////////////////////////////////////////////////
