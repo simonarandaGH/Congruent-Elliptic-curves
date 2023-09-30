@@ -1,5 +1,7 @@
 
 
+// Example of the use of a quick form prior to 
+// the possible call for a more robust form.
 // (C)2023.Simon Aranda
 
 #pragma pack(16)
@@ -12,7 +14,8 @@
 #include "boost/multiprecision/cpp_int.hpp"
 //
 using namespace boost::multiprecision;
-typedef number<cpp_int_backend<256, 256, signed_magnitude, unchecked, void> >    SZ;
+typedef 
+number<cpp_int_backend<256,256,signed_magnitude,unchecked,void>> SZ;
 using namespace std;
 
 //
@@ -55,9 +58,7 @@ for(SZ y= 1;y<n;y++)
 return solved;
 }
 
-
-int main(void)
-{
+int main(void) {
 for(SZ n= 5;n< 5000;n++) 
   {
   bool b= test4N2Y4(n);
@@ -66,4 +67,5 @@ for(SZ n= 5;n< 5000;n++)
 
 return 0;
 }
+
 
