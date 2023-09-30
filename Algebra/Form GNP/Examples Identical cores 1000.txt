@@ -1,8 +1,7 @@
 
-The "GNP Core" programme and the examples obtained try to explain a property of GNP. Every GNP has two numbers on both sides, separated by a square, such that its core() is identical. A small part of the GNP directly satisfy this property. Others require to be multiplied by some square. 
 
+The examples try to explain a property of GNP. Every GNP has two numbers on both sides, separated by a square, such that its core() is identical. A small part of the GNP directly satisfy this property. Others require to be multiplied by some square. 
 
->gnpcore
 
 n, p.2    : 5,  4
 r, s, core: 1, 9,  1
