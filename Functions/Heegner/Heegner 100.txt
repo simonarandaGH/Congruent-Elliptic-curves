@@ -1,11 +1,6 @@
 
-L-function
-
-A Heegner point is a image of a quadratic imaginary point of the upper half-plane. The Gross–Zagier Theorem describes the height in terms of a derivative of the "L-function" at the point s=1. As generator point of infinite order, can generate large rational points and the heights of these points were the coefficients of a modular form of weight 3/2. (Wikipedia)
-
-
+Example
 Keys: Only C[n] rank 1, P(x,y),  a: the square, y: xyw(-, y, -)
-
 
   n  x    y a xyw(-y-)
 ======================
