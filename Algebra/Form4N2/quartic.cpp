@@ -1,5 +1,6 @@
 
 
+// Example of parallel use of two forms with similar requirements.
 // (C)2023.Simon Aranda
 
 
