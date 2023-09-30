@@ -1,40 +1,51 @@
-Isomorphism, duality
 
-"Every point with negative x corresponds to a point with positive x. And these two points are linked to a single form XYW."
+Isomorphism and duality
+(C)2023.Simon Aranda
+
+
+Every point with negative x corresponds to a point with positive x. 
+And these two points are linked to a single form XYW.
 There are as many rational points in the ellipse on the left 
 as in the whole curve on the right. 
 
-Trivial points C[n]
-Form XYW(n,0,n), double: ( (-n,0), (+n,0) )
+
+Trivial/Torsion points C[n]: xyw(-,0,-)
+    form XYW(n,0,n), double: ( (-n,0), (+n,0) )
 
 XYW example n=6
+
 x       [y]     w       P(-x,xy)        P(+w,wy)
 x       [y]     w       P(-a,b)         P(+c, d)
+
 2         4     18      -2      8       18    72
 3         3     12      -3      9       12    36
 6/49  120/7     294    -6/49    720/343 294   5040
 144/25  7/10    25/4   -144/25  504/125 25/4  35/8
 ---------------------------------------------------------
-P(-x,xy)                <->   P(+w,wy)  ; from XYW(x,y,w)
+
+Form xyw() <-> Double(P, Q):
+      P(-x,xy) <-> xyw(x, y, w) <-> Q(+w, wy), n^2= x*w.
+
+Generalized duality:
 P(-a,b)                 <->   P(n^2/a, (n^2/a)*(b/a))
 P(-n^2/c, (n^2/c)*d/c)  <->   P(+c,d)
-Form xyw() <-> Double(P, Q)
-P(-x,xy) <-> xyw(x, y, w) <-> Q(+w, wy), n^2= x*w
+
 ---------------------------------------------------------
 
 xyw() <-> Double(P, Q)
+
 Let (P, Q) be a pair of points with the same form XYW. 
 1 - Then it is satisfied that: 2P = 2Q. 
 2 - Let points C= P+Q, D=2P. Then (C, D) is another double of points with some common new form XYW. A couple of graphs are attached.
 
-PQRS
+
 The form PQRS consists of those integers expressible as:
     n= p*q = r*s, with s= p+q+r. (all integer)
-Each form PQRS gives 2 forms XYW then 2 doubles:
+Each form PQRS gives 2 forms XYW then 2 doubles:  
+  xyw(qr,p+r,ps)->Double:(-q*r,q*r*(p+r)),(+p*s,p*s*(p+r))
+  xyw(pr,q+r,qs)->Double:(-p*r,p*r*(q+r)),(+q*s,q*s*(q+r))
     
-xyw(qr,p+r,ps)->Double:(-q*r,q*r*(p+r)),(+p*s,p*s*(p+r))
-xyw(pr,q+r,qs)->Double:(-p*r,p*r*(q+r)),(+q*s,q*s*(q+r))
-    
+Example n=6
 PQRS(6)         2 * 3 = 1 * 6
                 p   q   r   s
                 2   3   1   6
@@ -44,24 +55,31 @@ PQRS(6)         2 * 3 = 1 * 6
 ->              2   4   18  C=( -2, 2*4) D=( 18, 18*4)
 
 PQRS point addition and new double.
-A+B= C+D= [-144/25, 504/125] = new point E
-2A=2B=2C=2D= [25/4, 35/8] = new point F
-Double(E, F) common xyw( 144/25, 7/10, 25/4)
 
-(mA, mB, mC, mD) m odd all distinct, m even all equals.
-A+C=B+D = [+n,0];  A+D=B+C = [-n,0]
-Double(A,B): A= B+[0,0], B= A+[0,0]; id double(C,D)
+  A+B  = C+D          = [-144/25, 504/125] = new point E
+  2A = 2B = 2C= 2D    = [25/4, 35/8]       = new point F
+  Double(E, F): common xyw( 144/25, 7/10, 25/4)
+
+(mA, mB, mC, mD): if m odd all distinct; if m even all equals.
+
+A+C = B+D = [+n,0]  
+A+D = B+C = [-n,0]
+
+Double(A,B): 
+  A= B+[0,0] 
+  B= A+[0,0] 
+id double(C,D)
+
 -D= A+[-n,0] = B+[n,0]
 -C= B+[-n,0] = A+[n,0]
 -B= C+[-n,0] = D+[n,0]
 -A= D+[-n,0] = C+[n,0]
 
 These 4 points (A,B,C,D) have linear dependences.
-So every point has its dual and the same form XYW. From which a new form XYW with two new dual points emerges. This allows to obtain infinite points.
-The critical issue is then to find the first non-trivial point. To achieve this, among the algebraic methods, perhaps the most efficient is the GNP form.
-
-
-doubles.exe output
+So every point has its dual and the same form XYW. 
+From which a new form XYW with two new dual points emerges. 
+This allows to obtain infinite points.
+Program output:
 
 ------------ rank(6)=1
 n=    6  XYW: 3__3__12 L: -3,9 R: 12,36
@@ -150,4 +168,3 @@ n=  210  NEW: 176400/1369_[1081/74]_1369/4
 n=  210  XYW: 14__56__3150 L: -14,784 R: 3150,176400
 n=  210  NEW: 705600/12769_[12319/452]_12769/16
 
--------
