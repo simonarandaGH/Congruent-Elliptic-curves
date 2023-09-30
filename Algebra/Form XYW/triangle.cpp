@@ -1,5 +1,7 @@
 
-
+// Starting from a right triangle with some rational sides, 
+// goto a right triangle with all integer sides.
+// Adding the gcd() function would be perfect.
 // (C)2023.Simon Aranda
 
 
