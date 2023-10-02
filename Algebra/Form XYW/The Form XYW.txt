@@ -4,27 +4,22 @@ The form XYW
 
 The form XYW consists of the integers n expressible 
 in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
-Symbolised by: ( x...[y]..w ), xyw(x,y,w).
+Symbolised by: (x..[y]..w), xyw(x,y,w).
 
 From a form xyw(x,y,w) various geometric points are obtained.
-- In the Curve C[n]: P(-x, x*y), P( +w, w*y).
+- In the Curve C[n], the double P(-x,x*y), P(+w, w*y).
 - On the "Surface 1": P(x, y, n).
-  Example xyw(3,12,147) -> P= (3,12,21).
+- a right triangle with rational sides and area equal to n: 
+      = TRQ(y, 2n/y, (x+w)/2 ). 
 
-Proof "P(w,wy) is a point of C[n]"
-It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
-Manipulating algebraically:
-w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. 
-Any point in C[n] corresponds to a form XYW. Let it be integer or rational. 
-
-On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
+1 - Any point in C[n] corresponds to a form XYW. Let it be integer or rational. 
+2 - On the elliptic curve C[n] ([-n^2,0]) every point with (x-coord<0) 
 corresponds to a point with (x-coord>0), and vice versa:
               P(-a,b) <-> P( (n^2)/a, ((n^2)*b)/(a^2) ).
               P( c,d) <-> P( -(n^2)/c , ((n^2)*d)/(c^2).
+3 - These "2points" form a "double" and are related by the group law (the concrete equations of these "2points" are given in the appropriate folder).
 
-And the same form XYW corresponds to this pair of points. 
-Form XYW (x..[y]..w). And points: P(-x, x*y), P(w, w*y).
-
+Notes
 The equation:  (n^2)/x - x = y^2, gives a minimalist proof 
 of whether a number is congruent: 
 For n=5, (5^2)/4 - 4 = (3/2)^2. For n=41, (41^2)/9 - 9 = (40/3)^2.
@@ -39,6 +34,11 @@ n  x  y
 41 3 40
 -------
 
+Proof "P(w,wy) is a point of C[n]"
+It should be satisfied that: (wy)^2 = (w)^3 - n^2*w.
+Manipulating algebraically:
+w^2*y^2 = w^3 - n^2*w, y^2 = w - n^2/w = w - x. y^2 +x = w. Which is true. 
+
 
 The 4N2Y4 test
 ==============
@@ -52,9 +52,8 @@ Given a certain integer "n" the test consists in finding some value "k" that giv
 It is easy to see that it must be k<n. The range is limited and it is not necessary to search for divisors of n^2.
 
 
-From a form xyw(x,y,w) we obtain a right triangle with rational sides and area equal to n: (y, 2n/y, (x+w)/2 ). 
-
-Examples xyw -> TQ-> D
+Examples xyw -> TRQ-> D
+=======================
 Note: n*(D^2) will be in the form PQRS.
 
 n=23, D=3485; sepQ: 44182609...[41496]..1766100625
@@ -70,6 +69,7 @@ n=38, D=425; sepQ: 1586899..[5301]..29687500
 TQ( 5301/425, 1700/279, 1646021/118575 ).
 
 
+Benchmark
 Considering the integers n<100, each different form includes a certain number of integers. Congrua: 2, PQRS form: 7, XYW-Z form: 17, XYW-Q form: 22.
 
 Form xyw vs Form pqrs
