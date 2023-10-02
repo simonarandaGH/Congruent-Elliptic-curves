@@ -2,83 +2,83 @@
 Isomorphism and duality
 (C)2023.Simon Aranda
 
-
-Every point with negative x corresponds to a point with positive x. 
-And these two points are linked to a single form XYW.
-There are as many rational points in the ellipse on the left 
-as in the whole curve on the right. 
-
-
-Trivial/Torsion points C[n]: xyw(-,0,-)
-    form XYW(n,0,n), double: ( (-n,0), (+n,0) )
-
-XYW example n=6
-
-x       [y]     w       P(-x,xy)        P(+w,wy)
-x       [y]     w       P(-a,b)         P(+c, d)
-
-2         4     18      -2      8       18    72
-3         3     12      -3      9       12    36
-6/49  120/7     294    -6/49    720/343 294   5040
-144/25  7/10    25/4   -144/25  504/125 25/4  35/8
----------------------------------------------------------
-
 Form xyw() <-> Double(P, Q):
       P(-x,xy) <-> xyw(x, y, w) <-> Q(+w, wy), n^2= x*w.
 
+Every point with negative x-coord corresponds to a point with positive x-coord. And these two points are linked to a single form XYW.
 Generalized duality:
 P(-a,b)                 <->   P(n^2/a, (n^2/a)*(b/a))
 P(-n^2/c, (n^2/c)*d/c)  <->   P(+c,d)
 
----------------------------------------------------------
+1 - There are as many rational points in the ellipse on the left 
+as in the whole curve on the right. 
 
-xyw() <-> Double(P, Q)
+Trivial/Torsion points C[n]: xyw(-,0,-)
+    form XYW(n,0,n), double: ( (-n,0), (+n,0) )
 
+
+The Equations:
+==============
+Here the equations relating the double "2points" of a form XYW are specified. And the equations for the "4points" of a PQRS form.
+A couple of graphs are also attached.
+
+"2points"
 Let (P, Q) be a pair of points with the same form XYW. 
-1 - Then it is satisfied that: 2P = 2Q. 
-2 - Let points C= P+Q, D=2P. Then (C, D) is another double of points with some common new form XYW. A couple of graphs are attached.
+1 - P= Q+[0,0]
+2 - 2P = 2Q. 
+3 - Let points C= P+Q, D=2P. Then (C, D) is another double of points with some common new form XYW. 
+
+XYW example with n=6
+x       [y]     w       P(-x,xy)        P(+w,wy)
+x       [y]     w       P(-a,b)         P(+c, d)
+2         4     18      -2      8       18    72
+3         3     12      -3      9       12    36
+6/49  120/7     294    -6/49    720/343 294   5040
+144/25  7/10    25/4   -144/25  504/125 25/4  35/8
+--------------------------------------------------
 
 
+"4points"
 The form PQRS consists of those integers expressible as:
     n= p*q = r*s, with s= p+q+r. (all integer)
 Each form PQRS gives 2 forms XYW then 2 doubles:  
   xyw(qr,p+r,ps)->Double:(-q*r,q*r*(p+r)),(+p*s,p*s*(p+r))
   xyw(pr,q+r,qs)->Double:(-p*r,p*r*(q+r)),(+q*s,q*s*(q+r))
     
-Example n=6
+Example with n=6
 PQRS(6)         2 * 3 = 1 * 6
                 p   q   r   s
-                2   3   1   6
-->
-                x   y   w
+-> 2 XYW        x   y   w
 ->              3   3   12  A=( -3, 3*3) B=( 12, 12*3)
 ->              2   4   18  C=( -2, 2*4) D=( 18, 18*4)
 
-PQRS point addition and new double.
-
+These "4points" (A,B,C,D) have linear dependences.
   A+B  = C+D          = [-144/25, 504/125] = new point E
   2A = 2B = 2C= 2D    = [25/4, 35/8]       = new point F
   Double(E, F): common xyw( 144/25, 7/10, 25/4)
+  (mA, mB, mC, mD): if m odd all distinct; if m even all equals.
+  A+C = B+D = [+n,0]  
+  A+D = B+C = [-n,0]
+Double(A,B):   A= B+[0,0],   B= A+[0,0]. id double(C,D)
+-D= A+[-n,0] = B+[n,0], -C= B+[-n,0] = A+[n,0]
+-B= C+[-n,0] = D+[n,0], -A= D+[-n,0] = C+[n,0]
 
-(mA, mB, mC, mD): if m odd all distinct; if m even all equals.
 
-A+C = B+D = [+n,0]  
-A+D = B+C = [-n,0]
-
-Double(A,B): 
-  A= B+[0,0] 
-  B= A+[0,0] 
-id double(C,D)
-
--D= A+[-n,0] = B+[n,0]
--C= B+[-n,0] = A+[n,0]
--B= C+[-n,0] = D+[n,0]
--A= D+[-n,0] = C+[n,0]
-
-These 4 points (A,B,C,D) have linear dependences.
-So every point has its dual and the same form XYW. 
-From which a new form XYW with two new dual points emerges. 
+A new form XYW
+==============
+So every point has its double have the same form XYW. 
+From which a new form XYW with two new double points emerges. 
 This allows to obtain infinite points.
+
+Let xyw(x,y,w), xyw(x',y',w').
+Let j= y^3 / (y^2+2x).
+Let k= (2x-y^2)/2y.
+Then:
+x' = abs( j^2-y^2).
+w' = k^2+2x.
+y' = +sqrt(w'-x').
+
+
 Program output:
 
 ------------ rank(6)=1
