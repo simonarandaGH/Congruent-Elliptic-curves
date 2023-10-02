@@ -8,18 +8,22 @@ The form PQRS consists of those integers expressible as:
     Symbolised as pqrs(p, q, r, s).
 
 Each form pqrs gives:
-- 2 forms XYW.
+- 2 forms XYW:    xyw( qr, p+r, ps), xyw( pr, q+r, qs).
+
 - 4 Points on the elliptic curve C[n].
     (-p*r, p*r*(q+r)), (-q*r, q*r*(p+r)),
     (+p*s, p*s*(p+r)), (+q*s, q*s*(q+r).
-- one integer-sided right triangle of area equal to n.
-    TZ: (p+r, q+r, p+q).
+    This set of four points are strongly linked by group law. 
+    (The "4points" equations are concretised in the appropriate folder).
+
+- Only one integer-sided right triangle of area equal to n.
+    TZ: (p+r, q+r, p+q). 
 - one triad of equidistant squares. [q-p, p+q, r+s]
 
 Basic properties: 
 n^2 = p*s * q*r. 
 ps= qr + (p+r)^2  ->  (p+r)^2 = ps - qr.
 qs= pr + (q+r)^2  ->  (q+r)^2 = qs - pr.
-Two forms xyw are derived from these three equations.
 q*(p-r)= r*(p+r) 
+
 
