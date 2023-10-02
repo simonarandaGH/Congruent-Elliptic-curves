@@ -1,4 +1,5 @@
 
+
 Rectangular triangles and forms XYW, PQRS.
 (C)2023. Simon Aranda
 
@@ -26,11 +27,10 @@ The reverse path will give the triangle for 5:
 
 Is the solution pqrs (p+r,q+r,p+q) always a Pythagorean triangle? 
 That is: (p+r)^2 + (q+r)^2 = (p+q)^2.
-Demonstration. It follows that:
+It follows that:
 (p+r)^2 = ps-qr; see basic properties of the form pqrs.
 (q+r)^2 = qs-pr; id.
-Where: s(p+q)-r(p+q) = (p+q)(s-r)= (p+q)(p+q+r-r).
-It is proved.
+Where: s(p+q)-r(p+q) = (p+q)(s-r)= (p+q)(p+q+r-r). It is proved.
 
 Every form PQRS always gives two forms XYW:
       xyw(pr, (q+r), qs) and (qr, (p+r), ps).
@@ -39,7 +39,9 @@ In the case n=180, from pqrs(5,36,4,45) we obtain:
       xyw(5*4, 36+4, 36*45 ) = xyw(20, 40, 1620).
       xyw(36*4, 5+4, 5*45 ) = xyw(144, 9, 225).
 
+
 Summary
+
 Leaving aside the issue of squares and always talking about right-angled triangles.
 If n has a form xyw, n has a triangle of area n with rational sides.
 If n has a form xyw it has also a form pqrs.
