@@ -53,9 +53,15 @@ CN distribution by class mod 8
 ---------------------------------------------------
 
 
-More output
+More output:
+b: base number
+n= core(b)
+r= r(b) = r(n)
+a,b: the counters.
+i: see the program C++.
 
 b  n  r    i  a b
+------------------
 1, 1, 0;  (1: 2/2) 
 2, 2, 0;  (1: 2/2) 
 3, 3, 0;  (3: 4/4) 
