@@ -34,6 +34,7 @@ Where: s(p+q)-r(p+q) = (p+q)(s-r)= (p+q)(p+q+r-r). It is proved.
 
 Every form PQRS always gives two forms XYW:
       xyw(pr, (q+r), qs) and (qr, (p+r), ps).
+There is a triangle for each PQRS form. There are also two XYW forms but they give the same triangle, exchanging two sides.
 
 In the case n=180, from pqrs(5,36,4,45) we obtain:
       xyw(5*4, 36+4, 36*45 ) = xyw(20, 40, 1620).
