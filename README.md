@@ -1,7 +1,5 @@
 Geometry of Congruent numbers.
 
-(C)2023. Simon Aranda.
-
 Congruent numbers, discriminant functions, graphs of functions, statistics. Right triangles, squares. 
 
 Congruent elliptic curves, rational points, generator points, points 12+ order, Heegner points, Dual points. Law group of the abelian variety. 
@@ -17,4 +15,6 @@ Heegner-type points are complex and limited.
 Determining the rank of a congruent curve is not easy.
 
 Multiple C++ programmes are included. Minimalist C++ programs, as building blocks for any specific project.
+
+(C) 2023. Simon Aranda.
 
