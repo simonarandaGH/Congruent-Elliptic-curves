@@ -44,7 +44,10 @@ The form PQRS consists of those integers expressible as:
 Each form PQRS gives 2 forms XYW then 2 doubles:  
   xyw(qr,p+r,ps)->Double:(-q*r,q*r*(p+r)),(+p*s,p*s*(p+r))
   xyw(pr,q+r,qs)->Double:(-p*r,p*r*(q+r)),(+q*s,q*s*(q+r))
-    
+
+  Note: (p+r)(q+r) = y1*y2 = 2n. (see right triangle)
+
+
 Example with n=6
 PQRS(6)         2 * 3 = 1 * 6
                 p   q   r   s
