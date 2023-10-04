@@ -1,0 +1,55 @@
+
+The points rules
+
+On any elliptic curve C[n] of positive rank there will be infinitely many rational points. And a certain finite set of integral points, perhaps null.
+In particular if n is a square-free integer it will also have this configuration. Suppose C[n] has certain rational points (x/q, y), with q some fixed square.
+If you multiply n by that square q, the curve C[nq] will have those points as integrals. The calculation is trivial.
+Which leads to determine that on any curve C[n] the number of rational points (x/q,y) with q less than a certain limit must be always finite.
+On the other hand, the integral points of C[n] appear on C[nq] multiplied by this square.
+
+
+Example. n=5. 
+
+Denominator x-coord always square.
+[1681/144, 62279/1728]
+[-3600/1681,455700/68921]
+[-4805/2401, 762600/117649]
+
+n= 5    P(-4,6)       P[-5/9,-]   P[25/4,-]   P(45,300)
+n= 20   P(-16,48)     Q           P(25,75)    P(180,2400)
+n= 45   P(-36,162)    P(-5,100)   Q           P(405,8100)
+n= 125  P(-100,750)   Q           Q           P(1125,37500)
+n= 180  P(-144,1296)  P(-20,800)  P(225,2025) P(1620,64800)
+n= 245  P(-196,2058)  Q           Q           P(2205,102900)
+n= 500  P(-400,6000)  Q           P(625,9375) P(4500,300000)
+------------------------------------------------------------
+
+In the table there are Q's, because points enter the field Z only if they are multiplied by the appropriate square. In general this leads to handling "primorial integers with some gaps".
+Let n be square-free. If C[n] has integral points, one of them, let M, will have the maximum value of coordinate x, let M.x . Being integral, this point will be integral in all C[nq]. The rest of possible integral points can come from:
+- other integral points of C[n], with smaller x.
+- Q points in C[n], but integral in C[nq].
+In both cases their x will be smaller than that of point M, which in C[nq] will be (M.x*q,-).
+Thus the end of the interval of integral points remains always known. And this allows you to narrow down the search.
+
+Some examples
+
+n     M.x
+--    -------
+5     45
+20    180
+45    405
+80    720
+
+6     294
+24    1176
+54    2646
+96    4704
+
+7     25
+28    100
+63    225
+
+22    2178
+88    8712
+----------
+
