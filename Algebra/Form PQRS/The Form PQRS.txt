@@ -1,7 +1,5 @@
-
 The form PQRS
 (C)2023. Simon Aranda
-
 
 The form PQRS consists of those integers expressible as:
     n= p*q = r*s, with s= p+q+r. With all integer variables.
@@ -16,14 +14,23 @@ Each form pqrs gives:
     This set of four points are strongly linked by group law. 
     (The "4points" equations are concretised in the appropriate folder).
 
-- Only one integer-sided right triangle of area equal to n.
-    TZ: (p+r, q+r, p+q). 
-- one triad of equidistant squares. [q-p, p+q, r+s]
+- Only one integer-sided right triangle 
+    of area equal to n.     TRZ(p+r, q+r, p+q)
+
+- one triad of equidistant squares. Squares[q-p, p+q, r+s]
+
 
 Basic properties: 
+
 n^2 = p*s * q*r. 
+
 ps= qr + (p+r)^2  ->  (p+r)^2 = ps - qr.
+
 qs= pr + (q+r)^2  ->  (q+r)^2 = qs - pr.
+
 q*(p-r)= r*(p+r) 
 
+(p+r)(q+r)=2n. See right triangle.
+
+===============================================================
 
