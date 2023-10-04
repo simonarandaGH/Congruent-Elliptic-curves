@@ -1,4 +1,5 @@
 Geometry of Congruent numbers.
+
 (C)2023. Simon Aranda.
 
 Congruent numbers, discriminant functions, graphs of functions, statistics. Right triangles, squares. 
