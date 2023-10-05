@@ -1,12 +1,12 @@
+Rational points rules
 
-The points rules
-
+For any curve C[n] the torsion group is formed by the 3 points of the curve with zero y-coord, plus the null point. That is to say the rational points are: (Z/Z2 x Z/Z2) x (Z^rank(n))
+Every point with non-zero y-coord has infinite order.
+The number of points needed to generate the whole set is the rank of the curve.
 On any elliptic curve C[n] of positive rank there will be infinitely many rational points. And a certain finite set of integral points, perhaps null.
-In particular if n is a square-free integer it will also have this configuration. Suppose C[n] has certain rational points (x/q, y), with q some fixed square.
-If you multiply n by that square q, the curve C[nq] will have those points as integrals. The calculation is trivial.
+In particular if n is a square-free integer it will also have this configuration. Suppose C[n] has certain rational points (x/q, y), with q some fixed square. If you multiply n by that square q, the curve C[nq] will have those points as integrals. The calculation is trivial.
 Which leads to determine that on any curve C[n] the number of rational points (x/q,y) with q less than a certain limit must be always finite.
 On the other hand, the integral points of C[n] appear on C[nq] multiplied by this square.
-
 
 Example. n=5. 
 
