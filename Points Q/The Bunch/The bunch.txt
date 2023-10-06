@@ -1,0 +1,59 @@
+The bunch
+(C)2023.Simon Aranda
+
+The points in C[n] go in packets of four. From any point the rest of the bundle can be calculated. From any point P(x,y) its form XYW or the value of "n" is trivially obtained. The sign of "x" indicates whether it is a "left" or "right" point. Its double point arises from the same form XYW or directly.
+A right triangle TR(a,b,c) links to the second form XYW by simply interchanging two sides. These sides are the y-values of each XYW form. From the triangle TR(a,b,c) the form PQRS can be obtained. Perhaps the best way is: 2s= +a+b+c, 2r= +a+b-c, 2p= +a-b+c, 2q= -a+b+c.
+
+Nomenclature
+Left points   Right points
+point ....... double
+
+P(-px,py).....Q(qx,qy)  <-> xyw-1(fx1,fy1,fw1)
+..            ..            .
+..            ..            T(fy1,fy2,h)
+..            ..            .
+R(-rx,ry).....S(sx,sy)  <-> xyw-2(fx2,fy2,fw2)
+
+                            pqrs(p,q,r,s)
+
+Equations
+py= px*fy1, qy=qx*fy1
+ry= rx*fy2, sy=sx*fy2
+fy1*fy2= 2n
+
+P(-px,py) -> Q( n^2/px, (n^2/px)*(py/px) )
+
+P(-px,py) -> R(-rx,ry) using
+  (n^2-px^2)/py = (2n*rx)/ry
+  (2n*px)/py = (n^2-rx^2)/ry
+
+Q(qx,qy) -> S(sx,sy) using
+  (qx^2-n^2)/qy = (2n*sx)/sy
+  (2n*qx)/qy = (sx^2-n^2)/sy
+
+Also
+2*px= fy1*(h-fy1),2*qx= fy1*(h+fy1)
+2*rx= fy2*(h-fy2),2*sx= fy2*(h+fy2)
+P(x,y) -> T( (px^2-n^2)/2, (2n*px)/py, (px^2+n^2)/py )
+
+
+Example n=6
+
+  P(-2,8)............Q(18,72)  <-> xyw2(2,4,18)
+  .                  .                .
+  .                  .              T(3,4,5) (sides ordered)
+  .                  .                .
+  R(-3,9)............S(12,36)  <-> xyw2(3,3,12)
+
+  (3^2 + 4^2)= 5^2 -> h= 5. T(3,4,5).
+
+  Qx, Px; 2*18 = 4*(5+4), 2*2= 4*(5-4)
+  Sx, Rx; 2*12 = 3*(5+3), 2*3= 3*(5-3)
+
+PQRS check T(3,4,5) (sides ordered)
+  2s= +3+4+5 = 12, s=6
+  2r= +3+4-5 = 2, r=1
+  2p= +3-4+5 = 4, q=2
+  2q= -3+4+5 = 6, p=3
+  then pqrs: 2*3=1*6. 
+
