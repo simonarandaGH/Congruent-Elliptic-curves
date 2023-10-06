@@ -6,13 +6,13 @@ The form PQRS consists of those integers expressible as:
     Symbolised as pqrs(p, q, r, s).
 
 Each form pqrs gives:
+
 - 2 forms XYW:    xyw( qr, p+r, ps), xyw( pr, q+r, qs).
 
 - 4 Points on the elliptic curve C[n].
     (-p*r, p*r*(q+r)), (-q*r, q*r*(p+r)),
     (+p*s, p*s*(p+r)), (+q*s, q*s*(q+r).
-    This set of four points are strongly linked by group law. 
-    (The "4points" equations are concretised in the appropriate folder).
+    This bunch of four points are strongly linked by group law. 
 
 - Only one integer-sided right triangle 
     of area equal to n.     TRZ(p+r, q+r, p+q)
@@ -31,6 +31,9 @@ qs= pr + (q+r)^2  ->  (q+r)^2 = qs - pr.
 q*(p-r)= r*(p+r) 
 
 (p+r)(q+r)=2n. See right triangle.
+
+Let TR(a,b,c) sides ordered then:
+    2r= +a+b-c, 2p= +a-b+c, 2q= -a+b+c, 2s= +a+b+c
 
 ===============================================================
 
