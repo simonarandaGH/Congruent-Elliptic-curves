@@ -1,0 +1,5 @@
+Graphically, various relationships are observed between the generating point of a rank one curve, the Heegner point and the torsion points.
+Naturally, two new points N and C arise. N on the horizontal axis, C on the curve. Both with rational coordinates.
+In addition, several triangles with always rational area can be observed. And several of the lines joining these points are degenerate conics.
+
+
