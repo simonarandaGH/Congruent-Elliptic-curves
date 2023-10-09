@@ -1,8 +1,9 @@
 The form 4N2
 (C)2023.Simon Aranda
 
-The eqn is:    r^2 = 4*n^2 + y^4
+The eqn is:    y^2 = 4*n^2 + x^4
 
-    (2n)^2 = r^2 - y^4 = (r-y^2)(r+y^2); 2-descent.
+(2n)^2 = y^2 - x^4 = (y-x^2)(y+x^2); 2-descent.
 
-    Right Triangle TR( y, 2n/y, (r/y) )
+Right Triangle TR( x, 2n/x, (y/x) )
+
