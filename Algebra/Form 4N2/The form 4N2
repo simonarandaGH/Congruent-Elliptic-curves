@@ -1,0 +1,7 @@
+The form 4N2
+(C)2023.Simon Aranda
+
+The eqn is:    r^2 = 4*n^2 + y^4
+
+    (2n)^2 = r^2 - y^4 = (r-y^2)(r+y^2); 2-descent.
+
