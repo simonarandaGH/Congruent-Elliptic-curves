@@ -1,0 +1,105 @@
+
+4N2Y4 test: "n, x , y": 6 3 15
+4N2Y4 test: "n, x , y": 6 4 20
+     6 form xyw():            2       4            18
+     6 form xyw():            3       3            12
+4N2Y4 test: "n, x , y": 15 4 34
+    15 form xyw():            9       4            25
+4N2Y4 test: "n, x , y": 20 3 41
+    20 form xyw():           16       3            25
+4N2Y4 test: "n, x , y": 21 12 150
+    21 form xyw():            3      12           147
+4N2Y4 test: "n, x , y": 24 6 60
+4N2Y4 test: "n, x , y": 24 8 80
+    24 form xyw():            8       8            72
+    24 form xyw():           12       6            48
+4N2Y4 test: "n, x , y": 30 5 65
+4N2Y4 test: "n, x , y": 30 12 156
+    30 form xyw():            6      12           150
+    30 form xyw():           20       5            45
+4N2Y4 test: "n, x , y": 34 24 580
+    34 form xyw():            2      24           578
+4N2Y4 test: "n, x , y": 45 20 410
+    45 form xyw():            5      20           405
+4N2Y4 test: "n, x , y": 54 9 135
+4N2Y4 test: "n, x , y": 54 12 180
+    54 form xyw():           18      12           162
+    54 form xyw():           27       9           108
+4N2Y4 test: "n, x , y": 56 21 455
+    56 form xyw():            7      21           448
+4N2Y4 test: "n, x , y": 60 8 136
+4N2Y4 test: "n, x , y": 60 15 255
+    60 form xyw():           15      15           240
+    60 form xyw():           36       8           100
+4N2Y4 test: "n, x , y": 65 12 194
+    65 form xyw():           25      12           169
+4N2Y4 test: "n, x , y": 70 15 265
+    70 form xyw():           20      15           245
+4N2Y4 test: "n, x , y": 78 45 2031
+    78 form xyw():            3      45          2028
+4N2Y4 test: "n, x , y": 80 6 164
+    80 form xyw():           64       6           100
+4N2Y4 test: "n, x , y": 84 7 175
+4N2Y4 test: "n, x , y": 84 24 600
+    84 form xyw():           12      24           588
+    84 form xyw():           63       7           112
+4N2Y4 test: "n, x , y": 96 12 240
+4N2Y4 test: "n, x , y": 96 16 320
+    96 form xyw():           32      16           288
+    96 form xyw():           48      12           192
+4N2Y4 test: "n, x , y": 110 33 1111
+   110 form xyw():           11      33          1100
+4N2Y4 test: "n, x , y": 120 10 260
+4N2Y4 test: "n, x , y": 120 24 624
+   120 form xyw():           24      24           600
+   120 form xyw():           80      10           180
+4N2Y4 test: "n, x , y": 126 8 260
+   126 form xyw():           98       8           162
+4N2Y4 test: "n, x , y": 135 12 306
+   135 form xyw():           81      12           225
+4N2Y4 test: "n, x , y": 136 15 353
+4N2Y4 test: "n, x , y": 136 48 2320
+   136 form xyw():            8      48          2312
+   136 form xyw():           64      15           289
+4N2Y4 test: "n, x , y": 150 15 375
+4N2Y4 test: "n, x , y": 150 20 500
+   150 form xyw():           50      20           450
+   150 form xyw():           75      15           300
+4N2Y4 test: "n, x , y": 154 12 340
+   154 form xyw():           98      12           242
+4N2Y4 test: "n, x , y": 156 5 313
+   156 form xyw():          144       5           169
+4N2Y4 test: "n, x , y": 175 24 674
+   175 form xyw():           49      24           625
+4N2Y4 test: "n, x , y": 180 9 369
+4N2Y4 test: "n, x , y": 180 40 1640
+   180 form xyw():           20      40          1620
+   180 form xyw():          144       9           225
+4N2Y4 test: "n, x , y": 189 36 1350
+   189 form xyw():           27      36          1323
+4N2Y4 test: "n, x , y": 190 60 3620
+   190 form xyw():           10      60          3610
+4N2Y4 test: "n, x , y": 198 140 19604
+   198 form xyw():            2     140         19602
+4N2Y4 test: "n, x , y": 210 12 444
+4N2Y4 test: "n, x , y": 210 20 580
+4N2Y4 test: "n, x , y": 210 21 609
+4N2Y4 test: "n, x , y": 210 35 1295
+4N2Y4 test: "n, x , y": 210 56 3164
+   210 form xyw():           14      56          3150
+   210 form xyw():           35      35          1260
+   210 form xyw():           84      21           525
+   210 form xyw():           90      20           490
+   210 form xyw():          150      12           294
+4N2Y4 test: "n, x , y": 216 18 540
+4N2Y4 test: "n, x , y": 216 24 720
+   216 form xyw():           72      24           648
+   216 form xyw():          108      18           432
+4N2Y4 test: "n, x , y": 224 42 1820
+   224 form xyw():           28      42          1792
+4N2Y4 test: "n, x , y": 231 28 910
+   231 form xyw():           63      28           847
+4N2Y4 test: "n, x , y": 240 16 544
+4N2Y4 test: "n, x , y": 240 30 1020
+   240 form xyw():           60      30           960
+   240 form xyw():          144      16           400
