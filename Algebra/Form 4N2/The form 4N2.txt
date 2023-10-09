@@ -7,3 +7,6 @@ The eqn is:    y^2 = 4*n^2 + x^4
 
 Right Triangle TR( x, 2n/x, (y/x) )
 
+Form XYW( fx, fy=T.x, fw ); (fx+fw) = T.y
+Where T means 4N2 values.
+
