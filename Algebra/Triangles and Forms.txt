@@ -1,9 +1,15 @@
 Rectangular triangles and forms XYW, PQRS.
 (C)2023. Simon Aranda
 
+
 The right triangle PQRS is: (p+r,q+r,p+q).
 The XYW forms:  xyw(pr,(q+r),qs) and xyw(qr,(p+r),ps).
 They give the same right triangle: (y, 2n/y, (x+w)/y).
+
+From any right triangle TR(a,b,c) the PQRS form is:
+2*r = +a+b-c, 2*p = +a-b+c
+2*q = -a+b+c, 2*s = +a+b+c
+n= p*q = r*s, s= p+q+r.
 
 From a single point one PQRS form can be derived, 
 also two XYW forms and the set of 4 points to which it belongs.
@@ -17,4 +23,5 @@ Even if both forms are realised in integers, only the form pqrs guarantees integ
 There is therefore an equivalence between knowing a triangle 
 of area n, a form xyw of n, and a form pqrs of n.
 The set of numbers n satisfying this condition is called congruent numbers.
+
 
