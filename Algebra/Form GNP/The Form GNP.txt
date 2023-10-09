@@ -1,17 +1,21 @@
-
 The form GNP
-(C)2023. Simon Aranda
+(C)2023.Simon Aranda
+
 
 GNP(g,n,p):  g^2 = n^2 -p^4.  All integer variables.
 
-GNP(g,n,p):
-1 - the form XYW(p^2, g/p, (n/p)^2), XYW-Q.
+GNP(g,n,p) gives:
+1 - One form XYW(p^2, g/p, (n/p)^2), XYW-Q.
 2 - Double point (P,Q): 
        P(-p^2, pg), integral point.
        Q( (n^2)/(p^2), ((n^2)*g)/p^3)
 3 - Triangle( g/p, 2np/g, (g^2+2p^4)/pg ), TRQ.
-4 - "(n+p.2),(n-p.2) have identical core() values". 
-5 - All GNP numbers are congruent numbers.
+4 - All GNP numbers are congruent numbers.
+5 - (n+p^2),(n-p^2) have identical K-core() values. 
+    This form supports a traditional 2-descent.
+       g^2 = n^2 - p^4 = (n-p^2)*(n+p^2).
+    Which can be stated as:
+       (g-p^2)= K*[C^2], (g+p^2)= K*[D^2]
 
 
 Example Triangle GNP
@@ -86,5 +90,3 @@ g(528004378,2).2  =n(88,4901).2 - p(9240).4 = (22,9998)*(22,9602)
 g(238602,4).2     =n(92,205).2 - p(782).4 	= (46,312)*(46,266)
 g(27417,1).2      =n(95,17).2 - p(38).4 		= (19,39)*(19,37)
 g(42,4).2         =n(96,5).2 - p(48).4 			= (6,28)*(6,4)
-
-
