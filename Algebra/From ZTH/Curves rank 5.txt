@@ -14,3 +14,7 @@ n                      m (j=2,3)   y         x  (x+y)
 24666188870481576600   13·31·223   46169 57400 103569
 
 
+Reference
+Congruent Elliptic Curves related to integral solutions. 
+Published by Lorenz Halbeisen, Norbert Hungerbuhler. 
+ETH Zentrum. Math Dept. Zürich.
