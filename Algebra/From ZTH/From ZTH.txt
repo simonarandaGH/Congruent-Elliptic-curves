@@ -1,0 +1,42 @@
+Rank 4 curves. From ZTH.
+(Ref)2023.Simon Aranda
+
+Let the surface:  "z^2 = x^2 + xy + y^2"
+
+Take x,y,z all positive, y<x,
+and "z" some fixed prime number (1 mod 6).
+The equation always has "exactly one" integral solution (x,y).
+Let n= x*y*(x+y)*z.
+Then the curve C[n] will (likely) have rank between 2 and 4.
+
+Some examples z<1000
+
+ zxy(7 5 3)   ->n= 840 rank=2 core(n)= 210
+ zxy(13 8 7)  ->n= 10920 rank=2 core(n)= 2730
+ zxy(19 16 5) ->n= 31920 rank=2 core(n)= 1995
+
+ zxy(37 33 7) ->n= 341880 rank=3 core(n)= 85470
+ zxy(43 35 13) ->n= 939120 rank=3 core(n)= 58695
+ zxy(61 56 9) ->n= 1998360 rank=3 core(n)= 55510
+ zxy(67 45 32) ->n= 7428960 rank=3 core(n)= 51590
+ zxy(79 51 40) ->n= 14665560 rank=3 core(n)= 3666390
+ zxy(103 77 40) ->n= 37117080 rank=3 core(n)= 1031030
+ zxy(109 95 24) ->n= 29573880 rank=3 core(n)= 7393470
+
+ zxy(127 120 13) ->n= 26349960 rank=4 core(n)= 6587490
+ zxy(139 91 69)  ->n= 139644960 rank=4 core(n)= 8727810
+ zxy(181 105 104) ->n= 413092680 rank=4 core(n)= 103273170
+ zxy(277 217 95) ->n= 1781630760 rank=4 core(n)= 445407690
+ zxy(337 272 105) ->n= 3628519440 rank=4 core(n)= 226782465
+ zxy(709 616 159) ->n= 53817779400 rank=4 core(n)= 538177794
+ zxy(769 735 64) ->n= 28902834240 rank=4 core(n)= 9216465
+ zxy(823 728 165) ->n= 88280872680 rank=4 core(n)= 22070218170
+ zxy(829 689 231) ->n= 121387386120 rank=4 core(n)= 30346846530
+ zxy(883 715 272) ->n= 169493404080 rank=4 core(n)= 10593337755
+
+
+Reference
+Congruent Elliptic Curves related to integral solutions. 
+Published by Lorenz Halbeisen, Norbert Hungerbuhler. 
+ETH Zentrum. Math Dept. Zürich.
+
