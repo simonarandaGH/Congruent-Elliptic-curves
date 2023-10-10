@@ -62,16 +62,21 @@ P + (−P)  = (−P) + P  = O (inverses)
 (O)  Point at infinity on an elliptic curve
 (−P) is the reflection of P about the x-axis.
 
+On congruent curves, E(Q)= [Z/2Z x 2/2Z] x Z^rank
+Torsion points: 4, finite order, order 2.
+Not-torsion point: infinite order.
+
+
 Nomenclature
 a|b   Divides
 Z+    Set of positive integers {1, 2, 3,}
       Set of non-zero rational numbers 
-      Set of squares of non-zero rational numbers
+Q2    Set of squares of rational numbers
 
 
 Reference
 CN and Elliptic curves.2010
-J. Johnstone
+Published by J. Johnstone
 UNIVERSITY OF BRITISH COLUMBIA
 College of Mathematics
 
