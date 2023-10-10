@@ -1,1 +1,78 @@
+From UBC
+Congruent forms
+(Ref)2023.Simon Aranda
+
+
+- Congruent forms mod 8:
+p5, p7                       are congruent numbers.
+2p7, 2p3, p3q7, 2p3q5, 2p5q7 are CN.
+
+- Not congruent forms mod 8:
+p3                is not a cn.
+p3q3, 2p5, 2p5q5 are not cn.
+
+- Every congruent number "n" is of the form 
+    n*k^2 = u*v*(u^2 − v^2)
+with k, u, v positive integers.
+
+- Let x,y positive integers. Then are CN:
+n = 1*x^4 + 4*y^4.
+n = 2*x^4 + 2*y^4.
+n = 1*x^4 - 1*y^4.
+
+- Let integers a, b ,k; (a, b) opposite parity. And define:
+    n*k^2 = (1*a^4 + 6*a^2*b^2 + 1*b^4)
+or  n*k^2 = (1*a^4 - 6*a^2*b^2 + 1*b^4)
+Then "n" is a congruent number.
+
+- The curve  (w^2 = t^4 + 14t^2 + 4)
+has infinitely many rational points. 
+Let some rational solution (t, w) with t not zero. 
+Set t= u/v; With u,v coprimes.
+Define n as:
+n = 6*(1*u^4 + 2*u^2*v^2 + 4*v^4)*(1*u^4 + 8*u^2*v^2 + 4*v^4)
+then the curve C[n] as rank 3 or more.
+
+42486               3 793.81510
+25514648349059526   3 793.81510
+
+
+Rank 3 examples of (n= 7 mod 8)
+n= 4199 rank= 3
+n= 4895 rank= 3
+n= 6671 rank= 3
+n= 9015 rank= 3
+n= 10199 rank= 3
+n= 12935 rank= 3
+n= 15655 rank= 3
+n= 16151 rank= 3
+n= 16887 rank= 3
+n= 23359 rank= 3
+n= 28007 rank= 3
+n= 29055 rank= 3
+n= 32039 rank= 3
+n= 32599 rank= 3
+
+E(Q)  Set of rational points on an elliptic curve.
+Group law.
+P + Q     = Q + P         (commutative)
+P + O     = O + P     = P (identity element O)
+P + (−P)  = (−P) + P  = O (inverses)
+(P + Q) + R = P + (Q + R) (associative)
+(O)  Point at infinity on an elliptic curve
+(−P) is the reflection of P about the x-axis.
+
+Nomenclature
+a|b   Divides
+Z+    Set of positive integers {1, 2, 3,}
+      Set of non-zero rational numbers 
+      Set of squares of non-zero rational numbers
+
+
+Reference
+CN and Elliptic curves.2010
+J. Johnstone
+UNIVERSITY OF BRITISH COLUMBIA
+College of Mathematics
+
 
