@@ -1,0 +1,20 @@
+Notes
+
+The curves C[n] are a quadratic twist of the curves: D*y^2= n^3 - n.
+
+Rank & Core functions  "rank(n) = rank(core(n))"
+The curve C[n*(a^2)] may have more integral points than C[n], but the rank does not increase.
+
+Rational points = (Z/2Z x Z/2Z) x Z^rank
+4 torsion points with y=0 and finite order 2.
+Others rational points: always infinite order.
+
+- Congruent forms mod 8:
+p5, p7                       are congruent numbers.
+2p7, 2p3, p3q7, 2p3q5, 2p5q7 are CN.
+
+- Not congruent forms mod 8:
+p3                is not a cn.
+p3q3, 2p5, 2p5q5 are not cn.
+
+
