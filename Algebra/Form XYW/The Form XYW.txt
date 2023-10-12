@@ -4,10 +4,13 @@ The form XYW
 The form XYW consists of the integers n expressible 
 in the form: n^2 = x*w = x*(x + y^2). All variables being integers.
 Symbolised by: (x..[y]..w), xyw(x,y,w).
+
 Where n^2 = (x)*(w) is a standard 2-descent:
       x=a*b^2, w=a*d^2.
       core(x)==core(w).
       w= "a*b^2 + y^2 = a*d^2".
+(the identical core is related to the rank).
+
 
 From a form xyw(x,y,w) various geometric points are obtained.
 - In the Curve C[n], the double P(-x,x*y), P(+w, w*y).
