@@ -1,12 +1,13 @@
-Geometry of Congruent numbers.
+Congruent Elliptic curves
 (C) 2023. Simon Aranda.
 
-- Congruent numbers, discriminant functions, Rank Distribution.
 - Congruent Elliptic curves, Rational points, Generators.
+- Discriminant functions, Rank parity and distribution.
 - Points Order 12+, Heegner points.
 - Law group of the abelian variety.
-- Every rational point of C[n] belongs to a group of four points (the Bunch).
+- Every rational point of C[n] belongs to a group of four points.
 - Algebraic forms, Quadratic equations.
+- Computing the rank: sa-rank.cpp
 - Surfaces, cuts and projections. Right Triangles, squares. 
 - the properties of all these elements.
 - the relationships between them.
