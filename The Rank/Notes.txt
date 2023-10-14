@@ -1,27 +1,27 @@
 Notes
 
 Invariant "j". Defined as 1728*f(A,B). For all C[n] j=1728.
-Are congruent integers (mod 8):
-p5, p7, 2p7, 2p3, p3q7, 2p3q5, 2p5q7.
 
-Q* : Multiplicative group of Q non-zero. 
-Q*2 : Subgroup of square rationals.
-(mod Q*2) : equivalent to core()
-E(A,B) : y^2 = x^3 + A*x^2 + B*x
+Are congruent integers (mod 8): p5, p7, 2p7, 2p3, p3q7, 2p3q5, 2p5q7.
+
+Q*   : Multiplicative group of Q non-zero. 
+Q*2  : Subgroup of square rationals.
+(mod Q*2)  : equivalent to core()
+E(A,B)     : y^2 = x^3 + A*x^2 + B*x
 Associated curve: A' = -2*A, B' = (A^2 - 4*B)
 Gamma: set of rational points on a given curve.
 
 Family of congruent curves C[n]
-  A =0, B = -1*n^2
+  A =0, B  = -1*n^2
   A'=0, B' = +4*n^2 (associated curve)
-  Since B'>0, there are no points with x<0.
+  Since B'>0, there are no points with x<0 (.jpg)
   
-Alpha function: Alpha(Gamma) -> Q/Q*2
+Alpha:Gamma->Q/Q*2
 Alpha( O : infinite point) -> +1
 Alpha( P(0,0) ) -> core(B) or B'
 Alpha( P(x,y) ) -> core(x)
 
-The Alpha function acts as a projection.
+The Alpha function acts is a projection.
 1 - core(divisor) not +1 nor core(B)
 2 - the equation Alpha(divisor)
 3 - the coprimality conditions of the solution.
@@ -60,5 +60,7 @@ Cardinality >= 16
 Associated curve range >=2
 Rank C[840] >= 2
 
+
 Certain integers n have numerous associated triangles/points/forms. Such a number grows linearly. But the rank follows an exponential function. Curves with high rank come from an integer proportional to 2^rank.
+
 
