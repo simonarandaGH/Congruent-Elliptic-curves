@@ -63,4 +63,9 @@ Rank C[840] >= 2
 
 Certain integers n have numerous associated triangles/points/forms. Such a number grows linearly. But the rank follows an exponential function. Curves with high rank come from an integer proportional to 2^rank.
 
+The conductor of En is 32c^2 
+when the squarefree part "c" of "n" is odd,  16c^2 when is even.
+Each congruent number elliptic curve En belongs to an isogeny class of four  isogenous curves, connected by 2-isogenies.  
+The class includes [4n^2,0].
+
 
