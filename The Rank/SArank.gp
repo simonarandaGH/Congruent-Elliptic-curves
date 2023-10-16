@@ -3,6 +3,8 @@
 \\ SArank.gp
 \\ PARI/GP Script
 \\ (C)2023.Simon Aranda
+\\
+\\ no call is made to the PARI library on elliptic curves.
 
 
 \\ set default's
