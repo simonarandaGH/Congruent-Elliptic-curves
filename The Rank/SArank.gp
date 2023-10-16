@@ -73,7 +73,7 @@ fordiv(n,r,               \\ r|n
   s=n/r;if(s<r,break;);
   for(p=r+1,s-r,
     q=n/p;
-    if(p*q==0 && q<=p,break;); \\ p<q
+    if(p*q==n && q<=p,break;); \\ p<q
     if(p*q==n && s==p+q+r,return(1););
   );
 );
