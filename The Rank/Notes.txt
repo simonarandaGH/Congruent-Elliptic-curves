@@ -61,6 +61,8 @@ Associated curve range >=2
 Rank C[840] >= 2
 
 
+It seems that by amplifying the number, a value that is already a power of two is always reached. In the examples this is referred to as "strict mode".
+
 Certain integers n have numerous associated triangles/points/forms. Such a number grows linearly. But the rank follows an exponential function. Curves with high rank come from an integer proportional to 2^rank.
 
 The conductor of En is 32c^2 
