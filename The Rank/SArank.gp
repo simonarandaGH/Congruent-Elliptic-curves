@@ -5,7 +5,7 @@
 \\ (C)2023.Simon Aranda
 
 
-\\ set default environment.
+\\ set default's
 default(echo,1)
 set echo=1          \\ 
 \o    2             \\ nice output
