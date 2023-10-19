@@ -1,0 +1,1330 @@
+
+Notes
+To calculate the range without resorting to the equation (N,M,e) sufficient integral points on the curve are needed. An Indicative of this is the number of different PQRS forms of the curve C[n].
+If we limit the test of each B divisor to find a point with that x-coordinate we sometimes get low rank values.
+This is evidenced by the attached Pari/GP script.
+
+
+   [logfile is "log_sarank.txt"]
+n=1 qf=0 SArank=0
+n=2 qf=0 SArank=0
+n=3 qf=0 SArank=0
+n=4 qf=0 SArank=0
+n=5 qf=0 SArank=1
+n=6 qf=1 SArank=1
+n=7 qf=0 SArank=1
+n=8 qf=0 SArank=0
+n=9 qf=0 SArank=0
+n=10 qf=0 SArank=0
+n=11 qf=0 SArank=0
+n=12 qf=0 SArank=0
+n=13 qf=0 SArank=0 (1)
+n=14 qf=0 SArank=0 (1)
+n=15 qf=0 SArank=1
+n=16 qf=0 SArank=0
+n=17 qf=0 SArank=0
+n=18 qf=0 SArank=0
+n=19 qf=0 SArank=0
+n=20 qf=0 SArank=1
+n=21 qf=0 SArank=1
+n=22 qf=0 SArank=0 (1)
+n=23 qf=0 SArank=0 (1)
+n=24 qf=1 SArank=1
+n=25 qf=0 SArank=0
+n=26 qf=0 SArank=0
+n=27 qf=0 SArank=0
+n=28 qf=0 SArank=1
+n=29 qf=0 SArank=0 (1)
+n=30 qf=1 SArank=1
+n=31 qf=0 SArank=0 (1)
+n=32 qf=0 SArank=0
+n=33 qf=0 SArank=0
+n=34 qf=0 SArank=2
+n=35 qf=0 SArank=0
+n=36 qf=0 SArank=0
+n=37 qf=0 SArank=0 (1)
+n=38 qf=0 SArank=0 (1)
+n=39 qf=0 SArank=1
+n=40 qf=0 SArank=0
+n=41 qf=0 SArank=1 (2)
+n=42 qf=0 SArank=0
+n=43 qf=0 SArank=0
+n=44 qf=0 SArank=0
+n=45 qf=0 SArank=1
+n=46 qf=0 SArank=0 (1)
+n=47 qf=0 SArank=0 (1)
+n=48 qf=0 SArank=0
+n=49 qf=0 SArank=0
+n=50 qf=0 SArank=0
+n=51 qf=0 SArank=0
+n=52 qf=0 SArank=0 (1)
+n=53 qf=0 SArank=0 (1)
+n=54 qf=1 SArank=1
+n=55 qf=0 SArank=1
+n=56 qf=0 SArank=1
+n=57 qf=0 SArank=0
+n=58 qf=0 SArank=0
+n=59 qf=0 SArank=0
+n=60 qf=1 SArank=1
+n=61 qf=0 SArank=0 (1)
+n=62 qf=0 SArank=0 (1)
+n=63 qf=0 SArank=1
+n=64 qf=0 SArank=0
+n=65 qf=0 SArank=1 (2)
+n=66 qf=0 SArank=0
+n=67 qf=0 SArank=0
+n=68 qf=0 SArank=0
+n=69 qf=0 SArank=0 (1)
+n=70 qf=0 SArank=1
+n=71 qf=0 SArank=0 (1)
+n=72 qf=0 SArank=0
+n=73 qf=0 SArank=0
+n=74 qf=0 SArank=0
+n=75 qf=0 SArank=0
+n=76 qf=0 SArank=0
+n=77 qf=0 SArank=0 (1)
+n=78 qf=0 SArank=1
+n=79 qf=0 SArank=0 (1)
+n=80 qf=0 SArank=1
+n=81 qf=0 SArank=0
+n=82 qf=0 SArank=0
+n=83 qf=0 SArank=0
+n=84 qf=1 SArank=1
+n=85 qf=0 SArank=0 (1)
+n=86 qf=0 SArank=0 (1)
+n=87 qf=0 SArank=0 (1)
+n=88 qf=0 SArank=0 (1)
+n=89 qf=0 SArank=0
+n=90 qf=0 SArank=0
+n=91 qf=0 SArank=0
+n=92 qf=0 SArank=0 (1)
+n=93 qf=0 SArank=0 (1)
+n=94 qf=0 SArank=0 (1)
+n=95 qf=0 SArank=1
+n=96 qf=1 SArank=1
+n=97 qf=0 SArank=0
+n=98 qf=0 SArank=0
+n=99 qf=0 SArank=0
+n=100 qf=0 SArank=0
+n=101 qf=0 SArank=0 (1)
+n=102 qf=0 SArank=0 (1)
+n=103 qf=0 SArank=0 (1)
+n=104 qf=0 SArank=0
+n=105 qf=0 SArank=0
+n=106 qf=0 SArank=0
+n=107 qf=0 SArank=0
+n=108 qf=0 SArank=0
+n=109 qf=0 SArank=0 (1)
+n=110 qf=0 SArank=1
+n=111 qf=0 SArank=1
+n=112 qf=0 SArank=1
+W ELL range 
+n=113 qf=0 SArank=0
+n=114 qf=0 SArank=0
+n=115 qf=0 SArank=0
+n=116 qf=0 SArank=0 (1)
+n=117 qf=0 SArank=1
+n=118 qf=0 SArank=0 (1)
+n=119 qf=0 SArank=1
+n=120 qf=1 SArank=1
+n=121 qf=0 SArank=0
+n=122 qf=0 SArank=0
+n=123 qf=0 SArank=0
+n=124 qf=0 SArank=0 (1)
+n=125 qf=0 SArank=1
+n=126 qf=0 SArank=1
+n=127 qf=0 SArank=0 (1)
+n=128 qf=0 SArank=0
+n=129 qf=0 SArank=0
+n=130 qf=0 SArank=0
+n=131 qf=0 SArank=0
+n=132 qf=0 SArank=0
+n=133 qf=0 SArank=0 (1)
+n=134 qf=0 SArank=0 (1)
+n=135 qf=0 SArank=1
+n=136 qf=0 SArank=2
+n=137 qf=0 SArank=0 (2)
+n=138 qf=0 SArank=0 (2)
+n=139 qf=0 SArank=0
+n=140 qf=0 SArank=0
+n=141 qf=0 SArank=0 (1)
+n=142 qf=0 SArank=0 (1)
+n=143 qf=0 SArank=0 (1)
+n=144 qf=0 SArank=0
+n=145 qf=0 SArank=2
+n=146 qf=0 SArank=0
+n=147 qf=0 SArank=0
+n=148 qf=0 SArank=0 (1)
+n=149 qf=0 SArank=0 (1)
+n=150 qf=1 SArank=1
+n=151 qf=0 SArank=0 (1)
+n=152 qf=0 SArank=0 (1)
+n=153 qf=0 SArank=0
+n=154 qf=0 SArank=1 (2)
+n=155 qf=0 SArank=0
+n=156 qf=0 SArank=1
+n=157 qf=0 SArank=0 (1)
+n=158 qf=0 SArank=0 (1)
+n=159 qf=0 SArank=0 (1)
+n=160 qf=0 SArank=0
+n=161 qf=0 SArank=1 (2)
+n=162 qf=0 SArank=0
+n=163 qf=0 SArank=0
+n=164 qf=0 SArank=1 (2)
+n=165 qf=0 SArank=0 (1)
+n=166 qf=0 SArank=0 (1)
+n=167 qf=0 SArank=0 (1)
+n=168 qf=0 SArank=0
+n=169 qf=0 SArank=0
+n=170 qf=0 SArank=0
+n=171 qf=0 SArank=0
+n=172 qf=0 SArank=0
+n=173 qf=0 SArank=0 (1)
+n=174 qf=0 SArank=0 (1)
+n=175 qf=0 SArank=1
+n=176 qf=0 SArank=0
+n=177 qf=0 SArank=0
+n=178 qf=0 SArank=0
+n=179 qf=0 SArank=0
+n=180 qf=1 SArank=1
+n=181 qf=0 SArank=0 (1)
+n=182 qf=0 SArank=0 (1)
+n=183 qf=0 SArank=0 (1)
+n=184 qf=0 SArank=0 (1)
+n=185 qf=0 SArank=0
+n=186 qf=0 SArank=0
+n=187 qf=0 SArank=0
+n=188 qf=0 SArank=0 (1)
+n=189 qf=0 SArank=1
+n=190 qf=0 SArank=1
+n=191 qf=0 SArank=0 (1)
+n=192 qf=0 SArank=0
+n=193 qf=0 SArank=0
+n=194 qf=0 SArank=0 (2)
+n=195 qf=0 SArank=0
+n=196 qf=0 SArank=0
+n=197 qf=0 SArank=0 (1)
+n=198 qf=0 SArank=1
+n=199 qf=0 SArank=0 (1)
+n=200 qf=0 SArank=0
+n=201 qf=0 SArank=0
+n=202 qf=0 SArank=0
+n=203 qf=0 SArank=0
+n=204 qf=0 SArank=0
+n=205 qf=0 SArank=0 (1)
+n=206 qf=0 SArank=0 (1)
+n=207 qf=0 SArank=0 (1)
+n=208 qf=0 SArank=0 (1)
+n=209 qf=0 SArank=0
+n=210 qf=2 SArank=2
+n=211 qf=0 SArank=0
+n=212 qf=0 SArank=0 (1)
+n=213 qf=0 SArank=0 (1)
+n=214 qf=0 SArank=0 (1)
+n=215 qf=0 SArank=0 (1)
+n=216 qf=1 SArank=1
+n=217 qf=0 SArank=0
+n=218 qf=0 SArank=0
+n=219 qf=0 SArank=0 (2)
+n=220 qf=0 SArank=1
+n=221 qf=0 SArank=0 (1)
+n=222 qf=0 SArank=0 (1)
+n=223 qf=0 SArank=0 (1)
+n=224 qf=0 SArank=1
+n=225 qf=0 SArank=0
+n=226 qf=0 SArank=0 (2)
+n=227 qf=0 SArank=0
+n=228 qf=0 SArank=0
+n=229 qf=0 SArank=0 (1)
+n=230 qf=0 SArank=0 (1)
+n=231 qf=0 SArank=1
+n=232 qf=0 SArank=0
+n=233 qf=0 SArank=0
+n=234 qf=0 SArank=0
+n=235 qf=0 SArank=0
+n=236 qf=0 SArank=0
+n=237 qf=0 SArank=0 (1)
+n=238 qf=0 SArank=0 (1)
+n=239 qf=0 SArank=1
+n=240 qf=1 SArank=1
+n=241 qf=0 SArank=0
+n=242 qf=0 SArank=0
+n=243 qf=0 SArank=0
+n=244 qf=0 SArank=0 (1)
+n=245 qf=0 SArank=1
+n=246 qf=0 SArank=0 (1)
+n=247 qf=0 SArank=0 (1)
+n=248 qf=0 SArank=0 (1)
+n=249 qf=0 SArank=0
+n=250 qf=0 SArank=0
+n=251 qf=0 SArank=0
+n=252 qf=0 SArank=1
+n=253 qf=0 SArank=0 (1)
+n=254 qf=0 SArank=0 (1)
+n=255 qf=0 SArank=1
+n=256 qf=0 SArank=0
+n=257 qf=0 SArank=0 (2)
+n=258 qf=0 SArank=0
+n=259 qf=0 SArank=0
+n=260 qf=0 SArank=2
+n=261 qf=0 SArank=0 (1)
+n=262 qf=0 SArank=0 (1)
+n=263 qf=0 SArank=0 (1)
+n=264 qf=0 SArank=0
+n=265 qf=0 SArank=0 (2)
+n=266 qf=0 SArank=0
+n=267 qf=0 SArank=0
+n=268 qf=0 SArank=0
+n=269 qf=0 SArank=0 (1)
+n=270 qf=1 SArank=1
+n=271 qf=0 SArank=0 (1)
+n=272 qf=0 SArank=0
+n=273 qf=0 SArank=0
+n=274 qf=0 SArank=0
+n=275 qf=0 SArank=0
+n=276 qf=0 SArank=0 (1)
+n=277 qf=0 SArank=0 (1)
+n=278 qf=0 SArank=0 (1)
+n=279 qf=0 SArank=0 (1)
+n=280 qf=0 SArank=1
+n=281 qf=0 SArank=0
+n=282 qf=0 SArank=0
+n=283 qf=0 SArank=0
+n=284 qf=0 SArank=0 (1)
+n=285 qf=0 SArank=0 (1)
+n=286 qf=0 SArank=1
+n=287 qf=0 SArank=0 (1)
+n=288 qf=0 SArank=0
+n=289 qf=0 SArank=0
+n=290 qf=0 SArank=0
+n=291 qf=0 SArank=1 (2)
+n=292 qf=0 SArank=0
+n=293 qf=0 SArank=0 (1)
+n=294 qf=1 SArank=1
+n=295 qf=0 SArank=0 (1)
+n=296 qf=0 SArank=0
+n=297 qf=0 SArank=0
+n=298 qf=0 SArank=0
+n=299 qf=0 SArank=0 (2)
+n=300 qf=0 SArank=0
+n=301 qf=0 SArank=0 (1)
+n=302 qf=0 SArank=0 (1)
+n=303 qf=0 SArank=0 (1)
+n=304 qf=0 SArank=0
+n=305 qf=0 SArank=0
+n=306 qf=0 SArank=2
+n=307 qf=0 SArank=0
+n=308 qf=0 SArank=0 (1)
+n=309 qf=0 SArank=0 (1)
+n=310 qf=0 SArank=0 (1)
+n=311 qf=0 SArank=0 (1)
+n=312 qf=0 SArank=1
+n=313 qf=0 SArank=0 (2)
+n=314 qf=0 SArank=0
+n=315 qf=0 SArank=0
+n=316 qf=0 SArank=0 (1)
+n=317 qf=0 SArank=0 (1)
+n=318 qf=0 SArank=0 (1)
+n=319 qf=0 SArank=0 (1)
+n=320 qf=0 SArank=1
+n=321 qf=0 SArank=0
+n=322 qf=0 SArank=0
+n=323 qf=0 SArank=0 (2)
+n=324 qf=0 SArank=0
+n=325 qf=0 SArank=0 (1)
+n=326 qf=0 SArank=0 (1)
+n=327 qf=0 SArank=0 (1)
+n=328 qf=0 SArank=0
+n=329 qf=0 SArank=0
+n=330 qf=1 SArank=2
+n=331 qf=0 SArank=0
+n=332 qf=0 SArank=0
+n=333 qf=0 SArank=0 (1)
+n=334 qf=0 SArank=0 (1)
+n=335 qf=0 SArank=0 (1)
+n=336 qf=1 SArank=1
+W ELL range 
+n=337 qf=0 SArank=0
+n=338 qf=0 SArank=0
+n=339 qf=0 SArank=0
+n=340 qf=0 SArank=0 (1)
+n=341 qf=0 SArank=0 (1)
+n=342 qf=0 SArank=0 (1)
+n=343 qf=0 SArank=1
+n=344 qf=0 SArank=0 (1)
+n=345 qf=0 SArank=0
+n=346 qf=0 SArank=0
+n=347 qf=0 SArank=0
+n=348 qf=0 SArank=0 (1)
+n=349 qf=0 SArank=0 (1)
+n=350 qf=0 SArank=0 (1)
+n=351 qf=0 SArank=1
+n=352 qf=0 SArank=0 (1)
+n=353 qf=0 SArank=0 (2)
+n=354 qf=0 SArank=0
+n=355 qf=0 SArank=0
+n=356 qf=0 SArank=0
+n=357 qf=0 SArank=0 (1)
+n=358 qf=0 SArank=0 (1)
+n=359 qf=0 SArank=0 (1)
+n=360 qf=0 SArank=0
+n=361 qf=0 SArank=0
+n=362 qf=0 SArank=0
+n=363 qf=0 SArank=0
+n=364 qf=0 SArank=0
+n=365 qf=0 SArank=0 (1)
+n=366 qf=0 SArank=0 (1)
+n=367 qf=0 SArank=0 (1)
+n=368 qf=0 SArank=0 (1)
+n=369 qf=0 SArank=2
+n=370 qf=0 SArank=0
+n=371 qf=0 SArank=1 (2)
+n=372 qf=0 SArank=0 (1)
+n=373 qf=0 SArank=0 (1)
+n=374 qf=0 SArank=0 (1)
+n=375 qf=0 SArank=1
+n=376 qf=0 SArank=0 (1)
+n=377 qf=0 SArank=0
+n=378 qf=0 SArank=0
+n=379 qf=0 SArank=0
+n=380 qf=0 SArank=1
+n=381 qf=0 SArank=0 (1)
+n=382 qf=0 SArank=0 (1)
+n=383 qf=0 SArank=0 (1)
+n=384 qf=1 SArank=1
+n=385 qf=0 SArank=0
+n=386 qf=0 SArank=0 (2)
+n=387 qf=0 SArank=0
+n=388 qf=0 SArank=0
+n=389 qf=0 SArank=0 (1)
+n=390 qf=0 SArank=1
+n=391 qf=0 SArank=0 (1)
+n=392 qf=0 SArank=0
+n=393 qf=0 SArank=0
+n=394 qf=0 SArank=0
+n=395 qf=0 SArank=0 (2)
+n=396 qf=0 SArank=0
+n=397 qf=0 SArank=0 (1)
+n=398 qf=0 SArank=0 (1)
+n=399 qf=0 SArank=0 (1)
+n=400 qf=0 SArank=0
+n=401 qf=0 SArank=0
+n=402 qf=0 SArank=0
+n=403 qf=0 SArank=0
+n=404 qf=0 SArank=0 (1)
+n=405 qf=0 SArank=1
+n=406 qf=0 SArank=0 (1)
+n=407 qf=0 SArank=0 (1)
+n=408 qf=0 SArank=0 (1)
+W ELL range 
+n=409 qf=0 SArank=0
+n=410 qf=0 SArank=1 (2)
+n=411 qf=0 SArank=0
+n=412 qf=0 SArank=0 (1)
+n=413 qf=0 SArank=0 (1)
+n=414 qf=0 SArank=0 (1)
+n=415 qf=0 SArank=0 (1)
+n=416 qf=0 SArank=0
+n=417 qf=0 SArank=0
+n=418 qf=0 SArank=0
+n=419 qf=0 SArank=0
+n=420 qf=0 SArank=0
+n=421 qf=0 SArank=0 (1)
+n=422 qf=0 SArank=0 (1)
+n=423 qf=0 SArank=0 (1)
+n=424 qf=0 SArank=0
+n=425 qf=0 SArank=0
+n=426 qf=0 SArank=0 (2)
+n=427 qf=0 SArank=0
+n=428 qf=0 SArank=0
+n=429 qf=0 SArank=1
+n=430 qf=0 SArank=0 (1)
+n=431 qf=0 SArank=0 (1)
+n=432 qf=0 SArank=0
+n=433 qf=0 SArank=0
+n=434 qf=0 SArank=0 (2)
+n=435 qf=0 SArank=0
+n=436 qf=0 SArank=0 (1)
+n=437 qf=0 SArank=0 (1)
+n=438 qf=0 SArank=0 (1)
+n=439 qf=0 SArank=0 (1)
+n=440 qf=0 SArank=1
+n=441 qf=0 SArank=0
+n=442 qf=0 SArank=0 (2)
+n=443 qf=0 SArank=0
+n=444 qf=0 SArank=1
+n=445 qf=0 SArank=0 (1)
+n=446 qf=0 SArank=0 (1)
+n=447 qf=0 SArank=0 (1)
+n=448 qf=0 SArank=1
+n=449 qf=0 SArank=0
+n=450 qf=0 SArank=0
+n=451 qf=0 SArank=0
+W ELL range 
+n=452 qf=0 SArank=0
+n=453 qf=0 SArank=0 (1)
+n=454 qf=0 SArank=0 (1)
+n=455 qf=0 SArank=0 (1)
+n=456 qf=0 SArank=0
+n=457 qf=0 SArank=0 (2)
+n=458 qf=0 SArank=0
+n=459 qf=0 SArank=0
+n=460 qf=0 SArank=0
+n=461 qf=0 SArank=0 (1)
+n=462 qf=0 SArank=1
+n=463 qf=0 SArank=0 (1)
+n=464 qf=0 SArank=0 (1)
+n=465 qf=0 SArank=1 (2)
+n=466 qf=0 SArank=0
+n=467 qf=0 SArank=0
+n=468 qf=0 SArank=1
+n=469 qf=0 SArank=0 (1)
+n=470 qf=0 SArank=1
+n=471 qf=0 SArank=0 (1)
+n=472 qf=0 SArank=0 (1)
+n=473 qf=0 SArank=0
+n=474 qf=0 SArank=0
+n=475 qf=0 SArank=0
+n=476 qf=0 SArank=1
+n=477 qf=0 SArank=0 (1)
+n=478 qf=0 SArank=0 (1)
+n=479 qf=0 SArank=0 (1)
+n=480 qf=1 SArank=1
+n=481 qf=0 SArank=0
+W ELL range 
+n=482 qf=0 SArank=0
+n=483 qf=0 SArank=0
+n=484 qf=0 SArank=0
+n=485 qf=0 SArank=0 (1)
+n=486 qf=1 SArank=1
+n=487 qf=0 SArank=0 (1)
+n=488 qf=0 SArank=0
+n=489 qf=0 SArank=0
+n=490 qf=0 SArank=0
+n=491 qf=0 SArank=0
+n=492 qf=0 SArank=0
+n=493 qf=0 SArank=0 (1)
+n=494 qf=0 SArank=0 (1)
+n=495 qf=0 SArank=1
+n=496 qf=0 SArank=0 (1)
+n=497 qf=0 SArank=0
+n=498 qf=0 SArank=0
+n=499 qf=0 SArank=0
+n=500 qf=0 SArank=1
+n=501 qf=0 SArank=0 (1)
+n=502 qf=0 SArank=0 (1)
+n=503 qf=0 SArank=0 (1)
+n=504 qf=1 SArank=1
+n=505 qf=0 SArank=1 (2)
+n=506 qf=0 SArank=0
+n=507 qf=0 SArank=0
+n=508 qf=0 SArank=0 (1)
+n=509 qf=0 SArank=0 (1)
+n=510 qf=0 SArank=0 (1)
+n=511 qf=0 SArank=0 (1)
+n=512 qf=0 SArank=0
+n=513 qf=0 SArank=0
+n=514 qf=0 SArank=0 (2)
+n=515 qf=0 SArank=0
+n=516 qf=0 SArank=0
+n=517 qf=0 SArank=0 (1)
+n=518 qf=0 SArank=0 (1)
+n=519 qf=0 SArank=0 (1)
+n=520 qf=0 SArank=0
+W ELL range 
+n=521 qf=0 SArank=0
+n=522 qf=0 SArank=0
+n=523 qf=0 SArank=0
+n=524 qf=0 SArank=0
+n=525 qf=0 SArank=1
+n=526 qf=0 SArank=0 (1)
+n=527 qf=0 SArank=1
+n=528 qf=0 SArank=0
+n=529 qf=0 SArank=0
+n=530 qf=0 SArank=0
+n=531 qf=0 SArank=0
+n=532 qf=0 SArank=0 (1)
+n=533 qf=0 SArank=0 (1)
+n=534 qf=0 SArank=0 (1)
+n=535 qf=0 SArank=0 (1)
+n=536 qf=0 SArank=0 (1)
+n=537 qf=0 SArank=0
+n=538 qf=0 SArank=0
+n=539 qf=0 SArank=0
+n=540 qf=1 SArank=1
+n=541 qf=0 SArank=0 (1)
+n=542 qf=0 SArank=0 (1)
+n=543 qf=0 SArank=0 (1)
+n=544 qf=0 SArank=2
+n=545 qf=0 SArank=0
+n=546 qf=1 SArank=2
+n=547 qf=0 SArank=0
+n=548 qf=0 SArank=0 (2)
+n=549 qf=0 SArank=0 (1)
+n=550 qf=0 SArank=0 (1)
+n=551 qf=0 SArank=0 (1)
+n=552 qf=0 SArank=1 (2)
+n=553 qf=0 SArank=0
+n=554 qf=0 SArank=0
+n=555 qf=0 SArank=0
+n=556 qf=0 SArank=0
+n=557 qf=0 SArank=0 (1)
+n=558 qf=0 SArank=0 (1)
+n=559 qf=0 SArank=0 (1)
+n=560 qf=0 SArank=0
+n=561 qf=0 SArank=1 (2)
+n=562 qf=0 SArank=0
+n=563 qf=0 SArank=0
+n=564 qf=0 SArank=0 (1)
+n=565 qf=0 SArank=0 (1)
+n=566 qf=0 SArank=0 (1)
+n=567 qf=0 SArank=1
+n=568 qf=0 SArank=0 (1)
+W ELL range 
+n=569 qf=0 SArank=0
+n=570 qf=0 SArank=0
+n=571 qf=0 SArank=0
+n=572 qf=0 SArank=0 (1)
+n=573 qf=0 SArank=0 (1)
+n=574 qf=0 SArank=0 (1)
+n=575 qf=0 SArank=0 (1)
+n=576 qf=0 SArank=0
+W ELL range 
+n=577 qf=0 SArank=0
+n=578 qf=0 SArank=0
+n=579 qf=0 SArank=0
+n=580 qf=0 SArank=2
+n=581 qf=0 SArank=0 (1)
+n=582 qf=0 SArank=0 (1)
+n=583 qf=0 SArank=0 (1)
+n=584 qf=0 SArank=0
+n=585 qf=0 SArank=2
+n=586 qf=0 SArank=0
+n=587 qf=0 SArank=0
+n=588 qf=0 SArank=0
+n=589 qf=0 SArank=0 (1)
+n=590 qf=0 SArank=0 (1)
+n=591 qf=0 SArank=0 (1)
+n=592 qf=0 SArank=0 (1)
+W ELL range 
+n=593 qf=0 SArank=0
+n=594 qf=0 SArank=0
+n=595 qf=0 SArank=0
+n=596 qf=0 SArank=0 (1)
+n=597 qf=0 SArank=0 (1)
+n=598 qf=0 SArank=0 (1)
+n=599 qf=0 SArank=0 (1)
+n=600 qf=1 SArank=1
+n=601 qf=0 SArank=0
+n=602 qf=0 SArank=1 (2)
+n=603 qf=0 SArank=0
+n=604 qf=0 SArank=0 (1)
+n=605 qf=0 SArank=1
+n=606 qf=0 SArank=0 (1)
+n=607 qf=0 SArank=0 (1)
+n=608 qf=0 SArank=0 (1)
+n=609 qf=0 SArank=1 (2)
+n=610 qf=0 SArank=0
+n=611 qf=0 SArank=0
+n=612 qf=0 SArank=0
+n=613 qf=0 SArank=0 (1)
+n=614 qf=0 SArank=0 (1)
+n=615 qf=0 SArank=1
+n=616 qf=0 SArank=1 (2)
+n=617 qf=0 SArank=0
+n=618 qf=0 SArank=0
+n=619 qf=0 SArank=0
+n=620 qf=0 SArank=0
+n=621 qf=0 SArank=0 (1)
+n=622 qf=0 SArank=0 (1)
+n=623 qf=0 SArank=0 (1)
+n=624 qf=0 SArank=1
+n=625 qf=0 SArank=0
+n=626 qf=0 SArank=0
+n=627 qf=0 SArank=0
+n=628 qf=0 SArank=0 (1)
+n=629 qf=0 SArank=0 (1)
+n=630 qf=1 SArank=1
+n=631 qf=0 SArank=0 (1)
+n=632 qf=0 SArank=0 (1)
+n=633 qf=0 SArank=0
+n=634 qf=0 SArank=0
+n=635 qf=0 SArank=0
+n=636 qf=0 SArank=0 (1)
+n=637 qf=0 SArank=0 (1)
+n=638 qf=0 SArank=0 (1)
+n=639 qf=0 SArank=0 (1)
+n=640 qf=0 SArank=0
+n=641 qf=0 SArank=0
+n=642 qf=0 SArank=0
+n=643 qf=0 SArank=0
+n=644 qf=0 SArank=1 (2)
+n=645 qf=0 SArank=0 (1)
+n=646 qf=0 SArank=1
+n=647 qf=0 SArank=0 (1)
+n=648 qf=0 SArank=0
+n=649 qf=0 SArank=0
+n=650 qf=0 SArank=0
+n=651 qf=0 SArank=0 (2)
+n=652 qf=0 SArank=0
+n=653 qf=0 SArank=0 (1)
+n=654 qf=0 SArank=0 (1)
+n=655 qf=0 SArank=0 (1)
+n=656 qf=0 SArank=2
+n=657 qf=0 SArank=0
+n=658 qf=0 SArank=0 (2)
+n=659 qf=0 SArank=0
+n=660 qf=0 SArank=0 (1)
+n=661 qf=0 SArank=0 (1)
+n=662 qf=0 SArank=0 (1)
+n=663 qf=0 SArank=1
+n=664 qf=0 SArank=0 (1)
+n=665 qf=0 SArank=0
+n=666 qf=0 SArank=0
+n=667 qf=0 SArank=0
+n=668 qf=0 SArank=0 (1)
+n=669 qf=0 SArank=0 (1)
+n=670 qf=0 SArank=0 (1)
+n=671 qf=0 SArank=1
+n=672 qf=0 SArank=0
+n=673 qf=0 SArank=0
+n=674 qf=0 SArank=0 (2)
+n=675 qf=0 SArank=0
+n=676 qf=0 SArank=0
+n=677 qf=0 SArank=0 (1)
+n=678 qf=0 SArank=0 (1)
+n=679 qf=0 SArank=0 (1)
+n=680 qf=0 SArank=0
+n=681 qf=0 SArank=0
+n=682 qf=0 SArank=0
+n=683 qf=0 SArank=0
+n=684 qf=0 SArank=0
+n=685 qf=0 SArank=0 (1)
+n=686 qf=0 SArank=0 (1)
+n=687 qf=0 SArank=0 (1)
+n=688 qf=0 SArank=0
+n=689 qf=0 SArank=0 (2)
+n=690 qf=0 SArank=0
+n=691 qf=0 SArank=0
+n=692 qf=0 SArank=0 (1)
+n=693 qf=0 SArank=0 (1)
+n=694 qf=0 SArank=0 (1)
+n=695 qf=0 SArank=0 (1)
+n=696 qf=0 SArank=0 (1)
+n=697 qf=0 SArank=0
+n=698 qf=0 SArank=0
+n=699 qf=0 SArank=0
+n=700 qf=0 SArank=1
+n=701 qf=0 SArank=0 (1)
+n=702 qf=0 SArank=1
+n=703 qf=0 SArank=0 (1)
+n=704 qf=0 SArank=0
+n=705 qf=0 SArank=0
+W ELL range 
+n=706 qf=0 SArank=0
+n=707 qf=0 SArank=0
+n=708 qf=0 SArank=0
+n=709 qf=0 SArank=0 (1)
+n=710 qf=0 SArank=0 (1)
+n=711 qf=0 SArank=0 (1)
+n=712 qf=0 SArank=0
+n=713 qf=0 SArank=0
+n=714 qf=0 SArank=0
+n=715 qf=0 SArank=0
+n=716 qf=0 SArank=0
+n=717 qf=0 SArank=0 (1)
+n=718 qf=0 SArank=0 (1)
+n=719 qf=0 SArank=0 (1)
+n=720 qf=1 SArank=1
+n=721 qf=0 SArank=1 (2)
+n=722 qf=0 SArank=0
+n=723 qf=0 SArank=0 (2)
+n=724 qf=0 SArank=0 (1)
+n=725 qf=0 SArank=0 (1)
+n=726 qf=1 SArank=1
+n=727 qf=0 SArank=0 (1)
+n=728 qf=0 SArank=0 (1)
+n=729 qf=0 SArank=0
+n=730 qf=0 SArank=0
+n=731 qf=0 SArank=0 (2)
+n=732 qf=0 SArank=0 (1)
+n=733 qf=0 SArank=0 (1)
+n=734 qf=0 SArank=0 (1)
+n=735 qf=0 SArank=1
+n=736 qf=0 SArank=0 (1)
+n=737 qf=0 SArank=0
+n=738 qf=0 SArank=0
+n=739 qf=0 SArank=0
+n=740 qf=0 SArank=0
+n=741 qf=0 SArank=1
+n=742 qf=0 SArank=0 (1)
+n=743 qf=0 SArank=0 (1)
+n=744 qf=0 SArank=0
+n=745 qf=0 SArank=0
+n=746 qf=0 SArank=0
+n=747 qf=0 SArank=0
+n=748 qf=0 SArank=0
+n=749 qf=0 SArank=0 (1)
+n=750 qf=1 SArank=1
+n=751 qf=0 SArank=0 (1)
+n=752 qf=0 SArank=0 (1)
+n=753 qf=0 SArank=0
+n=754 qf=0 SArank=0
+n=755 qf=0 SArank=0
+n=756 qf=1 SArank=1
+n=757 qf=0 SArank=0 (1)
+n=758 qf=0 SArank=0 (1)
+n=759 qf=0 SArank=1
+n=760 qf=0 SArank=1
+n=761 qf=0 SArank=0 (2)
+n=762 qf=0 SArank=0
+n=763 qf=0 SArank=0
+n=764 qf=0 SArank=0 (1)
+n=765 qf=0 SArank=1
+n=766 qf=0 SArank=0 (1)
+n=767 qf=0 SArank=0 (1)
+n=768 qf=0 SArank=0
+n=769 qf=0 SArank=0
+n=770 qf=0 SArank=0
+n=771 qf=0 SArank=0
+n=772 qf=0 SArank=0
+n=773 qf=0 SArank=0 (1)
+n=774 qf=0 SArank=0 (1)
+n=775 qf=0 SArank=0 (1)
+n=776 qf=0 SArank=0 (2)
+n=777 qf=0 SArank=0 (2)
+n=778 qf=0 SArank=0
+n=779 qf=0 SArank=0
+n=780 qf=0 SArank=0
+n=781 qf=0 SArank=0 (1)
+n=782 qf=0 SArank=0 (1)
+n=783 qf=0 SArank=0 (1)
+n=784 qf=0 SArank=0
+n=785 qf=0 SArank=0
+n=786 qf=0 SArank=0
+n=787 qf=0 SArank=0
+n=788 qf=0 SArank=0 (1)
+n=789 qf=0 SArank=0 (1)
+n=790 qf=0 SArank=0 (1)
+n=791 qf=0 SArank=0 (1)
+n=792 qf=0 SArank=1
+n=793 qf=0 SArank=0 (2)
+n=794 qf=0 SArank=0
+n=795 qf=0 SArank=0
+n=796 qf=0 SArank=0 (1)
+n=797 qf=0 SArank=0 (1)
+n=798 qf=0 SArank=1
+n=799 qf=0 SArank=0 (1)
+n=800 qf=0 SArank=0
+n=801 qf=0 SArank=0
+W ELL range 
+n=802 qf=0 SArank=0
+n=803 qf=0 SArank=0
+n=804 qf=0 SArank=0
+n=805 qf=0 SArank=1
+n=806 qf=0 SArank=0 (1)
+n=807 qf=0 SArank=0 (1)
+n=808 qf=0 SArank=0
+W ELL range 
+n=809 qf=0 SArank=0
+n=810 qf=0 SArank=0
+n=811 qf=0 SArank=0
+n=812 qf=0 SArank=0
+n=813 qf=0 SArank=0 (1)
+n=814 qf=0 SArank=0 (1)
+n=815 qf=0 SArank=0 (1)
+n=816 qf=0 SArank=0
+n=817 qf=0 SArank=0
+n=818 qf=0 SArank=0
+n=819 qf=0 SArank=0
+n=820 qf=0 SArank=0 (1)
+n=821 qf=0 SArank=0 (1)
+n=822 qf=0 SArank=0 (1)
+n=823 qf=0 SArank=0 (1)
+n=824 qf=0 SArank=0 (1)
+n=825 qf=0 SArank=0
+n=826 qf=0 SArank=0
+n=827 qf=0 SArank=0
+n=828 qf=0 SArank=0 (1)
+n=829 qf=0 SArank=0 (1)
+n=830 qf=0 SArank=0 (1)
+n=831 qf=0 SArank=0 (1)
+n=832 qf=0 SArank=0 (1)
+n=833 qf=0 SArank=0
+n=834 qf=0 SArank=0
+n=835 qf=0 SArank=0
+n=836 qf=0 SArank=0
+n=837 qf=0 SArank=0 (1)
+n=838 qf=0 SArank=0 (1)
+n=839 qf=0 SArank=0 (1)
+n=840 qf=3 SArank=2
+n=841 qf=0 SArank=0
+n=842 qf=0 SArank=0
+n=843 qf=0 SArank=0
+n=844 qf=0 SArank=0
+n=845 qf=0 SArank=1
+n=846 qf=0 SArank=0 (1)
+n=847 qf=0 SArank=1
+n=848 qf=0 SArank=0 (1)
+n=849 qf=0 SArank=0
+n=850 qf=0 SArank=2
+n=851 qf=0 SArank=0
+n=852 qf=0 SArank=0 (1)
+n=853 qf=0 SArank=0 (1)
+n=854 qf=0 SArank=0 (1)
+n=855 qf=0 SArank=1
+n=856 qf=0 SArank=0 (1)
+W ELL range 
+n=857 qf=0 SArank=0
+n=858 qf=0 SArank=0
+n=859 qf=0 SArank=0
+n=860 qf=0 SArank=0 (1)
+n=861 qf=0 SArank=0 (1)
+n=862 qf=0 SArank=0 (1)
+n=863 qf=0 SArank=0 (1)
+n=864 qf=1 SArank=1
+n=865 qf=0 SArank=0
+n=866 qf=0 SArank=0 (2)
+n=867 qf=0 SArank=0
+n=868 qf=0 SArank=0
+n=869 qf=0 SArank=0 (1)
+n=870 qf=0 SArank=1
+n=871 qf=0 SArank=0 (1)
+n=872 qf=0 SArank=0
+n=873 qf=0 SArank=0
+n=874 qf=0 SArank=0
+n=875 qf=0 SArank=0
+n=876 qf=0 SArank=1 (2)
+n=877 qf=0 SArank=0 (1)
+n=878 qf=0 SArank=0 (1)
+n=879 qf=0 SArank=0 (1)
+n=880 qf=0 SArank=1
+W ELL range 
+n=881 qf=0 SArank=0
+n=882 qf=0 SArank=0
+n=883 qf=0 SArank=0
+n=884 qf=0 SArank=1
+n=885 qf=0 SArank=0 (1)
+n=886 qf=0 SArank=0 (1)
+n=887 qf=0 SArank=0 (1)
+n=888 qf=0 SArank=0 (1)
+n=889 qf=0 SArank=1 (2)
+n=890 qf=0 SArank=0 (2)
+n=891 qf=0 SArank=0
+n=892 qf=0 SArank=0 (1)
+n=893 qf=0 SArank=0 (1)
+n=894 qf=0 SArank=0 (1)
+n=895 qf=0 SArank=0 (1)
+n=896 qf=0 SArank=1
+n=897 qf=0 SArank=0
+W ELL range 
+n=898 qf=0 SArank=0
+n=899 qf=0 SArank=0
+n=900 qf=0 SArank=0
+n=901 qf=0 SArank=0 (1)
+n=902 qf=0 SArank=0 (1)
+n=903 qf=0 SArank=0 (1)
+n=904 qf=0 SArank=0 (2)
+n=905 qf=0 SArank=0 (2)
+n=906 qf=0 SArank=0
+n=907 qf=0 SArank=0
+n=908 qf=0 SArank=0
+n=909 qf=0 SArank=0 (1)
+n=910 qf=0 SArank=1
+n=911 qf=0 SArank=0 (1)
+n=912 qf=0 SArank=0
+n=913 qf=0 SArank=0
+n=914 qf=0 SArank=0
+n=915 qf=0 SArank=1 (2)
+n=916 qf=0 SArank=0 (1)
+n=917 qf=0 SArank=0 (1)
+n=918 qf=0 SArank=0 (1)
+n=919 qf=0 SArank=0 (1)
+n=920 qf=0 SArank=0 (1)
+n=921 qf=0 SArank=0
+n=922 qf=0 SArank=0
+n=923 qf=0 SArank=0
+n=924 qf=1 SArank=1
+n=925 qf=0 SArank=0 (1)
+n=926 qf=0 SArank=0 (1)
+n=927 qf=0 SArank=0 (1)
+n=928 qf=0 SArank=0
+n=929 qf=0 SArank=0
+n=930 qf=0 SArank=0
+n=931 qf=0 SArank=0
+n=932 qf=0 SArank=0
+n=933 qf=0 SArank=0 (1)
+n=934 qf=0 SArank=0 (1)
+n=935 qf=0 SArank=0 (1)
+n=936 qf=0 SArank=0
+n=937 qf=0 SArank=0
+n=938 qf=0 SArank=0
+W ELL range 
+n=939 qf=0 SArank=0
+n=940 qf=0 SArank=0
+n=941 qf=0 SArank=0 (1)
+n=942 qf=0 SArank=0 (1)
+n=943 qf=0 SArank=0 (1)
+n=944 qf=0 SArank=0
+n=945 qf=0 SArank=0
+n=946 qf=0 SArank=0
+n=947 qf=0 SArank=0
+n=948 qf=0 SArank=0 (1)
+n=949 qf=0 SArank=0 (1)
+n=950 qf=0 SArank=0 (1)
+n=951 qf=0 SArank=0 (1)
+n=952 qf=0 SArank=0 (1)
+W ELL range 
+n=953 qf=0 SArank=0
+n=954 qf=0 SArank=0
+n=955 qf=0 SArank=0
+n=956 qf=0 SArank=1
+n=957 qf=0 SArank=0 (1)
+n=958 qf=0 SArank=0 (1)
+n=959 qf=0 SArank=1
+n=960 qf=1 SArank=1
+n=961 qf=0 SArank=0
+n=962 qf=0 SArank=0
+n=963 qf=0 SArank=0
+n=964 qf=0 SArank=0
+n=965 qf=0 SArank=0 (1)
+n=966 qf=0 SArank=1
+n=967 qf=0 SArank=0 (1)
+n=968 qf=0 SArank=0
+n=969 qf=0 SArank=0
+n=970 qf=0 SArank=0
+n=971 qf=0 SArank=0
+n=972 qf=0 SArank=0
+n=973 qf=0 SArank=0 (1)
+n=974 qf=0 SArank=0 (1)
+n=975 qf=0 SArank=1
+n=976 qf=0 SArank=0 (1)
+n=977 qf=0 SArank=0
+n=978 qf=0 SArank=0
+n=979 qf=0 SArank=0
+n=980 qf=0 SArank=1
+n=981 qf=0 SArank=0 (1)
+n=982 qf=0 SArank=0 (1)
+n=983 qf=0 SArank=0 (1)
+n=984 qf=0 SArank=0 (1)
+n=985 qf=0 SArank=0 (2)
+n=986 qf=0 SArank=0
+n=987 qf=0 SArank=0 (2)
+n=988 qf=0 SArank=0 (1)
+n=989 qf=0 SArank=0 (1)
+n=990 qf=1 SArank=1
+n=991 qf=0 SArank=0 (1)
+n=992 qf=0 SArank=0 (1)
+n=993 qf=0 SArank=0
+n=994 qf=0 SArank=0
+n=995 qf=0 SArank=1 (2)
+n=996 qf=0 SArank=0
+n=997 qf=0 SArank=0 (1)
+n=998 qf=0 SArank=0 (1)
+n=999 qf=0 SArank=1
+n=1000 qf=0 SArank=0
+n=1001 qf=0 SArank=0
+n=1002 qf=0 SArank=0
+n=1003 qf=0 SArank=0 (2)
+n=1004 qf=0 SArank=0
+n=1005 qf=0 SArank=0 (1)
+n=1006 qf=0 SArank=0 (1)
+n=1007 qf=0 SArank=0 (1)
+n=1008 qf=0 SArank=1
+n=1009 qf=0 SArank=0
+n=1010 qf=0 SArank=0
+n=1011 qf=0 SArank=0
+n=1012 qf=0 SArank=0 (1)
+n=1013 qf=0 SArank=0 (1)
+n=1014 qf=1 SArank=1
+n=1015 qf=0 SArank=1
+n=1016 qf=0 SArank=0 (1)
+W ELL range 
+n=1017 qf=0 SArank=0
+n=1018 qf=0 SArank=0
+n=1019 qf=0 SArank=0
+n=1020 qf=0 SArank=1
+n=1021 qf=0 SArank=0 (1)
+n=1022 qf=0 SArank=0 (1)
+n=1023 qf=0 SArank=0 (1)
+n=1024 qf=0 SArank=0
+n=1025 qf=0 SArank=1 (2)
+n=1026 qf=0 SArank=0
+n=1027 qf=0 SArank=0
+n=1028 qf=0 SArank=0 (2)
+n=1029 qf=0 SArank=1
+n=1030 qf=0 SArank=0 (1)
+n=1031 qf=0 SArank=0 (1)
+n=1032 qf=0 SArank=0
+n=1033 qf=0 SArank=0
+n=1034 qf=0 SArank=0
+n=1035 qf=0 SArank=0
+n=1036 qf=0 SArank=0
+n=1037 qf=0 SArank=0 (1)
+n=1038 qf=0 SArank=0 (1)
+n=1039 qf=0 SArank=0 (1)
+n=1040 qf=0 SArank=2
+n=1041 qf=0 SArank=0
+n=1042 qf=0 SArank=0
+W ELL range 
+n=1043 qf=0 SArank=0
+n=1044 qf=0 SArank=0 (1)
+n=1045 qf=0 SArank=1
+n=1046 qf=0 SArank=0 (1)
+n=1047 qf=0 SArank=0 (1)
+n=1048 qf=0 SArank=0 (1)
+n=1049 qf=0 SArank=0
+n=1050 qf=0 SArank=0
+n=1051 qf=0 SArank=0
+n=1052 qf=0 SArank=0 (1)
+n=1053 qf=0 SArank=1
+n=1054 qf=0 SArank=0 (1)
+n=1055 qf=0 SArank=0 (1)
+n=1056 qf=0 SArank=0
+n=1057 qf=0 SArank=0 (2)
+n=1058 qf=0 SArank=0
+n=1059 qf=0 SArank=0
+n=1060 qf=0 SArank=0 (2)
+n=1061 qf=0 SArank=0 (1)
+n=1062 qf=0 SArank=0 (1)
+n=1063 qf=0 SArank=0 (1)
+n=1064 qf=0 SArank=0
+n=1065 qf=0 SArank=0
+n=1066 qf=0 SArank=0
+W ELL range 
+n=1067 qf=0 SArank=0
+n=1068 qf=0 SArank=0
+n=1069 qf=0 SArank=0 (1)
+n=1070 qf=0 SArank=0 (1)
+n=1071 qf=0 SArank=1
+n=1072 qf=0 SArank=0
+n=1073 qf=0 SArank=0 (2)
+n=1074 qf=0 SArank=0
+n=1075 qf=0 SArank=0
+n=1076 qf=0 SArank=0 (1)
+n=1077 qf=0 SArank=0 (1)
+n=1078 qf=0 SArank=0 (1)
+n=1079 qf=0 SArank=0 (1)
+n=1080 qf=1 SArank=1
+n=1081 qf=0 SArank=1 (2)
+n=1082 qf=0 SArank=0
+n=1083 qf=0 SArank=0
+n=1084 qf=0 SArank=0 (1)
+n=1085 qf=0 SArank=0 (1)
+n=1086 qf=0 SArank=1
+n=1087 qf=0 SArank=0 (1)
+n=1088 qf=0 SArank=0
+n=1089 qf=0 SArank=0
+n=1090 qf=0 SArank=0
+n=1091 qf=0 SArank=0
+n=1092 qf=0 SArank=0
+n=1093 qf=0 SArank=0 (1)
+n=1094 qf=0 SArank=0 (1)
+n=1095 qf=0 SArank=0 (1)
+n=1096 qf=0 SArank=0
+n=1097 qf=0 SArank=0
+n=1098 qf=0 SArank=0
+n=1099 qf=0 SArank=0
+n=1100 qf=0 SArank=0
+n=1101 qf=0 SArank=0 (1)
+n=1102 qf=0 SArank=0 (1)
+n=1103 qf=0 SArank=0 (1)
+n=1104 qf=0 SArank=0 (1)
+n=1105 qf=0 SArank=1 (2)
+n=1106 qf=0 SArank=0
+n=1107 qf=0 SArank=0
+n=1108 qf=0 SArank=0 (1)
+n=1109 qf=0 SArank=0 (1)
+n=1110 qf=0 SArank=0 (1)
+n=1111 qf=0 SArank=0 (1)
+n=1112 qf=0 SArank=0 (1)
+n=1113 qf=0 SArank=1 (2)
+n=1114 qf=0 SArank=0
+n=1115 qf=0 SArank=0
+n=1116 qf=0 SArank=0 (1)
+n=1117 qf=0 SArank=0 (1)
+n=1118 qf=0 SArank=0 (1)
+n=1119 qf=0 SArank=0 (1)
+n=1120 qf=0 SArank=1
+n=1121 qf=0 SArank=0
+n=1122 qf=0 SArank=1 (2)
+n=1123 qf=0 SArank=0
+n=1124 qf=0 SArank=0
+n=1125 qf=0 SArank=1
+n=1126 qf=0 SArank=0 (1)
+n=1127 qf=0 SArank=0 (1)
+n=1128 qf=0 SArank=0
+W ELL range 
+n=1129 qf=0 SArank=0
+n=1130 qf=0 SArank=0
+n=1131 qf=0 SArank=1 (2)
+n=1132 qf=0 SArank=0
+n=1133 qf=0 SArank=0 (1)
+n=1134 qf=0 SArank=1
+n=1135 qf=0 SArank=0 (1)
+n=1136 qf=0 SArank=0 (1)
+n=1137 qf=0 SArank=0
+n=1138 qf=0 SArank=0
+n=1139 qf=0 SArank=0
+n=1140 qf=0 SArank=0 (1)
+n=1141 qf=0 SArank=0 (1)
+n=1142 qf=0 SArank=0 (1)
+n=1143 qf=0 SArank=0 (1)
+n=1144 qf=0 SArank=1
+n=1145 qf=0 SArank=0 (2)
+n=1146 qf=0 SArank=0 (2)
+n=1147 qf=0 SArank=0
+n=1148 qf=0 SArank=0 (1)
+n=1149 qf=0 SArank=0 (1)
+n=1150 qf=0 SArank=0 (1)
+n=1151 qf=0 SArank=0 (1)
+n=1152 qf=0 SArank=0
+W ELL range 
+n=1153 qf=0 SArank=0
+n=1154 qf=0 SArank=1 (2)
+n=1155 qf=0 SArank=2
+n=1156 qf=0 SArank=0
+n=1157 qf=0 SArank=0 (1)
+n=1158 qf=0 SArank=0 (1)
+n=1159 qf=0 SArank=0 (1)
+n=1160 qf=0 SArank=0
+n=1161 qf=0 SArank=0
+n=1162 qf=0 SArank=0
+n=1163 qf=0 SArank=0
+n=1164 qf=0 SArank=1 (2)
+n=1165 qf=0 SArank=0 (1)
+n=1166 qf=0 SArank=0 (1)
+n=1167 qf=0 SArank=0 (1)
+n=1168 qf=0 SArank=0
+n=1169 qf=0 SArank=0 (2)
+n=1170 qf=0 SArank=0
+n=1171 qf=0 SArank=0
+n=1172 qf=0 SArank=0 (1)
+n=1173 qf=0 SArank=0 (1)
+n=1174 qf=0 SArank=0 (1)
+n=1175 qf=0 SArank=0 (1)
+n=1176 qf=1 SArank=1
+n=1177 qf=0 SArank=0
+n=1178 qf=0 SArank=0 (2)
+n=1179 qf=0 SArank=0
+n=1180 qf=0 SArank=0 (1)
+n=1181 qf=0 SArank=0 (1)
+n=1182 qf=0 SArank=0 (1)
+n=1183 qf=0 SArank=1
+n=1184 qf=0 SArank=0
+n=1185 qf=0 SArank=1 (2)
+n=1186 qf=0 SArank=0 (2)
+n=1187 qf=0 SArank=0
+n=1188 qf=0 SArank=0
+n=1189 qf=0 SArank=0 (1)
+n=1190 qf=0 SArank=1
+n=1191 qf=0 SArank=0 (1)
+n=1192 qf=0 SArank=0
+n=1193 qf=0 SArank=0
+n=1194 qf=0 SArank=0
+n=1195 qf=0 SArank=0 (2)
+n=1196 qf=0 SArank=0 (2)
+n=1197 qf=0 SArank=0 (1)
+n=1198 qf=0 SArank=0 (1)
+n=1199 qf=0 SArank=0 (1)
+n=1200 qf=0 SArank=0
+n=1201 qf=0 SArank=0 (2)
+n=1202 qf=0 SArank=0
+n=1203 qf=0 SArank=0
+n=1204 qf=0 SArank=0 (1)
+n=1205 qf=0 SArank=0 (1)
+n=1206 qf=0 SArank=0 (1)
+n=1207 qf=0 SArank=0 (1)
+n=1208 qf=0 SArank=0 (1)
+n=1209 qf=0 SArank=0
+n=1210 qf=0 SArank=0
+n=1211 qf=0 SArank=0
+n=1212 qf=0 SArank=0 (1)
+n=1213 qf=0 SArank=0 (1)
+n=1214 qf=0 SArank=0 (1)
+n=1215 qf=0 SArank=1
+n=1216 qf=0 SArank=0
+n=1217 qf=0 SArank=0 (2)
+n=1218 qf=0 SArank=0
+n=1219 qf=0 SArank=0
+n=1220 qf=0 SArank=0
+n=1221 qf=0 SArank=0 (1)
+n=1222 qf=0 SArank=0 (1)
+n=1223 qf=0 SArank=0 (1)
+n=1224 qf=1 SArank=2
+n=1225 qf=0 SArank=0
+n=1226 qf=0 SArank=0
+n=1227 qf=0 SArank=0
+n=1228 qf=0 SArank=0
+n=1229 qf=0 SArank=0 (1)
+n=1230 qf=0 SArank=1
+n=1231 qf=0 SArank=0 (1)
+n=1232 qf=0 SArank=0 (1)
+n=1233 qf=0 SArank=0 (2)
+n=1234 qf=0 SArank=0
+n=1235 qf=0 SArank=0
+n=1236 qf=0 SArank=0 (1)
+n=1237 qf=0 SArank=0 (1)
+n=1238 qf=0 SArank=0 (1)
+n=1239 qf=0 SArank=0 (1)
+n=1240 qf=0 SArank=0 (1)
+n=1241 qf=0 SArank=1 (2)
+n=1242 qf=0 SArank=1 (2)
+n=1243 qf=0 SArank=0
+n=1244 qf=0 SArank=0 (1)
+n=1245 qf=0 SArank=0 (1)
+n=1246 qf=0 SArank=0 (1)
+n=1247 qf=0 SArank=0 (1)
+n=1248 qf=0 SArank=1
+n=1249 qf=0 SArank=0 (2)
+n=1250 qf=0 SArank=0
+n=1251 qf=0 SArank=0
+n=1252 qf=0 SArank=0 (2)
+n=1253 qf=0 SArank=0 (1)
+n=1254 qf=0 SArank=2 (3)
+n=1255 qf=0 SArank=0 (1)
+n=1256 qf=0 SArank=0
+n=1257 qf=0 SArank=0
+n=1258 qf=0 SArank=0
+n=1259 qf=0 SArank=0
+n=1260 qf=0 SArank=0
+n=1261 qf=0 SArank=0 (1)
+n=1262 qf=0 SArank=0 (1)
+n=1263 qf=0 SArank=0 (1)
+n=1264 qf=0 SArank=0 (1)
+n=1265 qf=0 SArank=0
+n=1266 qf=0 SArank=0
+n=1267 qf=0 SArank=0
+n=1268 qf=0 SArank=0 (1)
+n=1269 qf=0 SArank=0 (1)
+n=1270 qf=0 SArank=0 (1)
+n=1271 qf=0 SArank=0 (1)
+n=1272 qf=0 SArank=0 (1)
+n=1273 qf=0 SArank=0
+n=1274 qf=0 SArank=0
+n=1275 qf=0 SArank=0
+n=1276 qf=0 SArank=0 (1)
+n=1277 qf=0 SArank=0 (1)
+n=1278 qf=0 SArank=0 (1)
+n=1279 qf=0 SArank=0 (1)
+n=1280 qf=0 SArank=1
+n=1281 qf=0 SArank=0
+n=1282 qf=0 SArank=0 (2)
+n=1283 qf=0 SArank=0
+n=1284 qf=0 SArank=0
+n=1285 qf=0 SArank=0 (1)
+n=1286 qf=0 SArank=0 (1)
+n=1287 qf=0 SArank=0 (1)
+n=1288 qf=0 SArank=0
+n=1289 qf=0 SArank=0
+n=1290 qf=0 SArank=0
+n=1291 qf=0 SArank=0
+n=1292 qf=0 SArank=1 (2)
+n=1293 qf=0 SArank=0 (1)
+n=1294 qf=0 SArank=0 (1)
+n=1295 qf=0 SArank=1
+n=1296 qf=0 SArank=0
+n=1297 qf=0 SArank=0
+n=1298 qf=0 SArank=0
+n=1299 qf=0 SArank=0
+n=1300 qf=0 SArank=0 (1)
